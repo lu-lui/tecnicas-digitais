@@ -1,0 +1,14 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+
+ENTITY tdexemplo5 IS
+	PORT( 
+		a :in std_logic;
+		b :in std_logic;
+		c :in std_logic;
+		S :out std_logic
+		);
+end tdexemplo5;
+architecture arq_tdexemplo5 of tdexemplo5 is begin
+	S <= not(a and b) or (not c);
+end arq_tdexemplo5;

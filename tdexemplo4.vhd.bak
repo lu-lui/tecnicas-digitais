@@ -1,0 +1,11 @@
+ENTITY tdexemplo4 IS
+	PORT( 
+		a :in bit;
+		b :in bit;
+		c :in bit;
+		S :out bit
+		);
+end tdexemplo4;
+architecture arq_tdexemplo4 of tdexemplo4 is begin
+	S <= not(a and b) or (not c);
+end arq_tdexemplo4;

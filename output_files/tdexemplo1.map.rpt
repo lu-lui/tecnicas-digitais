@@ -1,5 +1,5 @@
 Analysis & Synthesis report for tdexemplo1
-Fri Oct 03 11:11:11 2025
+Fri Oct 10 10:50:54 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -41,10 +41,10 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Oct 03 11:11:11 2025           ;
+; Analysis & Synthesis Status        ; Successful - Fri Oct 10 10:50:54 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; tdexemplo1                                      ;
-; Top-level Entity Name              ; tdexemplo3                                      ;
+; Top-level Entity Name              ; tdexemplo5                                      ;
 ; Family                             ; Cyclone IV GX                                   ;
 ; Total logic elements               ; 1                                               ;
 ;     Total combinational functions  ; 1                                               ;
@@ -67,7 +67,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                     ; Setting            ; Default Value      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
-; Top-level entity name                                                      ; tdexemplo3         ; tdexemplo1         ;
+; Top-level entity name                                                      ; tdexemplo5         ; tdexemplo1         ;
 ; Family name                                                                ; Cyclone IV GX      ; Cyclone IV GX      ;
 ; Use smart compilation                                                      ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
@@ -159,13 +159,13 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                        ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                 ; Library ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------+---------+
-; tdexemplo3.vhd                   ; yes             ; User VHDL File  ; C:/Users/alunos/Desktop/teste/tdexemplo3.vhd ;         ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                         ; Library ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------+---------+
+; tdexemplo5.vhd                   ; yes             ; User VHDL File  ; C:/Users/alunos/Desktop/teste - Copia/tdexemplo5.vhd ;         ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------+---------+
 
 
 +---------------------------------------------+
@@ -187,7 +187,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
-; |tdexemplo3                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 4    ; 0            ; |tdexemplo3         ; work         ;
+; |tdexemplo5                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 4    ; 0            ; |tdexemplo5         ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -222,7 +222,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Oct 03 11:11:09 2025
+    Info: Processing started: Fri Oct 10 10:50:53 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off tdexemplo1 -c tdexemplo1
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file tdexemplo1.vhd
@@ -234,7 +234,13 @@ Info (12021): Found 2 design units, including 1 entities, in source file tdexemp
 Info (12021): Found 2 design units, including 1 entities, in source file tdexemplo3.vhd
     Info (12022): Found design unit 1: tdexemplo3-arq_tdexemplo3
     Info (12023): Found entity 1: tdexemplo3
-Info (12127): Elaborating entity "tdexemplo3" for the top level hierarchy
+Info (12021): Found 2 design units, including 1 entities, in source file tdexemplo4.vhd
+    Info (12022): Found design unit 1: tdexemplo4-arq_tdexemplo4
+    Info (12023): Found entity 1: tdexemplo4
+Info (12021): Found 2 design units, including 1 entities, in source file tdexemplo5.vhd
+    Info (12022): Found design unit 1: tdexemplo5-arq_tdexemplo5
+    Info (12023): Found entity 1: tdexemplo5
+Info (12127): Elaborating entity "tdexemplo5" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -244,8 +250,8 @@ Info (21057): Implemented 5 device resources after synthesis - the final resourc
     Info (21061): Implemented 1 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4673 megabytes
-    Info: Processing ended: Fri Oct 03 11:11:11 2025
-    Info: Elapsed time: 00:00:02
+    Info: Processing ended: Fri Oct 10 10:50:54 2025
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

@@ -80,9 +80,9 @@ TMS                          : A2        : input  :                   :         
 TDI                          : A3        : input  :                   :         : 9         :                
 ~ALTERA_DCLK~                : A4        : output : 2.5 V             :         : 9         : N              
 ~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP : A5        : input  : 2.5 V             :         : 9         : N              
-c                            : A6        : input  : 2.5 V             :         : 8         : N              
-a                            : A7        : input  : 2.5 V             :         : 8         : N              
-b                            : A8        : input  : 2.5 V             :         : 8         : N              
+a                            : A6        : input  : 2.5 V             :         : 8         : N              
+b                            : A7        : input  : 2.5 V             :         : 8         : N              
+c                            : A8        : input  : 2.5 V             :         : 8         : N              
 GND+                         : A9        :        :                   :         : 7         :                
 GND+                         : A10       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A11       :        :                   :         : 7         :                

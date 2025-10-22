@@ -1,6 +1,6 @@
-|tdexemplo3
-a => S.IN0
-b => S.IN1
+|tdexemplo5
+a => fio1.IN0
+b => fio1.IN1
 c => S.IN1
 S <= S.DB_MAX_OUTPUT_PORT_TYPE
 
