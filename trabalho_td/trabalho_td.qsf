@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone IV GX"
 set_global_assignment -name DEVICE auto
-set_global_assignment -name TOP_LEVEL_ENTITY display_mux
+set_global_assignment -name TOP_LEVEL_ENTITY display_7seg
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:31:40  JANUARY 05, 2026"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
@@ -48,9 +48,9 @@ set_global_assignment -name VHDL_FILE somador_completo.vhd
 set_global_assignment -name VHDL_FILE somador4bits.vhd
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
-set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name SIMULATION_MODE TIMING
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
-set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_simulation
 set_global_assignment -name VHDL_FILE multiplicador4bits.vhd
 set_global_assignment -name VECTOR_WAVEFORM_FILE wave_mult4b.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE wave_som4b.vwf
@@ -73,8 +73,11 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE wave_menor.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE wave_cod_bin.vwf
 set_global_assignment -name VHDL_FILE sr_b.vhd
 set_global_assignment -name VECTOR_WAVEFORM_FILE wave_sr_b.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE wave_mux2_1.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE wave_ms.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE wave_sc.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/luisa/OneDrive/Documentos/GitHub/tecnicas-digitais/trabalho_td/wave_sc.vwf"
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/Vivian Oliveira/Downloads/trabalho TD-20260118T172604Z-3-001/trabalho TD/trabalho_td/wave_dis_mux.vwf"
