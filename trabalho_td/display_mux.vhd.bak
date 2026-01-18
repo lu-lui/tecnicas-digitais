@@ -1,0 +1,74 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+
+ENTITY display_mux IS
+	PORT( 
+		a, b, sel :in std_logic_vector (3 downto 0);
+		s_dezena, s_unidade: out std_logic_vector(6 downto 0)
+		);
+end display_mux;
+architecture arq_display_mux of display_mux is
+	SIGNAL resultado_mostrado, res_soma, res_sub, res_mult, res_cod: std_logic_vector(13 downto 0);
+	
+	COMPONENT somador4bits
+		PORT( 
+		a, b :in std_logic_vector (3 downto 0);
+		s:out std_logic_vector(13 downto 0);
+		c3: out std_logic
+		);
+	END COMPONENT;
+	
+	COMPONENT subtrator4bits
+		PORT( 
+		a, b :in std_logic_vector (3 downto 0);
+		s:out std_logic_vector(13 downto 0);
+		c3: out std_logic
+		);
+	END COMPONENT;	
+	
+	COMPONENT multiplicador4bits
+		PORT( 
+		a, b :in std_logic_vector (3 downto 0);
+		m:out std_logic_vector(13 downto 0)
+		);
+	END COMPONENT;
+	
+	COMPONENT cod_bin_hexa
+		PORT( 
+		a, b :in std_logic_vector(3 downto 0);
+		s :out std_logic_vector (13 downto 0)
+		);
+	END COMPONENT;
+	
+	COMPONENT display_7seg
+		PORT( 
+		entrada :in std_logic_vector(13 downto 0);
+		s_dezena, s_unidade :out std_logic_vector (6 downto 0)
+		);
+	END COMPONENT;	
+	
+	begin 
+		somador: somador4bits
+			port map (a => a, b => b, s => res_soma);
+		
+		subtrator: subtrator4bits
+			port map (a => a, b => b, s => res_sub);
+	
+		multiplicador: multiplicador4bits
+			port map (a => a, b => b, m => res_mult);
+			
+		codificador: cod_bin_hexa
+			port map (a => a, b => b, s => res_cod);
+			
+		WITH sel SELECT
+		resultado_mostrado <=
+			res_soma when "0001",
+			res_sub when "0010",
+			res_mult when "0011",
+			res_cod when "0100",
+			"00000000000000" when others;
+			
+		display: display_7seg
+			port map (entrada => resultado_mostrado, s_dezena => s_dezena, s_unidade => s_unidade);
+			
+	end arq_display_mux;

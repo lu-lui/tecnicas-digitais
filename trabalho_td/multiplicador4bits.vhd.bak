@@ -1,0 +1,37 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+
+ENTITY multiplicador4bits IS
+	PORT( 
+		a, b :in std_logic_vector (2 downto 0);
+		m:out std_logic_vector(5 downto 0)
+		);
+end multiplicador4bits;
+architecture arq_multiplicador4bits of multiplicador4bits is
+	SIGNAL c: std_logic_vector(1 downto 0);
+	SIGNAL c_out: std_logic;
+	
+
+	COMPONENT somador4bits
+		PORT( 
+		a, b :in std_logic_vector (2 downto 0);
+		s:out std_logic_vector(2 downto 0);
+		c2: out std_logic
+		);
+	END COMPONENT;
+	
+	
+begin
+		m(0) <= a(0) and b(0);
+		
+		soma1: somador4bits
+			port map( a(0) => a(0) and b(1), a(1) => a(0) and b(2), a(2) => '0', 
+			b(0) => a(1) and b(0), b(1) => a(1) and b(1), b(2) => a(1) and b(2),
+			s(0) => m(1), s(1) => c(0), s(2) => c(1), c2 => c_out);
+			
+		soma2: somador4bits
+			port map( a(0) => c(0), a(1) => c(1), a(2) => c_out, 
+			b(0) => a(2) and b(0), b(1) => a(2) and b(1), b(2) => a(2) and b(2),
+			s(0) => m(2), s(1) => m(3), s(2) => m(4), c2 => m(5));
+		
+end arq_multiplicador4bits;

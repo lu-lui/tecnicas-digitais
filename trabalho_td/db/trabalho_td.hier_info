@@ -1,0 +1,1282 @@
+|display_mux
+a[0] => somador4bits:somador.a[0]
+a[0] => subtrator4bits:subtrator.a[0]
+a[0] => multiplicador4bits:multiplicador.a[0]
+a[0] => cod_bin_hexa:codificador.a[0]
+a[0] => a_xor_b:xor_ab.a[0]
+a[0] => sl_a:shift_esquerda.a[0]
+a[0] => maior:comparar_maior.a[0]
+a[0] => menor:comparar_menor.a[0]
+a[1] => somador4bits:somador.a[1]
+a[1] => subtrator4bits:subtrator.a[1]
+a[1] => multiplicador4bits:multiplicador.a[1]
+a[1] => cod_bin_hexa:codificador.a[1]
+a[1] => a_xor_b:xor_ab.a[1]
+a[1] => sl_a:shift_esquerda.a[1]
+a[1] => maior:comparar_maior.a[1]
+a[1] => menor:comparar_menor.a[1]
+a[2] => somador4bits:somador.a[2]
+a[2] => subtrator4bits:subtrator.a[2]
+a[2] => multiplicador4bits:multiplicador.a[2]
+a[2] => cod_bin_hexa:codificador.a[2]
+a[2] => a_xor_b:xor_ab.a[2]
+a[2] => sl_a:shift_esquerda.a[2]
+a[2] => maior:comparar_maior.a[2]
+a[2] => menor:comparar_menor.a[2]
+a[3] => somador4bits:somador.a[3]
+a[3] => subtrator4bits:subtrator.a[3]
+a[3] => multiplicador4bits:multiplicador.a[3]
+a[3] => cod_bin_hexa:codificador.a[3]
+a[3] => a_xor_b:xor_ab.a[3]
+a[3] => sl_a:shift_esquerda.a[3]
+a[3] => maior:comparar_maior.a[3]
+a[3] => menor:comparar_menor.a[3]
+b[0] => somador4bits:somador.b[0]
+b[0] => subtrator4bits:subtrator.b[0]
+b[0] => multiplicador4bits:multiplicador.b[0]
+b[0] => cod_bin_hexa:codificador.b[0]
+b[0] => a_xor_b:xor_ab.b[0]
+b[0] => sr_b:shift_direita.b[0]
+b[0] => maior:comparar_maior.b[0]
+b[0] => menor:comparar_menor.b[0]
+b[1] => somador4bits:somador.b[1]
+b[1] => subtrator4bits:subtrator.b[1]
+b[1] => multiplicador4bits:multiplicador.b[1]
+b[1] => cod_bin_hexa:codificador.b[1]
+b[1] => a_xor_b:xor_ab.b[1]
+b[1] => sr_b:shift_direita.b[1]
+b[1] => maior:comparar_maior.b[1]
+b[1] => menor:comparar_menor.b[1]
+b[2] => somador4bits:somador.b[2]
+b[2] => subtrator4bits:subtrator.b[2]
+b[2] => multiplicador4bits:multiplicador.b[2]
+b[2] => cod_bin_hexa:codificador.b[2]
+b[2] => a_xor_b:xor_ab.b[2]
+b[2] => sr_b:shift_direita.b[2]
+b[2] => maior:comparar_maior.b[2]
+b[2] => menor:comparar_menor.b[2]
+b[3] => somador4bits:somador.b[3]
+b[3] => subtrator4bits:subtrator.b[3]
+b[3] => multiplicador4bits:multiplicador.b[3]
+b[3] => cod_bin_hexa:codificador.b[3]
+b[3] => a_xor_b:xor_ab.b[3]
+b[3] => sr_b:shift_direita.b[3]
+b[3] => maior:comparar_maior.b[3]
+b[3] => menor:comparar_menor.b[3]
+f[0] => Mux0.IN10
+f[0] => Mux1.IN10
+f[0] => Mux2.IN10
+f[0] => Mux3.IN10
+f[0] => Mux4.IN10
+f[0] => Mux5.IN10
+f[0] => Mux6.IN10
+f[0] => Mux7.IN10
+f[0] => Mux8.IN10
+f[0] => Mux9.IN10
+f[0] => Mux10.IN10
+f[0] => Mux11.IN10
+f[0] => Mux12.IN10
+f[0] => Mux13.IN10
+f[0] => Mux14.IN18
+f[1] => Mux0.IN9
+f[1] => Mux1.IN9
+f[1] => Mux2.IN9
+f[1] => Mux3.IN9
+f[1] => Mux4.IN9
+f[1] => Mux5.IN9
+f[1] => Mux6.IN9
+f[1] => Mux7.IN9
+f[1] => Mux8.IN9
+f[1] => Mux9.IN9
+f[1] => Mux10.IN9
+f[1] => Mux11.IN9
+f[1] => Mux12.IN9
+f[1] => Mux13.IN9
+f[1] => Mux14.IN17
+f[2] => Mux0.IN8
+f[2] => Mux1.IN8
+f[2] => Mux2.IN8
+f[2] => Mux3.IN8
+f[2] => Mux4.IN8
+f[2] => Mux5.IN8
+f[2] => Mux6.IN8
+f[2] => Mux7.IN8
+f[2] => Mux8.IN8
+f[2] => Mux9.IN8
+f[2] => Mux10.IN8
+f[2] => Mux11.IN8
+f[2] => Mux12.IN8
+f[2] => Mux13.IN8
+f[2] => Mux14.IN16
+f[3] => Mux0.IN7
+f[3] => Mux1.IN7
+f[3] => Mux2.IN7
+f[3] => Mux3.IN7
+f[3] => Mux4.IN7
+f[3] => Mux5.IN7
+f[3] => Mux6.IN7
+f[3] => Mux7.IN7
+f[3] => Mux8.IN7
+f[3] => Mux9.IN7
+f[3] => Mux10.IN7
+f[3] => Mux11.IN7
+f[3] => Mux12.IN7
+f[3] => Mux13.IN7
+f[3] => Mux14.IN15
+desloca => sl_a:shift_esquerda.desloca
+desloca => sr_b:shift_direita.desloca
+negativo <= Mux14.DB_MAX_OUTPUT_PORT_TYPE
+zero <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+s_dezena[0] <= display_7seg:display.s_dezena[0]
+s_dezena[1] <= display_7seg:display.s_dezena[1]
+s_dezena[2] <= display_7seg:display.s_dezena[2]
+s_dezena[3] <= display_7seg:display.s_dezena[3]
+s_dezena[4] <= display_7seg:display.s_dezena[4]
+s_dezena[5] <= display_7seg:display.s_dezena[5]
+s_dezena[6] <= display_7seg:display.s_dezena[6]
+s_unidade[0] <= display_7seg:display.s_unidade[0]
+s_unidade[1] <= display_7seg:display.s_unidade[1]
+s_unidade[2] <= display_7seg:display.s_unidade[2]
+s_unidade[3] <= display_7seg:display.s_unidade[3]
+s_unidade[4] <= display_7seg:display.s_unidade[4]
+s_unidade[5] <= display_7seg:display.s_unidade[5]
+s_unidade[6] <= display_7seg:display.s_unidade[6]
+
+
+|display_mux|somador4bits:somador
+a[0] => meio_somador:soma1.a
+a[1] => somador_completo:soma2.a
+a[2] => somador_completo:soma3.a
+a[3] => somador_completo:soma4.a
+b[0] => meio_somador:soma1.b
+b[1] => somador_completo:soma2.b
+b[2] => somador_completo:soma3.b
+b[3] => somador_completo:soma4.b
+s[0] <= meio_somador:soma1.s
+s[1] <= somador_completo:soma2.s
+s[2] <= somador_completo:soma3.s
+s[3] <= somador_completo:soma4.s
+s[4] <= <GND>
+s[5] <= <GND>
+s[6] <= <GND>
+s[7] <= <GND>
+s[8] <= <GND>
+s[9] <= <GND>
+s[10] <= <GND>
+s[11] <= <GND>
+s[12] <= <GND>
+s[13] <= <GND>
+c3 <= somador_completo:soma4.c_out
+
+
+|display_mux|somador4bits:somador|meio_somador:soma1
+a => s.IN0
+a => c_out.IN0
+a => s.IN0
+b => s.IN1
+b => c_out.IN1
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|somador4bits:somador|somador_completo:soma2
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|somador4bits:somador|somador_completo:soma3
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|somador4bits:somador|somador_completo:soma4
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|subtrator4bits:subtrator
+a[0] => somador_completo:soma1.a
+a[1] => somador_completo:soma2.a
+a[2] => somador_completo:soma3.a
+a[3] => somador_completo:soma4.a
+b[0] => somador_completo:soma1.b
+b[1] => somador_completo:soma2.b
+b[2] => somador_completo:soma3.b
+b[3] => somador_completo:soma4.b
+s[0] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[5] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[6] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[7] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[8] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[9] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[10] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[11] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[12] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[13] <= s.DB_MAX_OUTPUT_PORT_TYPE
+c3 <= somador_completo:soma4.c_out
+negativo <= somador_completo:soma4.c_out
+
+
+|display_mux|subtrator4bits:subtrator|somador_completo:soma1
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|subtrator4bits:subtrator|somador_completo:soma2
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|subtrator4bits:subtrator|somador_completo:soma3
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|subtrator4bits:subtrator|somador_completo:soma4
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|subtrator4bits:subtrator|somador4bits:complemento2
+a[0] => meio_somador:soma1.a
+a[1] => somador_completo:soma2.a
+a[2] => somador_completo:soma3.a
+a[3] => somador_completo:soma4.a
+b[0] => meio_somador:soma1.b
+b[1] => somador_completo:soma2.b
+b[2] => somador_completo:soma3.b
+b[3] => somador_completo:soma4.b
+s[0] <= meio_somador:soma1.s
+s[1] <= somador_completo:soma2.s
+s[2] <= somador_completo:soma3.s
+s[3] <= somador_completo:soma4.s
+s[4] <= <GND>
+s[5] <= <GND>
+s[6] <= <GND>
+s[7] <= <GND>
+s[8] <= <GND>
+s[9] <= <GND>
+s[10] <= <GND>
+s[11] <= <GND>
+s[12] <= <GND>
+s[13] <= <GND>
+c3 <= somador_completo:soma4.c_out
+
+
+|display_mux|subtrator4bits:subtrator|somador4bits:complemento2|meio_somador:soma1
+a => s.IN0
+a => c_out.IN0
+a => s.IN0
+b => s.IN1
+b => c_out.IN1
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|subtrator4bits:subtrator|somador4bits:complemento2|somador_completo:soma2
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|subtrator4bits:subtrator|somador4bits:complemento2|somador_completo:soma3
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|subtrator4bits:subtrator|somador4bits:complemento2|somador_completo:soma4
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|multiplicador4bits:multiplicador
+a[0] => m.IN0
+a[0] => comb.IN0
+a[0] => comb.IN0
+a[0] => comb.IN0
+a[1] => comb.IN0
+a[1] => comb.IN0
+a[1] => comb.IN0
+a[1] => comb.IN0
+a[2] => comb.IN0
+a[2] => comb.IN0
+a[2] => comb.IN0
+a[2] => comb.IN0
+a[3] => comb.IN0
+a[3] => comb.IN0
+a[3] => comb.IN0
+a[3] => comb.IN0
+b[0] => m.IN1
+b[0] => comb.IN1
+b[0] => comb.IN1
+b[0] => comb.IN1
+b[1] => comb.IN1
+b[1] => comb.IN1
+b[1] => comb.IN1
+b[1] => comb.IN1
+b[2] => comb.IN1
+b[2] => comb.IN1
+b[2] => comb.IN1
+b[2] => comb.IN1
+b[3] => comb.IN1
+b[3] => comb.IN1
+b[3] => comb.IN1
+b[3] => comb.IN1
+m[0] <= m.DB_MAX_OUTPUT_PORT_TYPE
+m[1] <= somador4bits:soma1.s[0]
+m[2] <= somador4bits:soma2.s[0]
+m[3] <= somador4bits:soma3.s[0]
+m[4] <= somador4bits:soma3.s[1]
+m[5] <= somador4bits:soma3.s[2]
+m[6] <= somador4bits:soma3.s[3]
+m[7] <= somador4bits:soma3.c3
+m[8] <= <GND>
+m[9] <= <GND>
+m[10] <= <GND>
+m[11] <= <GND>
+m[12] <= <GND>
+m[13] <= <GND>
+
+
+|display_mux|multiplicador4bits:multiplicador|somador4bits:soma1
+a[0] => meio_somador:soma1.a
+a[1] => somador_completo:soma2.a
+a[2] => somador_completo:soma3.a
+a[3] => somador_completo:soma4.a
+b[0] => meio_somador:soma1.b
+b[1] => somador_completo:soma2.b
+b[2] => somador_completo:soma3.b
+b[3] => somador_completo:soma4.b
+s[0] <= meio_somador:soma1.s
+s[1] <= somador_completo:soma2.s
+s[2] <= somador_completo:soma3.s
+s[3] <= somador_completo:soma4.s
+s[4] <= <GND>
+s[5] <= <GND>
+s[6] <= <GND>
+s[7] <= <GND>
+s[8] <= <GND>
+s[9] <= <GND>
+s[10] <= <GND>
+s[11] <= <GND>
+s[12] <= <GND>
+s[13] <= <GND>
+c3 <= somador_completo:soma4.c_out
+
+
+|display_mux|multiplicador4bits:multiplicador|somador4bits:soma1|meio_somador:soma1
+a => s.IN0
+a => c_out.IN0
+a => s.IN0
+b => s.IN1
+b => c_out.IN1
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|multiplicador4bits:multiplicador|somador4bits:soma1|somador_completo:soma2
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|multiplicador4bits:multiplicador|somador4bits:soma1|somador_completo:soma3
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|multiplicador4bits:multiplicador|somador4bits:soma1|somador_completo:soma4
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|multiplicador4bits:multiplicador|somador4bits:soma2
+a[0] => meio_somador:soma1.a
+a[1] => somador_completo:soma2.a
+a[2] => somador_completo:soma3.a
+a[3] => somador_completo:soma4.a
+b[0] => meio_somador:soma1.b
+b[1] => somador_completo:soma2.b
+b[2] => somador_completo:soma3.b
+b[3] => somador_completo:soma4.b
+s[0] <= meio_somador:soma1.s
+s[1] <= somador_completo:soma2.s
+s[2] <= somador_completo:soma3.s
+s[3] <= somador_completo:soma4.s
+s[4] <= <GND>
+s[5] <= <GND>
+s[6] <= <GND>
+s[7] <= <GND>
+s[8] <= <GND>
+s[9] <= <GND>
+s[10] <= <GND>
+s[11] <= <GND>
+s[12] <= <GND>
+s[13] <= <GND>
+c3 <= somador_completo:soma4.c_out
+
+
+|display_mux|multiplicador4bits:multiplicador|somador4bits:soma2|meio_somador:soma1
+a => s.IN0
+a => c_out.IN0
+a => s.IN0
+b => s.IN1
+b => c_out.IN1
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|multiplicador4bits:multiplicador|somador4bits:soma2|somador_completo:soma2
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|multiplicador4bits:multiplicador|somador4bits:soma2|somador_completo:soma3
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|multiplicador4bits:multiplicador|somador4bits:soma2|somador_completo:soma4
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|multiplicador4bits:multiplicador|somador4bits:soma3
+a[0] => meio_somador:soma1.a
+a[1] => somador_completo:soma2.a
+a[2] => somador_completo:soma3.a
+a[3] => somador_completo:soma4.a
+b[0] => meio_somador:soma1.b
+b[1] => somador_completo:soma2.b
+b[2] => somador_completo:soma3.b
+b[3] => somador_completo:soma4.b
+s[0] <= meio_somador:soma1.s
+s[1] <= somador_completo:soma2.s
+s[2] <= somador_completo:soma3.s
+s[3] <= somador_completo:soma4.s
+s[4] <= <GND>
+s[5] <= <GND>
+s[6] <= <GND>
+s[7] <= <GND>
+s[8] <= <GND>
+s[9] <= <GND>
+s[10] <= <GND>
+s[11] <= <GND>
+s[12] <= <GND>
+s[13] <= <GND>
+c3 <= somador_completo:soma4.c_out
+
+
+|display_mux|multiplicador4bits:multiplicador|somador4bits:soma3|meio_somador:soma1
+a => s.IN0
+a => c_out.IN0
+a => s.IN0
+b => s.IN1
+b => c_out.IN1
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|multiplicador4bits:multiplicador|somador4bits:soma3|somador_completo:soma2
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|multiplicador4bits:multiplicador|somador4bits:soma3|somador_completo:soma3
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|multiplicador4bits:multiplicador|somador4bits:soma3|somador_completo:soma4
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|cod_bin_hexa:codificador
+a[0] => s[0].DATAIN
+a[1] => s[1].DATAIN
+a[2] => s[2].DATAIN
+a[3] => s[3].DATAIN
+b[0] => s[4].DATAIN
+b[1] => s[5].DATAIN
+b[2] => s[6].DATAIN
+b[3] => s[7].DATAIN
+s[0] <= a[0].DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= a[1].DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= a[2].DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= a[3].DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= b[0].DB_MAX_OUTPUT_PORT_TYPE
+s[5] <= b[1].DB_MAX_OUTPUT_PORT_TYPE
+s[6] <= b[2].DB_MAX_OUTPUT_PORT_TYPE
+s[7] <= b[3].DB_MAX_OUTPUT_PORT_TYPE
+s[8] <= <GND>
+s[9] <= <GND>
+s[10] <= <GND>
+s[11] <= <GND>
+s[12] <= <GND>
+s[13] <= <GND>
+
+
+|display_mux|a_xor_b:xor_ab
+a[0] => s.IN0
+a[1] => s.IN0
+a[2] => s.IN0
+a[3] => s.IN0
+b[0] => s.IN1
+b[1] => s.IN1
+b[2] => s.IN1
+b[3] => s.IN1
+s[0] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= <GND>
+s[5] <= <GND>
+s[6] <= <GND>
+s[7] <= <GND>
+s[8] <= <GND>
+s[9] <= <GND>
+s[10] <= <GND>
+s[11] <= <GND>
+s[12] <= <GND>
+s[13] <= <GND>
+
+
+|display_mux|sl_a:shift_esquerda
+a[0] => mux2_1:mux1.a[1]
+a[0] => mux2_1:mux0.a[0]
+a[1] => mux2_1:mux2.a[1]
+a[1] => mux2_1:mux1.a[0]
+a[2] => mux2_1:mux3.a[1]
+a[2] => mux2_1:mux2.a[0]
+a[3] => mux2_1:mux4.a[1]
+a[3] => mux2_1:mux3.a[0]
+entrada_serial => mux2_1:mux0.a[1]
+desloca => mux2_1:mux4.f
+desloca => mux2_1:mux3.f
+desloca => mux2_1:mux2.f
+desloca => mux2_1:mux1.f
+desloca => mux2_1:mux0.f
+s[0] <= mux2_1:mux0.s
+s[1] <= mux2_1:mux1.s
+s[2] <= mux2_1:mux2.s
+s[3] <= mux2_1:mux3.s
+s[4] <= mux2_1:mux4.s
+s[5] <= <GND>
+s[6] <= <GND>
+s[7] <= <GND>
+s[8] <= <GND>
+s[9] <= <GND>
+s[10] <= <GND>
+s[11] <= <GND>
+s[12] <= <GND>
+s[13] <= <GND>
+
+
+|display_mux|sl_a:shift_esquerda|mux2_1:mux4
+a[0] => s.IN0
+a[1] => s.IN0
+f => s.IN1
+f => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|sl_a:shift_esquerda|mux2_1:mux3
+a[0] => s.IN0
+a[1] => s.IN0
+f => s.IN1
+f => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|sl_a:shift_esquerda|mux2_1:mux2
+a[0] => s.IN0
+a[1] => s.IN0
+f => s.IN1
+f => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|sl_a:shift_esquerda|mux2_1:mux1
+a[0] => s.IN0
+a[1] => s.IN0
+f => s.IN1
+f => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|sl_a:shift_esquerda|mux2_1:mux0
+a[0] => s.IN0
+a[1] => s.IN0
+f => s.IN1
+f => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|sr_b:shift_direita
+b[0] => mux2_1:mux0.a[0]
+b[1] => mux2_1:mux1.a[0]
+b[1] => mux2_1:mux0.a[1]
+b[2] => mux2_1:mux2.a[0]
+b[2] => mux2_1:mux1.a[1]
+b[3] => mux2_1:mux3.a[0]
+b[3] => mux2_1:mux2.a[1]
+entrada_serial => mux2_1:mux3.a[1]
+desloca => mux2_1:mux3.f
+desloca => mux2_1:mux2.f
+desloca => mux2_1:mux1.f
+desloca => mux2_1:mux0.f
+s[0] <= mux2_1:mux0.s
+s[1] <= mux2_1:mux1.s
+s[2] <= mux2_1:mux2.s
+s[3] <= mux2_1:mux3.s
+s[4] <= <GND>
+s[5] <= <GND>
+s[6] <= <GND>
+s[7] <= <GND>
+s[8] <= <GND>
+s[9] <= <GND>
+s[10] <= <GND>
+s[11] <= <GND>
+s[12] <= <GND>
+s[13] <= <GND>
+
+
+|display_mux|sr_b:shift_direita|mux2_1:mux3
+a[0] => s.IN0
+a[1] => s.IN0
+f => s.IN1
+f => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|sr_b:shift_direita|mux2_1:mux2
+a[0] => s.IN0
+a[1] => s.IN0
+f => s.IN1
+f => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|sr_b:shift_direita|mux2_1:mux1
+a[0] => s.IN0
+a[1] => s.IN0
+f => s.IN1
+f => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|sr_b:shift_direita|mux2_1:mux0
+a[0] => s.IN0
+a[1] => s.IN0
+f => s.IN1
+f => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|maior:comparar_maior
+a[0] => maior.DATAA
+a[0] => subtrator4bits:subtracao.a[0]
+a[1] => maior.DATAA
+a[1] => subtrator4bits:subtracao.a[1]
+a[2] => maior.DATAA
+a[2] => subtrator4bits:subtracao.a[2]
+a[3] => maior.DATAA
+a[3] => subtrator4bits:subtracao.a[3]
+b[0] => maior.DATAB
+b[0] => subtrator4bits:subtracao.b[0]
+b[1] => maior.DATAB
+b[1] => subtrator4bits:subtracao.b[1]
+b[2] => maior.DATAB
+b[2] => subtrator4bits:subtracao.b[2]
+b[3] => maior.DATAB
+b[3] => subtrator4bits:subtracao.b[3]
+maior[0] <= maior.DB_MAX_OUTPUT_PORT_TYPE
+maior[1] <= maior.DB_MAX_OUTPUT_PORT_TYPE
+maior[2] <= maior.DB_MAX_OUTPUT_PORT_TYPE
+maior[3] <= maior.DB_MAX_OUTPUT_PORT_TYPE
+maior[4] <= <GND>
+maior[5] <= <GND>
+maior[6] <= <GND>
+maior[7] <= <GND>
+maior[8] <= <GND>
+maior[9] <= <GND>
+maior[10] <= <GND>
+maior[11] <= <GND>
+maior[12] <= <GND>
+maior[13] <= <GND>
+
+
+|display_mux|maior:comparar_maior|subtrator4bits:subtracao
+a[0] => somador_completo:soma1.a
+a[1] => somador_completo:soma2.a
+a[2] => somador_completo:soma3.a
+a[3] => somador_completo:soma4.a
+b[0] => somador_completo:soma1.b
+b[1] => somador_completo:soma2.b
+b[2] => somador_completo:soma3.b
+b[3] => somador_completo:soma4.b
+s[0] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[5] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[6] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[7] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[8] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[9] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[10] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[11] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[12] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[13] <= s.DB_MAX_OUTPUT_PORT_TYPE
+c3 <= somador_completo:soma4.c_out
+negativo <= somador_completo:soma4.c_out
+
+
+|display_mux|maior:comparar_maior|subtrator4bits:subtracao|somador_completo:soma1
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|maior:comparar_maior|subtrator4bits:subtracao|somador_completo:soma2
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|maior:comparar_maior|subtrator4bits:subtracao|somador_completo:soma3
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|maior:comparar_maior|subtrator4bits:subtracao|somador_completo:soma4
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|maior:comparar_maior|subtrator4bits:subtracao|somador4bits:complemento2
+a[0] => meio_somador:soma1.a
+a[1] => somador_completo:soma2.a
+a[2] => somador_completo:soma3.a
+a[3] => somador_completo:soma4.a
+b[0] => meio_somador:soma1.b
+b[1] => somador_completo:soma2.b
+b[2] => somador_completo:soma3.b
+b[3] => somador_completo:soma4.b
+s[0] <= meio_somador:soma1.s
+s[1] <= somador_completo:soma2.s
+s[2] <= somador_completo:soma3.s
+s[3] <= somador_completo:soma4.s
+s[4] <= <GND>
+s[5] <= <GND>
+s[6] <= <GND>
+s[7] <= <GND>
+s[8] <= <GND>
+s[9] <= <GND>
+s[10] <= <GND>
+s[11] <= <GND>
+s[12] <= <GND>
+s[13] <= <GND>
+c3 <= somador_completo:soma4.c_out
+
+
+|display_mux|maior:comparar_maior|subtrator4bits:subtracao|somador4bits:complemento2|meio_somador:soma1
+a => s.IN0
+a => c_out.IN0
+a => s.IN0
+b => s.IN1
+b => c_out.IN1
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|maior:comparar_maior|subtrator4bits:subtracao|somador4bits:complemento2|somador_completo:soma2
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|maior:comparar_maior|subtrator4bits:subtracao|somador4bits:complemento2|somador_completo:soma3
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|maior:comparar_maior|subtrator4bits:subtracao|somador4bits:complemento2|somador_completo:soma4
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|menor:comparar_menor
+a[0] => menor.DATAB
+a[0] => subtrator4bits:subtracao.a[0]
+a[1] => menor.DATAB
+a[1] => subtrator4bits:subtracao.a[1]
+a[2] => menor.DATAB
+a[2] => subtrator4bits:subtracao.a[2]
+a[3] => menor.DATAB
+a[3] => subtrator4bits:subtracao.a[3]
+b[0] => menor.DATAA
+b[0] => subtrator4bits:subtracao.b[0]
+b[1] => menor.DATAA
+b[1] => subtrator4bits:subtracao.b[1]
+b[2] => menor.DATAA
+b[2] => subtrator4bits:subtracao.b[2]
+b[3] => menor.DATAA
+b[3] => subtrator4bits:subtracao.b[3]
+menor[0] <= menor.DB_MAX_OUTPUT_PORT_TYPE
+menor[1] <= menor.DB_MAX_OUTPUT_PORT_TYPE
+menor[2] <= menor.DB_MAX_OUTPUT_PORT_TYPE
+menor[3] <= menor.DB_MAX_OUTPUT_PORT_TYPE
+menor[4] <= <GND>
+menor[5] <= <GND>
+menor[6] <= <GND>
+menor[7] <= <GND>
+menor[8] <= <GND>
+menor[9] <= <GND>
+menor[10] <= <GND>
+menor[11] <= <GND>
+menor[12] <= <GND>
+menor[13] <= <GND>
+
+
+|display_mux|menor:comparar_menor|subtrator4bits:subtracao
+a[0] => somador_completo:soma1.a
+a[1] => somador_completo:soma2.a
+a[2] => somador_completo:soma3.a
+a[3] => somador_completo:soma4.a
+b[0] => somador_completo:soma1.b
+b[1] => somador_completo:soma2.b
+b[2] => somador_completo:soma3.b
+b[3] => somador_completo:soma4.b
+s[0] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[5] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[6] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[7] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[8] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[9] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[10] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[11] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[12] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[13] <= s.DB_MAX_OUTPUT_PORT_TYPE
+c3 <= somador_completo:soma4.c_out
+negativo <= somador_completo:soma4.c_out
+
+
+|display_mux|menor:comparar_menor|subtrator4bits:subtracao|somador_completo:soma1
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|menor:comparar_menor|subtrator4bits:subtracao|somador_completo:soma2
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|menor:comparar_menor|subtrator4bits:subtracao|somador_completo:soma3
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|menor:comparar_menor|subtrator4bits:subtracao|somador_completo:soma4
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|menor:comparar_menor|subtrator4bits:subtracao|somador4bits:complemento2
+a[0] => meio_somador:soma1.a
+a[1] => somador_completo:soma2.a
+a[2] => somador_completo:soma3.a
+a[3] => somador_completo:soma4.a
+b[0] => meio_somador:soma1.b
+b[1] => somador_completo:soma2.b
+b[2] => somador_completo:soma3.b
+b[3] => somador_completo:soma4.b
+s[0] <= meio_somador:soma1.s
+s[1] <= somador_completo:soma2.s
+s[2] <= somador_completo:soma3.s
+s[3] <= somador_completo:soma4.s
+s[4] <= <GND>
+s[5] <= <GND>
+s[6] <= <GND>
+s[7] <= <GND>
+s[8] <= <GND>
+s[9] <= <GND>
+s[10] <= <GND>
+s[11] <= <GND>
+s[12] <= <GND>
+s[13] <= <GND>
+c3 <= somador_completo:soma4.c_out
+
+
+|display_mux|menor:comparar_menor|subtrator4bits:subtracao|somador4bits:complemento2|meio_somador:soma1
+a => s.IN0
+a => c_out.IN0
+a => s.IN0
+b => s.IN1
+b => c_out.IN1
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|menor:comparar_menor|subtrator4bits:subtracao|somador4bits:complemento2|somador_completo:soma2
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|menor:comparar_menor|subtrator4bits:subtracao|somador4bits:complemento2|somador_completo:soma3
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|menor:comparar_menor|subtrator4bits:subtracao|somador4bits:complemento2|somador_completo:soma4
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_mux|display_7seg:display
+entrada[0] => Div0.IN10
+entrada[0] => Mod0.IN13
+entrada[1] => Div0.IN9
+entrada[1] => Mod0.IN12
+entrada[2] => Div0.IN8
+entrada[2] => Mod0.IN11
+entrada[3] => Div0.IN7
+entrada[3] => Mod0.IN10
+entrada[4] => Div0.IN6
+entrada[4] => Mod0.IN9
+entrada[5] => Div0.IN5
+entrada[5] => Mod0.IN8
+entrada[6] => Div0.IN4
+entrada[6] => Mod0.IN7
+entrada[7] => ~NO_FANOUT~
+entrada[8] => ~NO_FANOUT~
+entrada[9] => ~NO_FANOUT~
+entrada[10] => ~NO_FANOUT~
+entrada[11] => ~NO_FANOUT~
+entrada[12] => ~NO_FANOUT~
+entrada[13] => ~NO_FANOUT~
+s_dezena[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+s_dezena[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+s_dezena[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+s_dezena[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+s_dezena[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+s_dezena[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+s_dezena[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+s_unidade[0] <= Mux13.DB_MAX_OUTPUT_PORT_TYPE
+s_unidade[1] <= Mux12.DB_MAX_OUTPUT_PORT_TYPE
+s_unidade[2] <= Mux11.DB_MAX_OUTPUT_PORT_TYPE
+s_unidade[3] <= Mux10.DB_MAX_OUTPUT_PORT_TYPE
+s_unidade[4] <= Mux9.DB_MAX_OUTPUT_PORT_TYPE
+s_unidade[5] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
+s_unidade[6] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+
+

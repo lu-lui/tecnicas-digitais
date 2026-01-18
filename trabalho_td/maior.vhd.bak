@@ -1,0 +1,30 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+
+ENTITY subtrator4bits IS
+	PORT( 
+		a, b :in std_logic_vector (3 downto 0);
+		maior:out std_logic_vector(13 downto 0);
+		);
+end subtrator4bits;
+architecture arq_subtrator4bits of subtrator4bits is
+	
+	COMPONENT subtrator4bits 
+		PORT( 
+		a, b :in std_logic_vector (3 downto 0);
+		s:out std_logic_vector(13 downto 0);
+		c3, negativo: out std_logic
+		);
+	END COMPONENT;
+	
+	begin
+		substração: subtrator4bits
+			port map(a => a, b => b, c3 => sel);
+			
+		WITH sel SELECT
+		maior <=
+			b when '1',
+			a when '0';
+		
+		
+end arq_subtrator4bits;

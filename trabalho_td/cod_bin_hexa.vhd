@@ -1,0 +1,27 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+
+ENTITY cod_bin_hexa IS
+	PORT( 
+		a, b :in std_logic_vector(3 downto 0);
+		s :out std_logic_vector (13 downto 0)
+		);
+end cod_bin_hexa;
+architecture arq_cod_bin_hexa of cod_bin_hexa is begin
+
+	s(0) <= a(0);
+	s(1) <= a(1);
+	s(2) <= a(2);
+	s(3) <= a(3);
+	s(4) <= b(0);
+	s(5) <= b(1);
+	s(6) <= b(2);
+	s(7) <= b(3);
+	s(8) <= '0';
+	s(9) <= '0';
+	s(10) <= '0';
+	s(11) <= '0';
+	s(12) <= '0';
+	s(13) <= '0';
+	
+end arq_cod_bin_hexa;

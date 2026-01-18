@@ -1,0 +1,43 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+
+ENTITY sl_a IS
+	PORT( 
+		a :in std_logic_vector(3 downto 0);
+		entrada_serial, desloca : in std_logic;
+		s :out std_logic_vector(13 downto 0)
+		);
+end sl_a;
+
+architecture arq_sl_a of sl_a is 
+	
+	COMPONENT mux2_1
+		PORT( 
+			a :in std_logic_vector(1 downto 0);
+			sel :in std_logic;
+			s :out std_logic
+			);
+	END COMPONENT;
+
+begin
+	s(13 downto 5) <= "000000000";
+
+	mux4: mux2_1
+		port map (a(0) => '0', a(1) => a(3), sel => desloca, s => s(4));
+
+	mux3: mux2_1
+		port map (a(0) => a(3), a(1) => a(2), sel => desloca, s => s(3));
+		
+	mux2: mux2_1
+		port map (a(0) => a(2), a(1) => a(1), sel => desloca, s => s(2));
+		
+	mux1: mux2_1
+		port map (a(0) => a(1), a(1) => a(0), sel => desloca, s => s(1));
+		
+	mux0: mux2_1
+		port map (a(0) => a(0), a(1) => entrada_serial, sel => desloca, s => s(0));
+		
+end arq_sl_a;
+
+--fazer bit para s=0
+--perguntar se precisa deslocar todos os números ou só os 4 da entrada 
