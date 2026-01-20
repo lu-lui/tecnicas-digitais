@@ -1,12 +1,12 @@
-Fitter Status : Successful - Tue Jan 20 15:40:41 2026
+Fitter Status : Successful - Tue Jan 20 16:19:19 2026
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : trabalho_td
-Top-level Entity Name : sr_b
+Top-level Entity Name : sl_a
 Family : Cyclone IV GX
 Device : EP4CGX15BF14C6
 Timing Models : Final
-Total logic elements : 4 / 14,400 ( < 1 % )
-    Total combinational functions : 4 / 14,400 ( < 1 % )
+Total logic elements : 5 / 14,400 ( < 1 % )
+    Total combinational functions : 5 / 14,400 ( < 1 % )
     Dedicated logic registers : 0 / 14,400 ( 0 % )
 Total registers : 0
 Total pins : 20 / 81 ( 25 % )

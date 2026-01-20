@@ -1,5 +1,5 @@
 EDA Netlist Writer report for trabalho_td
-Tue Jan 20 15:41:52 2026
+Tue Jan 20 16:20:17 2026
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,9 +36,9 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Tue Jan 20 15:41:52 2026 ;
+; EDA Netlist Writer Status ; Successful - Tue Jan 20 16:20:17 2026 ;
 ; Revision Name             ; trabalho_td                           ;
-; Top-level Entity Name     ; sr_b                                  ;
+; Top-level Entity Name     ; sl_a                                  ;
 ; Family                    ; Cyclone IV GX                         ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
@@ -50,8 +50,7 @@ applicable agreement for further details.
 ; Option                                                                                            ; Setting                   ;
 +---------------------------------------------------------------------------------------------------+---------------------------+
 ; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
-; Generate netlist for functional simulation only                                                   ; Off                       ;
-; Time scale                                                                                        ; 1 ps                      ;
+; Generate netlist for functional simulation only                                                   ; On                        ;
 ; Truncate long hierarchy paths                                                                     ; Off                       ;
 ; Map illegal HDL characters                                                                        ; Off                       ;
 ; Flatten buses into individual nodes                                                               ; Off                       ;
@@ -66,20 +65,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+----------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                         ;
-+----------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                    ;
-+----------------------------------------------------------------------------------------------------+
-; C:/Users/luisa/Downloads/aqui/trabalho_td/simulation/modelsim/trabalho_td_6_1200mv_85c_slow.vo     ;
-; C:/Users/luisa/Downloads/aqui/trabalho_td/simulation/modelsim/trabalho_td_6_1200mv_0c_slow.vo      ;
-; C:/Users/luisa/Downloads/aqui/trabalho_td/simulation/modelsim/trabalho_td_min_1200mv_0c_fast.vo    ;
-; C:/Users/luisa/Downloads/aqui/trabalho_td/simulation/modelsim/trabalho_td.vo                       ;
-; C:/Users/luisa/Downloads/aqui/trabalho_td/simulation/modelsim/trabalho_td_6_1200mv_85c_v_slow.sdo  ;
-; C:/Users/luisa/Downloads/aqui/trabalho_td/simulation/modelsim/trabalho_td_6_1200mv_0c_v_slow.sdo   ;
-; C:/Users/luisa/Downloads/aqui/trabalho_td/simulation/modelsim/trabalho_td_min_1200mv_0c_v_fast.sdo ;
-; C:/Users/luisa/Downloads/aqui/trabalho_td/simulation/modelsim/trabalho_td_v.sdo                    ;
-+----------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                 ;
++------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                            ;
++------------------------------------------------------------------------------------------------------------+
+; C:/Users/luisa/OneDrive/Documentos/GitHub/tecnicas-digitais/trabalho_td/simulation/modelsim/trabalho_td.vo ;
++------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -88,20 +80,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Tue Jan 20 15:41:51 2026
-Info: Command: quartus_eda --functional=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog trabalho_td -c trabalho_td
-Info (204019): Generated file trabalho_td_6_1200mv_85c_slow.vo in folder "C:/Users/luisa/Downloads/aqui/trabalho_td/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file trabalho_td_6_1200mv_0c_slow.vo in folder "C:/Users/luisa/Downloads/aqui/trabalho_td/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file trabalho_td_min_1200mv_0c_fast.vo in folder "C:/Users/luisa/Downloads/aqui/trabalho_td/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file trabalho_td.vo in folder "C:/Users/luisa/Downloads/aqui/trabalho_td/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file trabalho_td_6_1200mv_85c_v_slow.sdo in folder "C:/Users/luisa/Downloads/aqui/trabalho_td/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file trabalho_td_6_1200mv_0c_v_slow.sdo in folder "C:/Users/luisa/Downloads/aqui/trabalho_td/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file trabalho_td_min_1200mv_0c_v_fast.sdo in folder "C:/Users/luisa/Downloads/aqui/trabalho_td/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file trabalho_td_v.sdo in folder "C:/Users/luisa/Downloads/aqui/trabalho_td/simulation/modelsim/" for EDA simulation tool
+    Info: Processing started: Tue Jan 20 16:20:17 2026
+Info: Command: quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog trabalho_td -c trabalho_td
+Info (204019): Generated file trabalho_td.vo in folder "C:/Users/luisa/OneDrive/Documentos/GitHub/tecnicas-digitais/trabalho_td/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4571 megabytes
-    Info: Processing ended: Tue Jan 20 15:41:52 2026
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Processing ended: Tue Jan 20 16:20:17 2026
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
 
 

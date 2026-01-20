@@ -1,12 +1,14 @@
-|sr_b
-b[0] => mux2_1:mux0.a[1]
-b[1] => mux2_1:mux1.a[1]
-b[1] => mux2_1:mux0.a[0]
-b[2] => mux2_1:mux2.a[1]
-b[2] => mux2_1:mux1.a[0]
-b[3] => mux2_1:mux3.a[1]
-b[3] => mux2_1:mux2.a[0]
-entrada_serial => mux2_1:mux3.a[0]
+|sl_a
+a[0] => mux2_1:mux1.a[0]
+a[0] => mux2_1:mux0.a[1]
+a[1] => mux2_1:mux2.a[0]
+a[1] => mux2_1:mux1.a[1]
+a[2] => mux2_1:mux3.a[0]
+a[2] => mux2_1:mux2.a[1]
+a[3] => mux2_1:mux4.a[0]
+a[3] => mux2_1:mux3.a[1]
+entrada_serial => mux2_1:mux0.a[0]
+desloca => mux2_1:mux4.f
 desloca => mux2_1:mux3.f
 desloca => mux2_1:mux2.f
 desloca => mux2_1:mux1.f
@@ -15,7 +17,7 @@ s[0] <= mux2_1:mux0.s
 s[1] <= mux2_1:mux1.s
 s[2] <= mux2_1:mux2.s
 s[3] <= mux2_1:mux3.s
-s[4] <= <GND>
+s[4] <= mux2_1:mux4.s
 s[5] <= <GND>
 s[6] <= <GND>
 s[7] <= <GND>
@@ -27,7 +29,7 @@ s[12] <= <GND>
 s[13] <= <GND>
 
 
-|sr_b|mux2_1:mux3
+|sl_a|mux2_1:mux4
 a[0] => s.IN0
 a[1] => s.IN0
 f => s.IN1
@@ -35,7 +37,7 @@ f => s.IN1
 s <= s.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|sr_b|mux2_1:mux2
+|sl_a|mux2_1:mux3
 a[0] => s.IN0
 a[1] => s.IN0
 f => s.IN1
@@ -43,7 +45,7 @@ f => s.IN1
 s <= s.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|sr_b|mux2_1:mux1
+|sl_a|mux2_1:mux2
 a[0] => s.IN0
 a[1] => s.IN0
 f => s.IN1
@@ -51,7 +53,15 @@ f => s.IN1
 s <= s.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|sr_b|mux2_1:mux0
+|sl_a|mux2_1:mux1
+a[0] => s.IN0
+a[1] => s.IN0
+f => s.IN1
+f => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sl_a|mux2_1:mux0
 a[0] => s.IN0
 a[1] => s.IN0
 f => s.IN1

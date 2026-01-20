@@ -2,31 +2,25 @@
 # ** Warning: (vlib-34) Library already exists at "work".
 # 
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module sr_b
+# -- Compiling module sl_a
 # 
 # Top level modules:
-# 	sr_b
+# 	sl_a
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module sr_b_vlg_sample_tst
-# -- Compiling module sr_b_vlg_check_tst
-# -- Compiling module sr_b_vlg_vec_tst
+# -- Compiling module sl_a_vlg_sample_tst
+# -- Compiling module sl_a_vlg_check_tst
+# -- Compiling module sl_a_vlg_vec_tst
 # 
 # Top level modules:
-# 	sr_b_vlg_vec_tst
-# vsim -L cycloneiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.sr_b_vlg_vec_tst 
-# Loading work.sr_b_vlg_vec_tst
-# Loading work.sr_b
+# 	sl_a_vlg_vec_tst
+# vsim -L cycloneiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.sl_a_vlg_vec_tst 
+# Loading work.sl_a_vlg_vec_tst
+# Loading work.sl_a
 # Loading cycloneiv_ver.cycloneiv_io_obuf
 # Loading cycloneiv_ver.cycloneiv_io_ibuf
 # Loading cycloneiv_ver.cycloneiv_lcell_comb
-# Loading work.sr_b_vlg_sample_tst
-# Loading work.sr_b_vlg_check_tst
-# SDF 10.1d Compiler 2012.11 Nov  2 2012
-# 
-# Loading instances from trabalho_td_v.sdo
-# Loading timing data from trabalho_td_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /sr_b_vlg_vec_tst File: trabalho_td.vt
+# Loading work.sl_a_vlg_sample_tst
+# Loading work.sl_a_vlg_check_tst
 # Simulation passed !
 # ** Note: $finish    : trabalho_td.vt(385)
-#    Time: 1 us  Iteration: 0  Instance: /sr_b_vlg_vec_tst/tb_out
+#    Time: 1 us  Iteration: 0  Instance: /sl_a_vlg_vec_tst/tb_out
