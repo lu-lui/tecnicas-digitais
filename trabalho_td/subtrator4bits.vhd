@@ -9,8 +9,9 @@ ENTITY subtrator4bits IS
 		);
 end subtrator4bits;
 architecture arq_subtrator4bits of subtrator4bits is
-	SIGNAL c: std_logic_vector(3 downto 0);
+	SIGNAL c: std_logic_vector(2 downto 0);
 	SIGNAL s_sub, s_comp: std_logic_vector(13 downto 0);
+	SIGNAL sel, c_comp, c_sub: std_logic;
 	
 	COMPONENT somador4bits
 		PORT( 
@@ -38,24 +39,28 @@ architecture arq_subtrator4bits of subtrator4bits is
 			port map( a => a(2), b => not b(2), c_in => c(1), s => s_sub(2), c_out => c(2));
 		
 		soma4: somador_completo
-			port map( a => a(3), b => not b(3), c_in => c(2), s => s_sub(3), c_out => c(3));
+			port map( a => a(3), b => not b(3), c_in => c(2), s => s_sub(3), c_out => c_sub);
 			
-		c3 <= c(3);
+		sel <= c_sub;
 			
 		complemento2: somador4bits
 			port map( a(0) => not s_sub(0),
 						 a(1) => not s_sub(1),
 						 a(2) => not s_sub(2),
 						 a(3) => not s_sub(3),
-						 b => "0001", s => s_comp);
+						 b => "0001", s => s_comp, c3 => c_comp);
 			
-		WITH c(3) SELECT
+		WITH sel SELECT
 		s <=
 			s_sub when '1',
 			s_comp when '0';
 		
+		WITH sel SELECT
+		c3 <=
+			c_sub when '1',
+			c_comp when '0';
 			
-		negativo <= not c(3);
+		negativo <= not sel;
 		
 		
 end arq_subtrator4bits;

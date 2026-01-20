@@ -1,38 +1,61 @@
-|display_7seg
-entrada[0] => Div0.IN10
-entrada[0] => Mod0.IN13
-entrada[1] => Div0.IN9
-entrada[1] => Mod0.IN12
-entrada[2] => Div0.IN8
-entrada[2] => Mod0.IN11
-entrada[3] => Div0.IN7
-entrada[3] => Mod0.IN10
-entrada[4] => Div0.IN6
-entrada[4] => Mod0.IN9
-entrada[5] => Div0.IN5
-entrada[5] => Mod0.IN8
-entrada[6] => Div0.IN4
-entrada[6] => Mod0.IN7
-entrada[7] => ~NO_FANOUT~
-entrada[8] => ~NO_FANOUT~
-entrada[9] => ~NO_FANOUT~
-entrada[10] => ~NO_FANOUT~
-entrada[11] => ~NO_FANOUT~
-entrada[12] => ~NO_FANOUT~
-entrada[13] => ~NO_FANOUT~
-s_dezena[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
-s_dezena[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
-s_dezena[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
-s_dezena[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
-s_dezena[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
-s_dezena[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
-s_dezena[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
-s_unidade[0] <= Mux13.DB_MAX_OUTPUT_PORT_TYPE
-s_unidade[1] <= Mux12.DB_MAX_OUTPUT_PORT_TYPE
-s_unidade[2] <= Mux11.DB_MAX_OUTPUT_PORT_TYPE
-s_unidade[3] <= Mux10.DB_MAX_OUTPUT_PORT_TYPE
-s_unidade[4] <= Mux9.DB_MAX_OUTPUT_PORT_TYPE
-s_unidade[5] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
-s_unidade[6] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+|sr_b
+b[0] => mux2_1:mux0.a[1]
+b[1] => mux2_1:mux1.a[1]
+b[1] => mux2_1:mux0.a[0]
+b[2] => mux2_1:mux2.a[1]
+b[2] => mux2_1:mux1.a[0]
+b[3] => mux2_1:mux3.a[1]
+b[3] => mux2_1:mux2.a[0]
+entrada_serial => mux2_1:mux3.a[0]
+desloca => mux2_1:mux3.f
+desloca => mux2_1:mux2.f
+desloca => mux2_1:mux1.f
+desloca => mux2_1:mux0.f
+s[0] <= mux2_1:mux0.s
+s[1] <= mux2_1:mux1.s
+s[2] <= mux2_1:mux2.s
+s[3] <= mux2_1:mux3.s
+s[4] <= <GND>
+s[5] <= <GND>
+s[6] <= <GND>
+s[7] <= <GND>
+s[8] <= <GND>
+s[9] <= <GND>
+s[10] <= <GND>
+s[11] <= <GND>
+s[12] <= <GND>
+s[13] <= <GND>
+
+
+|sr_b|mux2_1:mux3
+a[0] => s.IN0
+a[1] => s.IN0
+f => s.IN1
+f => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sr_b|mux2_1:mux2
+a[0] => s.IN0
+a[1] => s.IN0
+f => s.IN1
+f => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sr_b|mux2_1:mux1
+a[0] => s.IN0
+a[1] => s.IN0
+f => s.IN1
+f => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sr_b|mux2_1:mux0
+a[0] => s.IN0
+a[1] => s.IN0
+f => s.IN1
+f => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
 
 

@@ -23,16 +23,16 @@ begin
 	s(13 downto 4) <= "0000000000";
 
 	mux3: mux2_1
-		port map (a(0) => b(3), a(1) => entrada_serial, f => desloca, s => s(3));
+		port map (a(1) => b(3), a(0) => entrada_serial, f => desloca, s => s(3));
 		
 	mux2: mux2_1
-		port map (a(0) => b(2), a(1) => b(3), f => desloca, s => s(2));
+		port map (a(1) => b(2), a(0) => b(3), f => desloca, s => s(2));
 		
 	mux1: mux2_1
-		port map (a(0) => b(1), a(1) => b(2), f => desloca, s => s(1));
+		port map (a(1) => b(1), a(0) => b(2), f => desloca, s => s(1));
 		
 	mux0: mux2_1
-		port map (a(0) => b(0), a(1) => b(1), f => desloca, s => s(0));
+		port map (a(1) => b(0), a(0) => b(1), f => desloca, s => s(0));
 		
 end arq_sr_b;
 

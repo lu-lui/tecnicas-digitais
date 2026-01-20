@@ -3,7 +3,7 @@ $comment
 		vcd file trabalho_td.msim.vcd -direction
 $end
 $date
-	Sun Jan 18 18:03:23 2026
+	Tue Jan 20 15:41:53 2026
 $end
 $version
 	ModelSim Version 10.1d
@@ -11,16875 +11,3427 @@ $end
 $timescale
 	1ps
 $end
-$scope module display_7seg_vlg_vec_tst $end
-$var reg 14 ! entrada [13:0] $end
-$var wire 1 " s_dezena [6] $end
-$var wire 1 # s_dezena [5] $end
-$var wire 1 $ s_dezena [4] $end
-$var wire 1 % s_dezena [3] $end
-$var wire 1 & s_dezena [2] $end
-$var wire 1 ' s_dezena [1] $end
-$var wire 1 ( s_dezena [0] $end
-$var wire 1 ) s_unidade [6] $end
-$var wire 1 * s_unidade [5] $end
-$var wire 1 + s_unidade [4] $end
-$var wire 1 , s_unidade [3] $end
-$var wire 1 - s_unidade [2] $end
-$var wire 1 . s_unidade [1] $end
-$var wire 1 / s_unidade [0] $end
-$var wire 1 0 sampler $end
+$scope module sr_b_vlg_vec_tst $end
+$var reg 4 ! b [3:0] $end
+$var reg 1 " desloca $end
+$var reg 1 # entrada_serial $end
+$var wire 1 $ s [13] $end
+$var wire 1 % s [12] $end
+$var wire 1 & s [11] $end
+$var wire 1 ' s [10] $end
+$var wire 1 ( s [9] $end
+$var wire 1 ) s [8] $end
+$var wire 1 * s [7] $end
+$var wire 1 + s [6] $end
+$var wire 1 , s [5] $end
+$var wire 1 - s [4] $end
+$var wire 1 . s [3] $end
+$var wire 1 / s [2] $end
+$var wire 1 0 s [1] $end
+$var wire 1 1 s [0] $end
+$var wire 1 2 sampler $end
 $scope module i1 $end
-$var wire 1 1 gnd $end
-$var wire 1 2 vcc $end
-$var wire 1 3 unknown $end
-$var tri1 1 4 devclrn $end
-$var tri1 1 5 devpor $end
-$var tri1 1 6 devoe $end
-$var wire 1 7 Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout $end
-$var wire 1 8 Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout $end
-$var wire 1 9 Div0|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout $end
-$var wire 1 : Div0|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout $end
-$var wire 1 ; Div0|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout $end
-$var wire 1 < Mod0|auto_generated|divider|divider|add_sub_4_result_int[2]~2_combout $end
-$var wire 1 = Mod0|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout $end
-$var wire 1 > Mod0|auto_generated|divider|divider|add_sub_5_result_int[1]~0_combout $end
-$var wire 1 ? Mod0|auto_generated|divider|divider|add_sub_5_result_int[2]~2_combout $end
-$var wire 1 @ Mod0|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout $end
-$var wire 1 A Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~6_combout $end
-$var wire 1 B Mod0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout $end
-$var wire 1 C Mod0|auto_generated|divider|divider|add_sub_6_result_int[3]~5 $end
-$var wire 1 D Mod0|auto_generated|divider|divider|add_sub_6_result_int[4]~7_cout $end
-$var wire 1 E Mod0|auto_generated|divider|divider|add_sub_6_result_int[5]~9_cout $end
-$var wire 1 F Mod0|auto_generated|divider|divider|add_sub_6_result_int[6]~11_cout $end
-$var wire 1 G Mod0|auto_generated|divider|divider|add_sub_6_result_int[7]~12_combout $end
-$var wire 1 H Div0|auto_generated|divider|divider|StageOut[18]~27_combout $end
-$var wire 1 I Div0|auto_generated|divider|divider|StageOut[17]~29_combout $end
-$var wire 1 J Div0|auto_generated|divider|divider|StageOut[16]~31_combout $end
-$var wire 1 K Div0|auto_generated|divider|divider|StageOut[15]~32_combout $end
-$var wire 1 L Div0|auto_generated|divider|divider|StageOut[22]~35_combout $end
-$var wire 1 M Div0|auto_generated|divider|divider|StageOut[21]~37_combout $end
-$var wire 1 N Div0|auto_generated|divider|divider|StageOut[20]~39_combout $end
-$var wire 1 O Div0|auto_generated|divider|divider|StageOut[27]~41_combout $end
-$var wire 1 P Div0|auto_generated|divider|divider|StageOut[26]~43_combout $end
-$var wire 1 Q Div0|auto_generated|divider|divider|StageOut[25]~45_combout $end
-$var wire 1 R Mod0|auto_generated|divider|divider|StageOut[24]~38_combout $end
-$var wire 1 S Mod0|auto_generated|divider|divider|StageOut[23]~40_combout $end
-$var wire 1 T Mod0|auto_generated|divider|divider|StageOut[22]~42_combout $end
-$var wire 1 U Mod0|auto_generated|divider|divider|StageOut[21]~44_combout $end
-$var wire 1 V Mod0|auto_generated|divider|divider|StageOut[31]~47_combout $end
-$var wire 1 W Mod0|auto_generated|divider|divider|StageOut[30]~48_combout $end
-$var wire 1 X Mod0|auto_generated|divider|divider|StageOut[29]~50_combout $end
-$var wire 1 Y Mod0|auto_generated|divider|divider|StageOut[28]~51_combout $end
-$var wire 1 Z Mod0|auto_generated|divider|divider|StageOut[35]~53_combout $end
-$var wire 1 [ Mod0|auto_generated|divider|divider|StageOut[40]~55_combout $end
-$var wire 1 \ Mod0|auto_generated|divider|divider|StageOut[39]~56_combout $end
-$var wire 1 ] Mod0|auto_generated|divider|divider|StageOut[38]~57_combout $end
-$var wire 1 ^ Div0|auto_generated|divider|divider|StageOut[28]~46_combout $end
-$var wire 1 _ Mod0|auto_generated|divider|divider|StageOut[40]~64_combout $end
-$var wire 1 ` Mod0|auto_generated|divider|divider|StageOut[39]~65_combout $end
-$var wire 1 a Mod0|auto_generated|divider|divider|StageOut[38]~66_combout $end
-$var wire 1 b Div0|auto_generated|divider|divider|StageOut[23]~47_combout $end
-$var wire 1 c Mod0|auto_generated|divider|divider|StageOut[32]~67_combout $end
-$var wire 1 d entrada[7]~input_o $end
-$var wire 1 e entrada[8]~input_o $end
-$var wire 1 f entrada[9]~input_o $end
-$var wire 1 g entrada[10]~input_o $end
-$var wire 1 h entrada[11]~input_o $end
-$var wire 1 i entrada[12]~input_o $end
-$var wire 1 j entrada[13]~input_o $end
-$var wire 1 k s_dezena[0]~output_o $end
-$var wire 1 l s_dezena[1]~output_o $end
-$var wire 1 m s_dezena[2]~output_o $end
-$var wire 1 n s_dezena[3]~output_o $end
-$var wire 1 o s_dezena[4]~output_o $end
-$var wire 1 p s_dezena[5]~output_o $end
-$var wire 1 q s_dezena[6]~output_o $end
-$var wire 1 r s_unidade[0]~output_o $end
-$var wire 1 s s_unidade[1]~output_o $end
-$var wire 1 t s_unidade[2]~output_o $end
-$var wire 1 u s_unidade[3]~output_o $end
-$var wire 1 v s_unidade[4]~output_o $end
-$var wire 1 w s_unidade[5]~output_o $end
-$var wire 1 x s_unidade[6]~output_o $end
-$var wire 1 y entrada[6]~input_o $end
-$var wire 1 z entrada[5]~input_o $end
-$var wire 1 { entrada[4]~input_o $end
-$var wire 1 | Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~1 $end
-$var wire 1 } Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~3 $end
-$var wire 1 ~ Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~5 $end
-$var wire 1 !! Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout $end
-$var wire 1 "! Div0|auto_generated|divider|divider|StageOut[17]~28_combout $end
-$var wire 1 #! Div0|auto_generated|divider|divider|StageOut[16]~30_combout $end
-$var wire 1 $! entrada[3]~input_o $end
-$var wire 1 %! Div0|auto_generated|divider|divider|StageOut[15]~33_combout $end
-$var wire 1 &! Div0|auto_generated|divider|divider|add_sub_4_result_int[1]~1 $end
-$var wire 1 '! Div0|auto_generated|divider|divider|add_sub_4_result_int[2]~3 $end
-$var wire 1 (! Div0|auto_generated|divider|divider|add_sub_4_result_int[3]~4_combout $end
-$var wire 1 )! Div0|auto_generated|divider|divider|StageOut[18]~26_combout $end
-$var wire 1 *! Div0|auto_generated|divider|divider|add_sub_4_result_int[3]~5 $end
-$var wire 1 +! Div0|auto_generated|divider|divider|add_sub_4_result_int[4]~7_cout $end
-$var wire 1 ,! Div0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout $end
-$var wire 1 -! Div0|auto_generated|divider|divider|StageOut[23]~34_combout $end
-$var wire 1 .! Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout $end
-$var wire 1 /! Div0|auto_generated|divider|divider|StageOut[22]~48_combout $end
-$var wire 1 0! Div0|auto_generated|divider|divider|StageOut[21]~36_combout $end
-$var wire 1 1! entrada[2]~input_o $end
-$var wire 1 2! Div0|auto_generated|divider|divider|StageOut[20]~38_combout $end
-$var wire 1 3! Div0|auto_generated|divider|divider|add_sub_5_result_int[1]~1 $end
-$var wire 1 4! Div0|auto_generated|divider|divider|add_sub_5_result_int[2]~3 $end
-$var wire 1 5! Div0|auto_generated|divider|divider|add_sub_5_result_int[3]~5 $end
-$var wire 1 6! Div0|auto_generated|divider|divider|add_sub_5_result_int[4]~7_cout $end
-$var wire 1 7! Div0|auto_generated|divider|divider|add_sub_5_result_int[5]~8_combout $end
-$var wire 1 8! Div0|auto_generated|divider|divider|add_sub_5_result_int[3]~4_combout $end
-$var wire 1 9! Div0|auto_generated|divider|divider|StageOut[28]~40_combout $end
-$var wire 1 :! Div0|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout $end
-$var wire 1 ;! Div0|auto_generated|divider|divider|StageOut[27]~49_combout $end
-$var wire 1 <! Div0|auto_generated|divider|divider|StageOut[26]~42_combout $end
-$var wire 1 =! entrada[1]~input_o $end
-$var wire 1 >! Div0|auto_generated|divider|divider|StageOut[25]~44_combout $end
-$var wire 1 ?! Div0|auto_generated|divider|divider|add_sub_6_result_int[1]~1_cout $end
-$var wire 1 @! Div0|auto_generated|divider|divider|add_sub_6_result_int[2]~3_cout $end
-$var wire 1 A! Div0|auto_generated|divider|divider|add_sub_6_result_int[3]~5_cout $end
-$var wire 1 B! Div0|auto_generated|divider|divider|add_sub_6_result_int[4]~7_cout $end
-$var wire 1 C! Div0|auto_generated|divider|divider|add_sub_6_result_int[5]~8_combout $end
-$var wire 1 D! Mux6~0_combout $end
-$var wire 1 E! Mux5~0_combout $end
-$var wire 1 F! Mux4~0_combout $end
-$var wire 1 G! Mux3~0_combout $end
-$var wire 1 H! Mux2~0_combout $end
-$var wire 1 I! Mux1~0_combout $end
-$var wire 1 J! Mux0~0_combout $end
-$var wire 1 K! Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~1 $end
-$var wire 1 L! Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~3 $end
-$var wire 1 M! Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~5 $end
-$var wire 1 N! Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~6_combout $end
-$var wire 1 O! Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~4_combout $end
-$var wire 1 P! Mod0|auto_generated|divider|divider|StageOut[24]~39_combout $end
-$var wire 1 Q! Mod0|auto_generated|divider|divider|add_sub_3_result_int[2]~2_combout $end
-$var wire 1 R! Mod0|auto_generated|divider|divider|StageOut[23]~41_combout $end
-$var wire 1 S! Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~0_combout $end
-$var wire 1 T! Mod0|auto_generated|divider|divider|StageOut[22]~43_combout $end
-$var wire 1 U! Mod0|auto_generated|divider|divider|StageOut[21]~45_combout $end
-$var wire 1 V! Mod0|auto_generated|divider|divider|add_sub_4_result_int[1]~1 $end
-$var wire 1 W! Mod0|auto_generated|divider|divider|add_sub_4_result_int[2]~3 $end
-$var wire 1 X! Mod0|auto_generated|divider|divider|add_sub_4_result_int[3]~5 $end
-$var wire 1 Y! Mod0|auto_generated|divider|divider|add_sub_4_result_int[4]~6_combout $end
-$var wire 1 Z! Mod0|auto_generated|divider|divider|StageOut[32]~46_combout $end
-$var wire 1 [! Mod0|auto_generated|divider|divider|add_sub_4_result_int[4]~7 $end
-$var wire 1 \! Mod0|auto_generated|divider|divider|add_sub_4_result_int[5]~8_combout $end
-$var wire 1 ]! Mod0|auto_generated|divider|divider|StageOut[31]~68_combout $end
-$var wire 1 ^! Mod0|auto_generated|divider|divider|StageOut[30]~69_combout $end
-$var wire 1 _! Mod0|auto_generated|divider|divider|StageOut[29]~49_combout $end
-$var wire 1 `! Mod0|auto_generated|divider|divider|StageOut[28]~52_combout $end
-$var wire 1 a! Mod0|auto_generated|divider|divider|add_sub_5_result_int[1]~1 $end
-$var wire 1 b! Mod0|auto_generated|divider|divider|add_sub_5_result_int[2]~3 $end
-$var wire 1 c! Mod0|auto_generated|divider|divider|add_sub_5_result_int[3]~5 $end
-$var wire 1 d! Mod0|auto_generated|divider|divider|add_sub_5_result_int[4]~7 $end
-$var wire 1 e! Mod0|auto_generated|divider|divider|add_sub_5_result_int[5]~9 $end
-$var wire 1 f! Mod0|auto_generated|divider|divider|add_sub_5_result_int[6]~10_combout $end
-$var wire 1 g! Mod0|auto_generated|divider|divider|StageOut[37]~58_combout $end
-$var wire 1 h! Mod0|auto_generated|divider|divider|StageOut[36]~59_combout $end
-$var wire 1 i! Mod0|auto_generated|divider|divider|StageOut[35]~54_combout $end
-$var wire 1 j! Mod0|auto_generated|divider|divider|add_sub_6_result_int[1]~1 $end
-$var wire 1 k! Mod0|auto_generated|divider|divider|add_sub_6_result_int[2]~3 $end
-$var wire 1 l! Mod0|auto_generated|divider|divider|add_sub_6_result_int[3]~4_combout $end
-$var wire 1 m! Mod0|auto_generated|divider|divider|add_sub_4_result_int[1]~0_combout $end
-$var wire 1 n! Mod0|auto_generated|divider|divider|StageOut[37]~70_combout $end
-$var wire 1 o! Mod0|auto_generated|divider|divider|StageOut[45]~63_combout $end
-$var wire 1 p! Mod0|auto_generated|divider|divider|add_sub_6_result_int[2]~2_combout $end
-$var wire 1 q! Mod0|auto_generated|divider|divider|StageOut[36]~60_combout $end
-$var wire 1 r! Mod0|auto_generated|divider|divider|StageOut[44]~62_combout $end
-$var wire 1 s! Mod0|auto_generated|divider|divider|add_sub_6_result_int[1]~0_combout $end
-$var wire 1 t! Mod0|auto_generated|divider|divider|StageOut[43]~61_combout $end
-$var wire 1 u! entrada[0]~input_o $end
-$var wire 1 v! Mux13~0_combout $end
-$var wire 1 w! Mux12~0_combout $end
-$var wire 1 x! Mux11~0_combout $end
-$var wire 1 y! Mux10~0_combout $end
-$var wire 1 z! Mux9~0_combout $end
-$var wire 1 {! Mux8~0_combout $end
-$var wire 1 |! Mux7~0_combout $end
+$var wire 1 3 gnd $end
+$var wire 1 4 vcc $end
+$var wire 1 5 unknown $end
+$var tri1 1 6 devclrn $end
+$var tri1 1 7 devpor $end
+$var tri1 1 8 devoe $end
+$var wire 1 9 s[0]~output_o $end
+$var wire 1 : s[1]~output_o $end
+$var wire 1 ; s[2]~output_o $end
+$var wire 1 < s[3]~output_o $end
+$var wire 1 = s[4]~output_o $end
+$var wire 1 > s[5]~output_o $end
+$var wire 1 ? s[6]~output_o $end
+$var wire 1 @ s[7]~output_o $end
+$var wire 1 A s[8]~output_o $end
+$var wire 1 B s[9]~output_o $end
+$var wire 1 C s[10]~output_o $end
+$var wire 1 D s[11]~output_o $end
+$var wire 1 E s[12]~output_o $end
+$var wire 1 F s[13]~output_o $end
+$var wire 1 G desloca~input_o $end
+$var wire 1 H b[0]~input_o $end
+$var wire 1 I b[1]~input_o $end
+$var wire 1 J mux0|s~0_combout $end
+$var wire 1 K b[2]~input_o $end
+$var wire 1 L mux1|s~0_combout $end
+$var wire 1 M b[3]~input_o $end
+$var wire 1 N mux2|s~0_combout $end
+$var wire 1 O entrada_serial~input_o $end
+$var wire 1 P mux3|s~0_combout $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
 #0
 $dumpvars
 b0 !
-x(
-x'
-x&
-x%
-x$
-x#
-x"
+0"
+0#
+x1
+x0
 x/
 x.
-x-
-x,
-x+
-x*
-x)
-x0
-01
-12
-x3
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+x2
+03
 14
-15
+x5
 16
-x7
-x8
+17
+18
 x9
 x:
 x;
 x<
-x=
-x>
-x?
-x@
-xA
-xB
-xC
-xD
-xE
-xF
-xG
-xH
-xI
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
 xJ
-xK
-xL
-xM
-xN
-xO
-xP
-xQ
-xR
-xS
-xT
-xU
-xV
-xW
-xX
-xY
-xZ
-x[
-x\
-x]
-x^
-x_
-x`
-xa
-xb
-xc
-0d
-0e
-0f
-0g
-0h
-0i
-0j
-xk
-xl
-xm
-xn
-xo
-xp
-xq
-xr
-xs
-xt
-xu
-xv
-xw
-xx
-0y
-0z
-0{
-x|
-x}
-x~
-x!!
-x"!
-x#!
-0$!
-x%!
-x&!
-x'!
-x(!
-x)!
-x*!
-x+!
-x,!
-x-!
-x.!
-x/!
-x0!
-01!
-x2!
-x3!
-x4!
-x5!
-x6!
-x7!
-x8!
-x9!
-x:!
-x;!
-x<!
-0=!
-x>!
-x?!
-x@!
-xA!
-xB!
-xC!
-xD!
-xE!
-xF!
-xG!
-xH!
-xI!
-xJ!
-xK!
-xL!
-xM!
-xN!
-xO!
-xP!
-xQ!
-xR!
-xS!
-xT!
-xU!
-xV!
-xW!
-xX!
-xY!
-xZ!
-x[!
-x\!
-x]!
-x^!
-x_!
-x`!
-xa!
-xb!
-xc!
-xd!
-xe!
-xf!
-xg!
-xh!
-xi!
-xj!
-xk!
-xl!
-xm!
-xn!
-xo!
-xp!
-xq!
-xr!
-xs!
-xt!
-0u!
-xv!
-xw!
-xx!
-xy!
-xz!
-x{!
-x|!
-$end
-#500
-b10000000000000 !
-1j
-00
-#1000
-b11000000000000 !
-b1000000000000 !
-1i
-0j
-10
-#1500
-b11000000000000 !
-1j
-00
-#2000
-b11100000000000 !
-b10100000000000 !
-b100000000000 !
-1h
-0i
-0j
-10
-#2500
-b10100000000000 !
-1j
-00
-#3000
-b11100000000000 !
-b1100000000000 !
-1i
-0j
-10
-#3500
-b11100000000000 !
-1j
-00
-#3575
-0)!
-#3683
-0~
-#3702
-0h!
-#3752
-0T
-#3768
-0Y
-#3770
-0`!
-#3787
-02!
-#3790
-0N
-#3830
-0_!
-#3834
-0R
-#3861
-0%!
-#3862
-0U
-#3865
-0U!
-#3901
-0S
-#3942
-0#!
-#3943
-0M!
-#3990
-0K!
-#4000
-b11110000000000 !
-b11010000000000 !
-b10010000000000 !
-b10000000000 !
-1g
-0h
-0i
-0j
-10
-#4027
-1S!
-#4031
-0<!
-#4048
-1L!
-#4050
-0"!
-#4117
-0Q
-#4121
-0>!
-#4138
-1!!
-#4185
-0|
-#4222
-1.!
-#4225
 0K
-00!
-#4243
-1}
-#4331
-0a!
-#4353
-03!
-#4370
-1>
-#4392
-1:
-#4398
-1N!
-#4422
-0V!
-#4445
-1Q!
-#4461
-1m!
-#4485
-0O!
-#4500
-b10010000000000 !
-1j
-00
-#4501
+xL
+0M
+xN
+0O
+xP
+$end
+#3877
 0J
-#4502
-0H
-#4503
-0I
-#4567
-0Z
-#4568
-0i!
-#4640
-17
-#4677
-0?!
-#4680
-08
-#4782
-0b
-#4783
-0/!
-#4869
-0P!
-0T!
-#4871
-0^!
-#4979
-0c
+#3882
+0N
+#4174
+0L
+#4282
+0P
 #5000
-b11010000000000 !
-b1010000000000 !
-1i
-0j
-10
-#5091
-0&!
-#5128
-1:!
-#5131
-0j!
-#5149
-1'!
-#5151
-0]!
-#5153
-0R!
-#5170
-1s!
-#5207
-0*!
-#5265
-1+!
-#5500
-b11010000000000 !
-1j
+b1000 !
+02
+#5517
+1M
+#6879
+0;
+0/
+#6943
+09
+01
+#7134
+0:
 00
-#5546
-19
-#5555
-0(!
-#5712
-0X!
-#5720
-1,!
-#5770
-1[!
-#5883
-1<
-#5979
-1W!
-#6000
-b11110000000000 !
-b10110000000000 !
-b110000000000 !
-1h
-0i
-0j
-10
-#6160
-0-!
-#6167
-1Y!
-#6225
-1\!
-#6235
-0^
-#6236
-0;!
-#6237
-0L
-0M
-#6414
-0E!
-#6416
-0=
-#6500
-b10110000000000 !
-1j
-00
-#6686
-0V
-#6687
-0X
-#6688
-0`
-#6834
-1;
-#6920
-14!
-#6926
-05!
-#6984
-16!
-#7000
-b11110000000000 !
-b1110000000000 !
-1i
-0j
-10
-#7178
-0W
-#7184
-0a
-#7262
-0n!
-#7276
-0_
-#7339
-0Z!
-#7357
-08!
-#7439
-17!
-#7500
-b11110000000000 !
-1j
-00
-#7675
-09!
-#7712
-1?
-#7739
-0c!
-#7797
-1d!
-#7798
-1b!
-#7855
-0e!
-#7893
-0O
-#8000
-b11111000000000 !
-b11101000000000 !
-b11001000000000 !
-b10001000000000 !
-b1000000000 !
-1f
-0g
-0h
-0i
-0j
-10
-#8124
-0J!
-0P
-0F!
-#8194
-1A
-#8235
-0@
-#8252
-1B
-#8310
-1f!
-#8500
-b10001000000000 !
-1j
-00
-#8590
-0A!
-#8648
-1B!
-#8649
-0[
-#8654
-0\
-#8681
-0]
-#8963
-1@!
-#9000
-b11001000000000 !
-b1001000000000 !
-1i
-0j
-10
-#9103
-1C!
-#9500
-b11001000000000 !
-1j
-00
-#9673
-0g!
-#9674
-0q!
-#9699
-0D!
-#9732
-0H!
-#9735
-0G!
-#9736
-0I!
-#9992
-0l
-0'
+#8250
+0<
+0.
+#8955
+1P
 #10000
-b11101000000000 !
-b10101000000000 !
-b101000000000 !
-1h
-0i
-0j
-10
-#10239
-0C
-#10297
-1D
-#10355
-0E
-#10413
-1F
-#10414
-1p!
-#10500
-1k!
-b10101000000000 !
-1j
-00
-#10868
-1G
-#10937
-0l!
-#11000
-b11101000000000 !
-b1101000000000 !
-1i
-0j
-10
-#11410
-0m
-0&
-#11443
-0t!
-#11473
-0o!
-0r!
-#11500
-b11101000000000 !
-1j
-00
-#11855
-1q
-1"
-#12000
-b11111000000000 !
-b11011000000000 !
-b10011000000000 !
-b11000000000 !
-1g
-0h
-0i
-0j
-10
-#12500
-b10011000000000 !
-1j
-00
-#12945
-0k
-0(
-#13000
-b11011000000000 !
-b1011000000000 !
-1i
-0j
-10
-#13017
-0o
-0$
-#13060
-0v!
-#13061
-0w!
-0x!
-#13063
-0z!
-#13067
-0{!
-#13068
-0y!
-#13167
-0p
-0#
-#13206
-0|!
-#13500
-b11011000000000 !
-1j
-00
-#13601
-0n
-0%
-#14000
-b11111000000000 !
-b10111000000000 !
-b111000000000 !
-1h
-0i
-0j
-10
-#14500
-b10111000000000 !
-1j
-00
+b1100 !
+b100 !
+12
+#10517
+1K
+#10691
+0M
+#12996
+1<
+1.
+#14137
+1N
+#14401
+0P
 #15000
-b11111000000000 !
-b1111000000000 !
-1i
-0j
-10
-#15500
-b11111000000000 !
-1j
-00
-#16000
-b11111100000000 !
-b11110100000000 !
-b11100100000000 !
-b11000100000000 !
-b10000100000000 !
-b100000000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#16023
-0t
-0-
-#16038
-0u
-0,
-#16299
-0w
-0*
-#16319
-0s
+b1100 !
+02
+#15517
+1M
+#17250
+1;
+1/
+#18369
+0<
 0.
-#16360
-0v
-0+
-#16500
-b10000100000000 !
-1j
-00
-#16563
-0r
-0/
-#16678
-1x
-1)
-#17000
-b11000100000000 !
-b1000100000000 !
-1i
-0j
-10
-#17500
-b11000100000000 !
-1j
-00
-#18000
-b11100100000000 !
-b10100100000000 !
-b100100000000 !
-1h
-0i
-0j
-10
-#18500
-b10100100000000 !
-1j
-00
-#19000
-b11100100000000 !
-b1100100000000 !
-1i
-0j
-10
-#19500
-b11100100000000 !
-1j
-00
+#18955
+1P
 #20000
-b11110100000000 !
-b11010100000000 !
-b10010100000000 !
-b10100000000 !
-1g
-0h
-0i
-0j
-10
-#20500
-b10010100000000 !
-1j
-00
-#21000
-b11010100000000 !
-b1010100000000 !
-1i
-0j
-10
-#21500
-b11010100000000 !
-1j
-00
-#22000
-b11110100000000 !
-b10110100000000 !
-b110100000000 !
-1h
-0i
-0j
-10
-#22500
-b10110100000000 !
-1j
-00
-#23000
-b11110100000000 !
-b1110100000000 !
-1i
-0j
-10
-#23500
-b11110100000000 !
-1j
-00
-#24000
-b11111100000000 !
-b11101100000000 !
-b11001100000000 !
-b10001100000000 !
-b1100000000 !
-1f
-0g
-0h
-0i
-0j
-10
-#24500
-b10001100000000 !
-1j
-00
+b1110 !
+b1010 !
+b10 !
+12
+#20507
+1I
+#20691
+0M
+0K
+#22996
+1<
+1.
+#24401
+0P
+#24409
+1L
+#24573
+0N
 #25000
-b11001100000000 !
-b1001100000000 !
-1i
-0j
+b1010 !
+02
+#25517
+1M
+#27491
+1:
 10
-#25500
-b11001100000000 !
-1j
-00
-#26000
-b11101100000000 !
-b10101100000000 !
-b101100000000 !
-1h
-0i
-0j
-10
-#26500
-b10101100000000 !
-1j
-00
-#27000
-b11101100000000 !
-b1101100000000 !
-1i
-0j
-10
-#27500
-b11101100000000 !
-1j
-00
-#28000
-b11111100000000 !
-b11011100000000 !
-b10011100000000 !
-b11100000000 !
-1g
-0h
-0i
-0j
-10
-#28500
-b10011100000000 !
-1j
-00
-#29000
-b11011100000000 !
-b1011100000000 !
-1i
-0j
-10
-#29500
-b11011100000000 !
-1j
-00
+#27570
+0;
+0/
+#28369
+0<
+0.
+#28955
+1P
 #30000
-b11111100000000 !
-b10111100000000 !
-b111100000000 !
-1h
-0i
-0j
-10
-#30500
-b10111100000000 !
-1j
-00
-#31000
-b11111100000000 !
-b1111100000000 !
-1i
-0j
-10
-#31500
-b11111100000000 !
-1j
-00
-#32000
-b11111110000000 !
-b11111010000000 !
-b11110010000000 !
-b11100010000000 !
-b11000010000000 !
-b10000010000000 !
-b10000000 !
-1d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#32500
-b10000010000000 !
-1j
-00
-#33000
-b11000010000000 !
-b1000010000000 !
-1i
-0j
-10
-#33500
-b11000010000000 !
-1j
-00
-#34000
-b11100010000000 !
-b10100010000000 !
-b100010000000 !
-1h
-0i
-0j
-10
-#34500
-b10100010000000 !
-1j
-00
+b1110 !
+b110 !
+12
+#30517
+1K
+#30691
+0M
+#32996
+1<
+1.
+#34137
+1N
+#34401
+0P
 #35000
-b11100010000000 !
-b1100010000000 !
-1i
-0j
-10
-#35500
-b11100010000000 !
-1j
-00
-#36000
-b11110010000000 !
-b11010010000000 !
-b10010010000000 !
-b10010000000 !
-1g
-0h
-0i
-0j
-10
-#36500
-b10010010000000 !
-1j
-00
-#37000
-b11010010000000 !
-b1010010000000 !
-1i
-0j
-10
-#37500
-b11010010000000 !
-1j
-00
-#38000
-b11110010000000 !
-b10110010000000 !
-b110010000000 !
-1h
-0i
-0j
-10
-#38500
-b10110010000000 !
-1j
-00
-#39000
-b11110010000000 !
-b1110010000000 !
-1i
-0j
-10
-#39500
-b11110010000000 !
-1j
-00
+b1110 !
+02
+#35517
+1M
+#37250
+1;
+1/
+#38369
+0<
+0.
+#38955
+1P
 #40000
-b11111010000000 !
-b11101010000000 !
-b11001010000000 !
-b10001010000000 !
-b1010000000 !
-1f
-0g
-0h
-0i
-0j
-10
-#40500
-b10001010000000 !
-1j
-00
-#41000
-b11001010000000 !
-b1001010000000 !
-1i
-0j
-10
-#41500
-b11001010000000 !
-1j
-00
-#42000
-b11101010000000 !
-b10101010000000 !
-b101010000000 !
-1h
-0i
-0j
-10
-#42500
-b10101010000000 !
-1j
-00
-#43000
-b11101010000000 !
-b1101010000000 !
-1i
-0j
-10
-#43500
-b11101010000000 !
-1j
-00
-#44000
-b11111010000000 !
-b11011010000000 !
-b10011010000000 !
-b11010000000 !
-1g
-0h
-0i
-0j
-10
-#44500
-b10011010000000 !
-1j
-00
+b1111 !
+b1101 !
+b1001 !
+b1 !
+12
+#40517
+1H
+#40681
+0I
+#40691
+0M
+0K
+#42996
+1<
+1.
+#44066
+1J
+#44401
+0P
+#44573
+0N
+#44855
+0L
 #45000
-b11011010000000 !
-b1011010000000 !
-1i
-0j
-10
-#45500
-b11011010000000 !
-1j
+b1001 !
+02
+#45517
+1M
+#47256
+19
+11
+#47570
+0;
+0/
+#47815
+0:
 00
-#46000
-b11111010000000 !
-b10111010000000 !
-b111010000000 !
-1h
-0i
-0j
-10
-#46500
-b10111010000000 !
-1j
-00
-#47000
-b11111010000000 !
-b1111010000000 !
-1i
-0j
-10
-#47500
-b11111010000000 !
-1j
-00
-#48000
-b11111110000000 !
-b11110110000000 !
-b11100110000000 !
-b11000110000000 !
-b10000110000000 !
-b110000000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#48500
-b10000110000000 !
-1j
-00
-#49000
-b11000110000000 !
-b1000110000000 !
-1i
-0j
-10
-#49500
-b11000110000000 !
-1j
-00
+#48369
+0<
+0.
+#48955
+1P
 #50000
-b11100110000000 !
-b10100110000000 !
-b100110000000 !
-1h
-0i
-0j
-10
-#50500
-b10100110000000 !
-1j
-00
-#51000
-b11100110000000 !
-b1100110000000 !
-1i
-0j
-10
-#51500
-b11100110000000 !
-1j
-00
-#52000
-b11110110000000 !
-b11010110000000 !
-b10010110000000 !
-b10110000000 !
-1g
-0h
-0i
-0j
-10
-#52500
-b10010110000000 !
-1j
-00
-#53000
-b11010110000000 !
-b1010110000000 !
-1i
-0j
-10
-#53500
-b11010110000000 !
-1j
-00
-#54000
-b11110110000000 !
-b10110110000000 !
-b110110000000 !
-1h
-0i
-0j
-10
-#54500
-b10110110000000 !
-1j
-00
+b1101 !
+b101 !
+12
+#50517
+1K
+#50691
+0M
+#52996
+1<
+1.
+#54137
+1N
+#54401
+0P
 #55000
-b11110110000000 !
-b1110110000000 !
-1i
-0j
-10
-#55500
-b11110110000000 !
-1j
-00
-#56000
-b11111110000000 !
-b11101110000000 !
-b11001110000000 !
-b10001110000000 !
-b1110000000 !
-1f
-0g
-0h
-0i
-0j
-10
-#56500
-b10001110000000 !
-1j
-00
-#57000
-b11001110000000 !
-b1001110000000 !
-1i
-0j
-10
-#57500
-b11001110000000 !
-1j
-00
-#58000
-b11101110000000 !
-b10101110000000 !
-b101110000000 !
-1h
-0i
-0j
-10
-#58500
-b10101110000000 !
-1j
-00
-#59000
-b11101110000000 !
-b1101110000000 !
-1i
-0j
-10
-#59500
-b11101110000000 !
-1j
-00
+b1101 !
+02
+#55517
+1M
+#57250
+1;
+1/
+#58369
+0<
+0.
+#58955
+1P
 #60000
-b11111110000000 !
-b11011110000000 !
-b10011110000000 !
-b11110000000 !
-1g
-0h
-0i
-0j
-10
-#60500
-b10011110000000 !
-1j
-00
-#61000
-b11011110000000 !
-b1011110000000 !
-1i
-0j
-10
-#61500
-b11011110000000 !
-1j
-00
-#62000
-b11111110000000 !
-b10111110000000 !
-b111110000000 !
-1h
-0i
-0j
-10
-#62500
-b10111110000000 !
-1j
-00
-#63000
-b11111110000000 !
-b1111110000000 !
-1i
-0j
-10
-#63500
-b11111110000000 !
-1j
-00
-#64000
-b11111111000000 !
-b11111101000000 !
-b11111001000000 !
-b11110001000000 !
-b11100001000000 !
-b11000001000000 !
-b10000001000000 !
-b1000000 !
-0d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#64500
-b10000001000000 !
-1j
-00
-#64537
-1y
+b1111 !
+b1011 !
+b11 !
+12
+#60507
+1I
+#60691
+0M
+0K
+#62996
+1<
+1.
+#64401
+0P
+#64409
+1L
+#64573
+0N
 #65000
-b11000001000000 !
-b1000001000000 !
-1i
-0j
-10
-#65500
-b11000001000000 !
-1j
-00
-#66000
-b11100001000000 !
-b10100001000000 !
-b100001000000 !
-1h
-0i
-0j
-10
-#66500
-b10100001000000 !
-1j
-00
-#67000
-b11100001000000 !
-b1100001000000 !
-1i
-0j
-10
-#67500
-b11100001000000 !
-1j
-00
-#67866
-1)!
-#68000
-b11110001000000 !
-b11010001000000 !
-b10010001000000 !
-b10001000000 !
-1g
-0h
-0i
-0j
-10
-#68008
-18
-#68072
-1c
-#68082
-1R
-#68223
-1O!
-#68391
-0+!
-#68500
-b10010001000000 !
-1j
-00
-#68608
-0[!
-#68659
-0Y!
-#68828
-0,!
-#69000
-b11010001000000 !
-b1010001000000 !
-1i
-0j
-10
-#69012
-1_
-#69037
-0B
-#69045
-0\!
-#69154
-1e!
-#69383
-1^
-#69384
+b1011 !
+02
+#65517
 1M
-1;!
-#69385
-1L
-#69500
-b11010001000000 !
-1j
-00
-#69546
-1H!
-#69548
-1X
-1G!
-#69549
-1J!
-1D!
-#69591
-0f!
-#69910
-04!
-#69961
+#67491
+1:
+10
+#67570
 0;
-#69968
-15!
-#69970
-0_
-#69981
-1\
+0/
+#68369
+0<
+0.
+#68955
+1P
 #70000
-b11110001000000 !
-b10110001000000 !
-b110001000000 !
-1h
-0i
-0j
-10
-#70026
-06!
-#70029
-1W
-#70080
-0B!
-#70106
-0c
-#70109
-1n!
-#70143
-0F
-#70463
-07!
-#70500
-b10110001000000 !
-1j
-00
-#70508
-0b!
+b1111 !
+b111 !
+12
 #70517
-0C!
-#70536
-1o!
-#70559
-0?
-#70566
-1c!
-#70580
-0G
-#70624
-0d!
-#70681
-1l!
-#70948
-1E
-#70981
-1g!
-#70982
-1q!
-#71000
-b11110001000000 !
-b1110001000000 !
-1i
-0j
-10
-#71003
-0A
-#71085
-0;!
-#71098
-0n!
-#71169
-0D!
-#71190
-1t!
-#71213
-0J!
-1P
-1I!
-#71222
-1r!
-#71229
-0^
-#71500
-b11110001000000 !
-1j
-00
-#71563
-0g!
-#71612
-0\
-#71672
-0k!
-#71723
-0p!
-#71730
-1C
-#71788
-0D
-#71907
-0@!
-#72000
-b11111001000000 !
-b11101001000000 !
-b11001001000000 !
-b10001001000000 !
-b1001000000 !
-1f
-0g
-0h
-0i
-0j
-10
-#72074
-1B!
-#72129
-0C
-#72187
-1D
-#72215
-1|!
-#72245
-0E
-#72303
-1F
-#72313
-0r!
-#72500
-b10001001000000 !
-1j
-00
-#72529
-1C!
-#72541
-1y!
-#72542
-1{!
-#72544
-1z!
-#72545
-1w!
-1x!
-#72546
-1v!
-#72758
-1G
-#72946
-1o
-1$
-#73000
-b11001001000000 !
-b1001001000000 !
-1i
-0j
-10
-#73127
-1J!
-#73147
-1E!
-#73158
-0H!
-#73161
-0G!
-#73162
-0I!
-#73333
-0t!
-#73358
-1r!
-#73363
-0o!
-#73459
-1n
-1%
-#73500
-b11001001000000 !
-1j
-00
-#74000
-b11101001000000 !
-b10101001000000 !
-b101001000000 !
-1h
-0i
-0j
-10
-#74500
-b10101001000000 !
-1j
-00
+1K
+#70691
+0M
+#72996
+1<
+1.
+#74137
+1N
+#74401
+0P
 #75000
-b11101001000000 !
-b1101001000000 !
-1i
-0j
-10
-#75103
-0w!
-#75104
-0x!
-#75110
-0{!
-#75500
-b11101001000000 !
-1j
-00
-#75615
-1u
-1,
-#75781
-0x
-0)
-#75956
-1v
-1+
-#76000
-b11111001000000 !
-b11011001000000 !
-b10011001000000 !
-b11001000000 !
-1g
-0h
-0i
-0j
-10
-#76135
-1r
+b1111 !
+02
+#75517
+1M
+#77250
+1;
 1/
-#76443
-0o
-0$
-#76500
-b10011001000000 !
-1j
-00
-#76837
-1l
-1'
-#76948
-0q
-0"
-#77000
-b11011001000000 !
-b1011001000000 !
-1i
-0j
-10
-#77027
-0n
-0%
-#77500
-b11011001000000 !
-1j
-00
-#78000
-b11111001000000 !
-b10111001000000 !
-b111001000000 !
-1h
-0i
-0j
-10
-#78500
-b10111001000000 !
-1j
-00
-#79000
-b11111001000000 !
-b1111001000000 !
-1i
-0j
-10
-#79500
-b11111001000000 !
-1j
-00
+#78369
+0<
+0.
+#78955
+1P
 #80000
-b11111101000000 !
-b11110101000000 !
-b11100101000000 !
-b11000101000000 !
-b10000101000000 !
-b101000000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#80500
-b10000101000000 !
-1j
-00
-#81000
-b11000101000000 !
-b1000101000000 !
-1i
-0j
-10
-#81500
-b11000101000000 !
-1j
-00
-#82000
-b11100101000000 !
-b10100101000000 !
-b100101000000 !
-1h
-0i
-0j
-10
-#82500
-b10100101000000 !
-1j
-00
-#83000
-b11100101000000 !
-b1100101000000 !
-1i
-0j
-10
-#83500
-b11100101000000 !
-1j
-00
-#84000
-b11110101000000 !
-b11010101000000 !
-b10010101000000 !
-b10101000000 !
-1g
-0h
-0i
-0j
-10
-#84500
-b10010101000000 !
-1j
-00
-#85000
-b11010101000000 !
-b1010101000000 !
-1i
-0j
-10
-#85500
-b11010101000000 !
-1j
-00
-#86000
-b11110101000000 !
-b10110101000000 !
-b110101000000 !
-1h
-0i
-0j
-10
-#86500
-b10110101000000 !
-1j
-00
-#87000
-b11110101000000 !
-b1110101000000 !
-1i
-0j
-10
-#87500
-b11110101000000 !
-1j
-00
-#88000
-b11111101000000 !
-b11101101000000 !
-b11001101000000 !
-b10001101000000 !
-b1101000000 !
-1f
-0g
-0h
-0i
-0j
-10
-#88500
-b10001101000000 !
-1j
-00
-#89000
-b11001101000000 !
-b1001101000000 !
-1i
-0j
-10
-#89500
-b11001101000000 !
-1j
-00
-#90000
-b11101101000000 !
-b10101101000000 !
-b101101000000 !
-1h
-0i
-0j
-10
-#90500
-b10101101000000 !
-1j
-00
-#91000
-b11101101000000 !
-b1101101000000 !
-1i
-0j
-10
-#91500
-b11101101000000 !
-1j
-00
-#92000
-b11111101000000 !
-b11011101000000 !
-b10011101000000 !
-b11101000000 !
-1g
-0h
-0i
-0j
-10
-#92500
-b10011101000000 !
-1j
-00
-#93000
-b11011101000000 !
-b1011101000000 !
-1i
-0j
-10
-#93500
-b11011101000000 !
-1j
-00
-#94000
-b11111101000000 !
-b10111101000000 !
-b111101000000 !
-1h
-0i
-0j
-10
-#94500
-b10111101000000 !
-1j
-00
-#95000
-b11111101000000 !
-b1111101000000 !
-1i
-0j
-10
-#95500
-b11111101000000 !
-1j
-00
-#96000
-b11111111000000 !
-b11111011000000 !
-b11110011000000 !
-b11100011000000 !
-b11000011000000 !
-b10000011000000 !
-b11000000 !
-1d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#96500
-b10000011000000 !
-1j
-00
-#97000
-b11000011000000 !
-b1000011000000 !
-1i
-0j
-10
-#97500
-b11000011000000 !
-1j
-00
-#98000
-b11100011000000 !
-b10100011000000 !
-b100011000000 !
-1h
-0i
-0j
-10
-#98500
-b10100011000000 !
-1j
-00
-#99000
-b11100011000000 !
-b1100011000000 !
-1i
-0j
-10
-#99500
-b11100011000000 !
-1j
-00
-#100000
-b11110011000000 !
-b11010011000000 !
-b10010011000000 !
-b10011000000 !
-1g
-0h
-0i
-0j
-10
-#100500
-b10010011000000 !
-1j
-00
-#101000
-b11010011000000 !
-b1010011000000 !
-1i
-0j
-10
-#101500
-b11010011000000 !
-1j
-00
-#102000
-b11110011000000 !
-b10110011000000 !
-b110011000000 !
-1h
-0i
-0j
-10
-#102500
-b10110011000000 !
-1j
-00
-#103000
-b11110011000000 !
-b1110011000000 !
-1i
-0j
-10
-#103500
-b11110011000000 !
-1j
-00
-#104000
-b11111011000000 !
-b11101011000000 !
-b11001011000000 !
-b10001011000000 !
-b1011000000 !
-1f
-0g
-0h
-0i
-0j
-10
-#104500
-b10001011000000 !
-1j
-00
-#105000
-b11001011000000 !
-b1001011000000 !
-1i
-0j
-10
-#105500
-b11001011000000 !
-1j
-00
-#106000
-b11101011000000 !
-b10101011000000 !
-b101011000000 !
-1h
-0i
-0j
-10
-#106500
-b10101011000000 !
-1j
-00
-#107000
-b11101011000000 !
-b1101011000000 !
-1i
-0j
-10
-#107500
-b11101011000000 !
-1j
-00
-#108000
-b11111011000000 !
-b11011011000000 !
-b10011011000000 !
-b11011000000 !
-1g
-0h
-0i
-0j
-10
-#108500
-b10011011000000 !
-1j
-00
-#109000
-b11011011000000 !
-b1011011000000 !
-1i
-0j
-10
-#109500
-b11011011000000 !
-1j
-00
-#110000
-b11111011000000 !
-b10111011000000 !
-b111011000000 !
-1h
-0i
-0j
-10
-#110500
-b10111011000000 !
-1j
-00
-#111000
-b11111011000000 !
-b1111011000000 !
-1i
-0j
-10
-#111500
-b11111011000000 !
-1j
-00
-#112000
-b11111111000000 !
-b11110111000000 !
-b11100111000000 !
-b11000111000000 !
-b10000111000000 !
-b111000000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#112500
-b10000111000000 !
-1j
-00
-#113000
-b11000111000000 !
-b1000111000000 !
-1i
-0j
-10
-#113500
-b11000111000000 !
-1j
-00
-#114000
-b11100111000000 !
-b10100111000000 !
-b100111000000 !
-1h
-0i
-0j
-10
-#114500
-b10100111000000 !
-1j
-00
-#115000
-b11100111000000 !
-b1100111000000 !
-1i
-0j
-10
-#115500
-b11100111000000 !
-1j
-00
-#116000
-b11110111000000 !
-b11010111000000 !
-b10010111000000 !
-b10111000000 !
-1g
-0h
-0i
-0j
-10
-#116500
-b10010111000000 !
-1j
-00
-#117000
-b11010111000000 !
-b1010111000000 !
-1i
-0j
-10
-#117500
-b11010111000000 !
-1j
-00
-#118000
-b11110111000000 !
-b10110111000000 !
-b110111000000 !
-1h
-0i
-0j
-10
-#118500
-b10110111000000 !
-1j
-00
-#119000
-b11110111000000 !
-b1110111000000 !
-1i
-0j
-10
-#119500
-b11110111000000 !
-1j
-00
-#120000
-b11111111000000 !
-b11101111000000 !
-b11001111000000 !
-b10001111000000 !
-b1111000000 !
-1f
-0g
-0h
-0i
-0j
-10
-#120500
-b10001111000000 !
-1j
-00
-#121000
-b11001111000000 !
-b1001111000000 !
-1i
-0j
-10
-#121500
-b11001111000000 !
-1j
-00
-#122000
-b11101111000000 !
-b10101111000000 !
-b101111000000 !
-1h
-0i
-0j
-10
-#122500
-b10101111000000 !
-1j
-00
-#123000
-b11101111000000 !
-b1101111000000 !
-1i
-0j
-10
-#123500
-b11101111000000 !
-1j
-00
-#124000
-b11111111000000 !
-b11011111000000 !
-b10011111000000 !
-b11111000000 !
-1g
-0h
-0i
-0j
-10
-#124500
-b10011111000000 !
-1j
-00
-#125000
-b11011111000000 !
-b1011111000000 !
-1i
-0j
-10
-#125500
-b11011111000000 !
-1j
-00
-#126000
-b11111111000000 !
-b10111111000000 !
-b111111000000 !
-1h
-0i
-0j
-10
-#126500
-b10111111000000 !
-1j
-00
-#127000
-b11111111000000 !
-b1111111000000 !
-1i
-0j
-10
-#127500
-b11111111000000 !
-1j
-00
-#128000
-b11111111100000 !
-b11111110100000 !
-b11111100100000 !
-b11111000100000 !
-b11110000100000 !
-b11100000100000 !
-b11000000100000 !
-b10000000100000 !
-b100000 !
-0d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#128500
-b10000000100000 !
-1j
-00
-#128525
-1z
-#128711
-0y
-#129000
-b11000000100000 !
-b1000000100000 !
-1i
-0j
-10
-#129500
-b11000000100000 !
-1j
-00
-#130000
-b11100000100000 !
-b10100000100000 !
-b100000100000 !
-1h
-0i
-0j
-10
-#130500
-b10100000100000 !
-1j
-00
-#131000
-b11100000100000 !
-b1100000100000 !
-1i
-0j
-10
-#131500
-b11100000100000 !
-1j
-00
-#132000
-b11110000100000 !
-b11010000100000 !
-b10010000100000 !
-b10000100000 !
-1g
-0h
-0i
-0j
-10
-#132143
-1S
-#132206
-0L!
-#132264
-1M!
-#132268
-0Q!
-#132275
-0}
-#132283
-1"!
-#132286
-0)!
-#132337
-07
-#132500
-b10010000100000 !
-1j
-00
-#132545
-0R
-#132654
-0M!
-#132706
-1=
-#132970
-1+!
-#133000
-b11010000100000 !
-b1010000100000 !
-1i
-0j
-10
-#133140
-1Y!
-#133226
-1[!
-#133279
-1V
-#133425
-1,!
-#133500
-b11010000100000 !
-1j
-00
-#133681
-1\!
-#133766
-1(!
-#133942
-0L
-0M
-#133984
-1Z!
-#134000
-b11110000100000 !
-b10110000100000 !
-b110000100000 !
-1h
-0i
-0j
-10
-#134003
-1b
-#134119
-0E!
-#134127
-1F!
-#134129
-1I!
-#134142
-0V
-#134143
-0X
-#134146
-1]!
-#134281
-1A
-#134500
-b10110000100000 !
-1j
-00
-#134532
-1B
-#134539
-1;
-#134625
-14!
-#134631
-05!
-#134634
-0W
-#134795
-0Z!
-#134844
-1\
-#135000
-b11110000100000 !
-b1110000100000 !
-1i
-0j
-10
-#135093
-1[
-#135100
-1O
-#135168
-1?
-#135195
-0c!
-#135234
-1@
-#135254
-1b!
-#135351
-0B
-#135500
-b11110000100000 !
-1j
-00
-#135632
-0A
-#135655
-1]
-#135691
-0@
-#135811
-1E
-#135890
-1A!
-#135948
-0B!
-#135958
-0[
-#136000
-b11111000100000 !
-b11101000100000 !
-b11001000100000 !
-b10001000100000 !
-b1000100000 !
-1f
-0g
-0h
-0i
-0j
-10
-#136041
-0F
-#136123
-1g!
-#136137
-0]
-#136241
-0\
-#136385
-0C!
-#136434
-1o!
-#136478
-0G
-#136500
-b10001000100000 !
-1j
-00
-#136685
-0l!
-#136782
-1C
-#136840
-0D
-#136999
-0F!
-#137000
-b11001000100000 !
-b1001000100000 !
-1i
-0j
-10
-#137069
-1H!
-#137088
-1t!
-#137125
-0r!
-#137275
-0o!
-#137500
-b11001000100000 !
-1j
-00
-#137523
-1m
-1&
-#137642
-1p
-1#
-#137697
-0l
-0'
-#138000
-b11101000100000 !
-b10101000100000 !
-b101000100000 !
-1h
-0i
-0j
-10
-#138438
-0y!
-#138440
-0z!
-#138443
-0v!
-#138500
-b10101000100000 !
-1j
-00
-#138688
-1x!
-#138694
-1{!
-#139000
-b11101000100000 !
-b1101000100000 !
-1i
-0j
-10
-#139500
-b11101000100000 !
-1j
-00
-#140000
-b11111000100000 !
-b11011000100000 !
-b10011000100000 !
-b11000100000 !
-1g
-0h
-0i
-0j
-10
-#140285
-0m
-0&
-#140469
-1o
-1$
-#140500
-b10011000100000 !
-1j
-00
-#141000
-b11011000100000 !
-b1011000100000 !
-1i
-0j
-10
-#141408
-0u
-0,
-#141500
-b11011000100000 !
-1j
-00
-#141726
-1t
-1-
-#141737
-0v
-0+
-#141946
-0r
-0/
-#142000
-b11111000100000 !
-b10111000100000 !
-b111000100000 !
-1h
-0i
-0j
-10
-#142005
-1w
-1*
-#142500
-b10111000100000 !
-1j
-00
-#143000
-b11111000100000 !
-b1111000100000 !
-1i
-0j
-10
-#143500
-b11111000100000 !
-1j
-00
-#144000
-b11111100100000 !
-b11110100100000 !
-b11100100100000 !
-b11000100100000 !
-b10000100100000 !
-b100100000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#144500
-b10000100100000 !
-1j
-00
-#145000
-b11000100100000 !
-b1000100100000 !
-1i
-0j
-10
-#145500
-b11000100100000 !
-1j
-00
-#146000
-b11100100100000 !
-b10100100100000 !
-b100100100000 !
-1h
-0i
-0j
-10
-#146500
-b10100100100000 !
-1j
-00
-#147000
-b11100100100000 !
-b1100100100000 !
-1i
-0j
-10
-#147500
-b11100100100000 !
-1j
-00
-#148000
-b11110100100000 !
-b11010100100000 !
-b10010100100000 !
-b10100100000 !
-1g
-0h
-0i
-0j
-10
-#148500
-b10010100100000 !
-1j
-00
-#149000
-b11010100100000 !
-b1010100100000 !
-1i
-0j
-10
-#149500
-b11010100100000 !
-1j
-00
-#150000
-b11110100100000 !
-b10110100100000 !
-b110100100000 !
-1h
-0i
-0j
-10
-#150500
-b10110100100000 !
-1j
-00
-#151000
-b11110100100000 !
-b1110100100000 !
-1i
-0j
-10
-#151500
-b11110100100000 !
-1j
-00
-#152000
-b11111100100000 !
-b11101100100000 !
-b11001100100000 !
-b10001100100000 !
-b1100100000 !
-1f
-0g
-0h
-0i
-0j
-10
-#152500
-b10001100100000 !
-1j
-00
-#153000
-b11001100100000 !
-b1001100100000 !
-1i
-0j
-10
-#153500
-b11001100100000 !
-1j
-00
-#154000
-b11101100100000 !
-b10101100100000 !
-b101100100000 !
-1h
-0i
-0j
-10
-#154500
-b10101100100000 !
-1j
-00
-#155000
-b11101100100000 !
-b1101100100000 !
-1i
-0j
-10
-#155500
-b11101100100000 !
-1j
-00
-#156000
-b11111100100000 !
-b11011100100000 !
-b10011100100000 !
-b11100100000 !
-1g
-0h
-0i
-0j
-10
-#156500
-b10011100100000 !
-1j
-00
-#157000
-b11011100100000 !
-b1011100100000 !
-1i
-0j
-10
-#157500
-b11011100100000 !
-1j
-00
-#158000
-b11111100100000 !
-b10111100100000 !
-b111100100000 !
-1h
-0i
-0j
-10
-#158500
-b10111100100000 !
-1j
-00
-#159000
-b11111100100000 !
-b1111100100000 !
-1i
-0j
-10
-#159500
-b11111100100000 !
-1j
-00
-#160000
-b11111110100000 !
-b11111010100000 !
-b11110010100000 !
-b11100010100000 !
-b11000010100000 !
-b10000010100000 !
-b10100000 !
-1d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#160500
-b10000010100000 !
-1j
-00
-#161000
-b11000010100000 !
-b1000010100000 !
-1i
-0j
-10
-#161500
-b11000010100000 !
-1j
-00
-#162000
-b11100010100000 !
-b10100010100000 !
-b100010100000 !
-1h
-0i
-0j
-10
-#162500
-b10100010100000 !
-1j
-00
-#163000
-b11100010100000 !
-b1100010100000 !
-1i
-0j
-10
-#163500
-b11100010100000 !
-1j
-00
-#164000
-b11110010100000 !
-b11010010100000 !
-b10010010100000 !
-b10010100000 !
-1g
-0h
-0i
-0j
-10
-#164500
-b10010010100000 !
-1j
-00
-#165000
-b11010010100000 !
-b1010010100000 !
-1i
-0j
-10
-#165500
-b11010010100000 !
-1j
-00
-#166000
-b11110010100000 !
-b10110010100000 !
-b110010100000 !
-1h
-0i
-0j
-10
-#166500
-b10110010100000 !
-1j
-00
-#167000
-b11110010100000 !
-b1110010100000 !
-1i
-0j
-10
-#167500
-b11110010100000 !
-1j
-00
-#168000
-b11111010100000 !
-b11101010100000 !
-b11001010100000 !
-b10001010100000 !
-b1010100000 !
-1f
-0g
-0h
-0i
-0j
-10
-#168500
-b10001010100000 !
-1j
-00
-#169000
-b11001010100000 !
-b1001010100000 !
-1i
-0j
-10
-#169500
-b11001010100000 !
-1j
-00
-#170000
-b11101010100000 !
-b10101010100000 !
-b101010100000 !
-1h
-0i
-0j
-10
-#170500
-b10101010100000 !
-1j
-00
-#171000
-b11101010100000 !
-b1101010100000 !
-1i
-0j
-10
-#171500
-b11101010100000 !
-1j
-00
-#172000
-b11111010100000 !
-b11011010100000 !
-b10011010100000 !
-b11010100000 !
-1g
-0h
-0i
-0j
-10
-#172500
-b10011010100000 !
-1j
-00
-#173000
-b11011010100000 !
-b1011010100000 !
-1i
-0j
-10
-#173500
-b11011010100000 !
-1j
-00
-#174000
-b11111010100000 !
-b10111010100000 !
-b111010100000 !
-1h
-0i
-0j
-10
-#174500
-b10111010100000 !
-1j
-00
-#175000
-b11111010100000 !
-b1111010100000 !
-1i
-0j
-10
-#175500
-b11111010100000 !
-1j
-00
-#176000
-b11111110100000 !
-b11110110100000 !
-b11100110100000 !
-b11000110100000 !
-b10000110100000 !
-b110100000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#176500
-b10000110100000 !
-1j
-00
-#177000
-b11000110100000 !
-b1000110100000 !
-1i
-0j
-10
-#177500
-b11000110100000 !
-1j
-00
-#178000
-b11100110100000 !
-b10100110100000 !
-b100110100000 !
-1h
-0i
-0j
-10
-#178500
-b10100110100000 !
-1j
-00
-#179000
-b11100110100000 !
-b1100110100000 !
-1i
-0j
-10
-#179500
-b11100110100000 !
-1j
-00
-#180000
-b11110110100000 !
-b11010110100000 !
-b10010110100000 !
-b10110100000 !
-1g
-0h
-0i
-0j
-10
-#180500
-b10010110100000 !
-1j
-00
-#181000
-b11010110100000 !
-b1010110100000 !
-1i
-0j
-10
-#181500
-b11010110100000 !
-1j
-00
-#182000
-b11110110100000 !
-b10110110100000 !
-b110110100000 !
-1h
-0i
-0j
-10
-#182500
-b10110110100000 !
-1j
-00
-#183000
-b11110110100000 !
-b1110110100000 !
-1i
-0j
-10
-#183500
-b11110110100000 !
-1j
-00
-#184000
-b11111110100000 !
-b11101110100000 !
-b11001110100000 !
-b10001110100000 !
-b1110100000 !
-1f
-0g
-0h
-0i
-0j
-10
-#184500
-b10001110100000 !
-1j
-00
-#185000
-b11001110100000 !
-b1001110100000 !
-1i
-0j
-10
-#185500
-b11001110100000 !
-1j
-00
-#186000
-b11101110100000 !
-b10101110100000 !
-b101110100000 !
-1h
-0i
-0j
-10
-#186500
-b10101110100000 !
-1j
-00
-#187000
-b11101110100000 !
-b1101110100000 !
-1i
-0j
-10
-#187500
-b11101110100000 !
-1j
-00
-#188000
-b11111110100000 !
-b11011110100000 !
-b10011110100000 !
-b11110100000 !
-1g
-0h
-0i
-0j
-10
-#188500
-b10011110100000 !
-1j
-00
-#189000
-b11011110100000 !
-b1011110100000 !
-1i
-0j
-10
-#189500
-b11011110100000 !
-1j
-00
-#190000
-b11111110100000 !
-b10111110100000 !
-b111110100000 !
-1h
-0i
-0j
-10
-#190500
-b10111110100000 !
-1j
-00
-#191000
-b11111110100000 !
-b1111110100000 !
-1i
-0j
-10
-#191500
-b11111110100000 !
-1j
-00
-#192000
-b11111111100000 !
-b11111101100000 !
-b11111001100000 !
-b11110001100000 !
-b11100001100000 !
-b11000001100000 !
-b10000001100000 !
-b1100000 !
-0d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#192500
-b10000001100000 !
-1j
-00
-#192537
-1y
-#193000
-b11000001100000 !
-b1000001100000 !
-1i
-0j
-10
-#193500
-b11000001100000 !
-1j
-00
-#194000
-b11100001100000 !
-b10100001100000 !
-b100001100000 !
-1h
-0i
-0j
-10
-#194500
-b10100001100000 !
-1j
-00
-#195000
-b11100001100000 !
-b1100001100000 !
-1i
-0j
-10
-#195500
-b11100001100000 !
-1j
-00
-#195866
-1)!
-#196000
-b11110001100000 !
-b11010001100000 !
-b10010001100000 !
-b10001100000 !
-1g
-0h
-0i
-0j
-10
-#196022
-08
-#196072
-1c
-#196082
-1R
-#196099
-1~
-#196237
-0O!
-#196314
-1M!
-#196391
-0+!
-#196500
-b10010001100000 !
-1j
-00
-#196536
-0!!
-#196608
-0[!
-#196659
-0Y!
-#196751
-0N!
-#196828
-0,!
-#196940
-0)!
-#196953
-1J
-#197000
-b11010001100000 !
-b1010001100000 !
-1i
-0j
-10
-#197045
-0\!
-#197059
-1B
-#197235
-0b
-#197266
-1T!
-#197267
-1^!
-#197382
-0c
-#197384
-1M
-1-!
-#197385
-1L
-#197479
-0'!
-#197500
-b11010001100000 !
-1j
-00
-#197530
-09
-#197537
-1*!
-#197546
-1V
-#197548
-1X
-#197549
-0]!
-#197608
-1E!
-#197620
-1[
-#197622
-1D!
-#197623
-1G!
-#197626
-1F!
-#197680
-0"!
-#197792
-0S
-#197799
-0R
-#197910
-04!
-#197916
-0(!
-#197961
-0;
-#197968
-15!
-#197977
-1@
-#198000
-b11110001100000 !
-b10110001100000 !
-b110001100000 !
-1h
-0i
-0j
-10
-#198029
-1W
-#198105
-0^!
-#198126
-0L
-#198217
-0W!
-#198267
-0<
-#198378
-0B
-#198394
-1Y!
-#198398
-1]
-#198480
-1[!
-#198500
-b10110001100000 !
-1j
-00
-#198508
-0b!
-#198521
-0-!
-#198559
-0?
-#198566
-1c!
-#198567
-0O
-#198815
-05!
-#198854
-18!
-#198873
-16!
-#198935
-1\!
-#198945
-0@
-#198985
-0[
-#199000
-b11110001100000 !
-b1110001100000 !
-1i
-0j
-10
-#199021
-1A
-#199154
-0*!
-#199158
-19!
-#199191
-1(!
-#199212
-1+!
-#199238
-1Z!
-#199264
-0A!
-#199290
-0W
-#199322
-1B!
-#199328
-17!
-#199391
-0]
-#199396
-0V
-#199397
-0X
-#199500
-b11110001100000 !
-1j
-00
-#199563
-0g!
-#199584
-1\
-#199667
-1,!
-#199774
-1-!
-#199777
-1C!
-#199782
-09!
-#199786
-1B
-#199851
-0c!
-#199854
-0B!
-#199890
-1@
-#199913
-1;!
-#199944
-1^!
-#200000
-b11111001100000 !
-b11101001100000 !
-b11001001100000 !
-b10001001100000 !
-b1001100000 !
-1f
-0g
-0h
-0i
-0j
-10
-#200013
-0P
-#200049
-0Z!
-#200129
-0C
-#200166
-1l!
-#200183
-0-!
-0;!
-#200184
-0M
-#200245
-1/!
-#200291
-0C!
-#200299
-06!
-#200311
-1]
-#200347
-1[
-#200359
-0F!
-0H!
-#200361
-0D!
-0E!
-0G!
-0I!
-#200422
-1?
-#200500
-b10001001100000 !
-1j
-00
-#200501
-1d!
-#200508
-1b!
-#200559
-0e!
-#200631
-1B!
-#200675
-1D
-#200730
-1o!
-#200736
-07!
-#200781
-1;
-#200852
-1@!
-#200867
-14!
-#200868
-16!
-#200972
-1^
-#200975
-1H!
-#200982
-1k
-1(
-#201000
-b11001001100000 !
-b1001001100000 !
-1i
-0j
-10
-#201014
-1f!
-#201022
-1m
-1&
-#201086
-1C!
-#201225
-19!
-#201298
-1l
-1'
-#201323
-17!
-#201342
-1O
-#201353
-0[
-#201357
-0]
-#201358
-0\
-#201367
-1a
-#201377
-1g!
-#201458
-0D
-#201486
-1P
-1F!
-1I!
-#201488
-1D!
-1E!
-1G!
-#201500
-b11001001100000 !
-1j
-00
-#201502
-0^
-#201669
-0B!
-#201777
-0O
-09!
-#201939
-0l!
-#202000
-b11101001100000 !
-b10101001100000 !
-b101001100000 !
-1h
-0i
-0j
-10
-#202008
-0P
-0E!
-0F!
-0I!
-#202009
-0D!
-0G!
-0H!
-#202036
-1C
-#202045
-1^
-#202106
-0C!
-#202180
-0@!
-#202377
-0g!
-#202378
-0q!
-#202386
-1v!
-#202387
-1w!
-#202389
-1z!
-#202394
-1y!
-#202500
-b10101001100000 !
-1j
-00
-#202529
-0o!
-#202790
-1H!
-#202847
-1@!
-#202943
-0C
-#202980
-1l!
-#203000
-b11101001100000 !
-b1101001100000 !
-1i
-0j
-10
-#203118
-1p!
-#203204
-1k!
-#203500
-b11101001100000 !
-1j
-00
-#203544
-1o!
-#203607
-0k
-0(
-#203641
-0l!
-#203645
-0m
-0&
-#203682
-1r!
-#203792
-0p
-0#
-#204000
-b11111001100000 !
-b11011001100000 !
-b10011001100000 !
-b11001100000 !
-1g
-0h
-0i
-0j
-10
-#204231
-0o!
-#204500
-b10011001100000 !
-1j
-00
-#205000
-b11011001100000 !
-b1011001100000 !
-1i
-0j
-10
-#205468
-1u
-1,
-#205500
-b11011001100000 !
-1j
-00
-#205586
-0l
-0'
-#205760
-1s
-1.
-#205801
-1v
-1+
-#205950
-0v!
-#205953
-0z!
-#205959
-0y!
-#205972
-0x!
-#205975
-1r
-1/
-#205978
-0{!
-#206000
-b11111001100000 !
-b10111001100000 !
-b111001100000 !
-1h
-0i
-0j
-10
-#206500
-b10111001100000 !
-1j
-00
-#207000
-b11111001100000 !
-b1111001100000 !
-1i
-0j
-10
-#207500
-b11111001100000 !
-1j
-00
-#208000
-b11111101100000 !
-b11110101100000 !
-b11100101100000 !
-b11000101100000 !
-b10000101100000 !
-b101100000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#208500
-b10000101100000 !
-1j
-00
-#208929
-0u
-0,
-#208934
-0t
-0-
-#209000
-b11000101100000 !
-b1000101100000 !
-1i
-0j
-10
-#209210
-0w
-0*
-#209250
-0v
-0+
-#209453
-0r
-0/
-#209500
-b11000101100000 !
-1j
-00
-#210000
-b11100101100000 !
-b10100101100000 !
-b100101100000 !
-1h
-0i
-0j
-10
-#210500
-b10100101100000 !
-1j
-00
-#211000
-b11100101100000 !
-b1100101100000 !
-1i
-0j
-10
-#211500
-b11100101100000 !
-1j
-00
-#212000
-b11110101100000 !
-b11010101100000 !
-b10010101100000 !
-b10101100000 !
-1g
-0h
-0i
-0j
-10
-#212500
-b10010101100000 !
-1j
-00
-#213000
-b11010101100000 !
-b1010101100000 !
-1i
-0j
-10
-#213500
-b11010101100000 !
-1j
-00
-#214000
-b11110101100000 !
-b10110101100000 !
-b110101100000 !
-1h
-0i
-0j
-10
-#214500
-b10110101100000 !
-1j
-00
-#215000
-b11110101100000 !
-b1110101100000 !
-1i
-0j
-10
-#215500
-b11110101100000 !
-1j
-00
-#216000
-b11111101100000 !
-b11101101100000 !
-b11001101100000 !
-b10001101100000 !
-b1101100000 !
-1f
-0g
-0h
-0i
-0j
-10
-#216500
-b10001101100000 !
-1j
-00
-#217000
-b11001101100000 !
-b1001101100000 !
-1i
-0j
-10
-#217500
-b11001101100000 !
-1j
-00
-#218000
-b11101101100000 !
-b10101101100000 !
-b101101100000 !
-1h
-0i
-0j
-10
-#218500
-b10101101100000 !
-1j
-00
-#219000
-b11101101100000 !
-b1101101100000 !
-1i
-0j
-10
-#219500
-b11101101100000 !
-1j
-00
-#220000
-b11111101100000 !
-b11011101100000 !
-b10011101100000 !
-b11101100000 !
-1g
-0h
-0i
-0j
-10
-#220500
-b10011101100000 !
-1j
-00
-#221000
-b11011101100000 !
-b1011101100000 !
-1i
-0j
-10
-#221500
-b11011101100000 !
-1j
-00
-#222000
-b11111101100000 !
-b10111101100000 !
-b111101100000 !
-1h
-0i
-0j
-10
-#222500
-b10111101100000 !
-1j
-00
-#223000
-b11111101100000 !
-b1111101100000 !
-1i
-0j
-10
-#223500
-b11111101100000 !
-1j
-00
-#224000
-b11111111100000 !
-b11111011100000 !
-b11110011100000 !
-b11100011100000 !
-b11000011100000 !
-b10000011100000 !
-b11100000 !
-1d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#224500
-b10000011100000 !
-1j
-00
-#225000
-b11000011100000 !
-b1000011100000 !
-1i
-0j
-10
-#225500
-b11000011100000 !
-1j
-00
-#226000
-b11100011100000 !
-b10100011100000 !
-b100011100000 !
-1h
-0i
-0j
-10
-#226500
-b10100011100000 !
-1j
-00
-#227000
-b11100011100000 !
-b1100011100000 !
-1i
-0j
-10
-#227500
-b11100011100000 !
-1j
-00
-#228000
-b11110011100000 !
-b11010011100000 !
-b10010011100000 !
-b10011100000 !
-1g
-0h
-0i
-0j
-10
-#228500
-b10010011100000 !
-1j
-00
-#229000
-b11010011100000 !
-b1010011100000 !
-1i
-0j
-10
-#229500
-b11010011100000 !
-1j
-00
-#230000
-b11110011100000 !
-b10110011100000 !
-b110011100000 !
-1h
-0i
-0j
-10
-#230500
-b10110011100000 !
-1j
-00
-#231000
-b11110011100000 !
-b1110011100000 !
-1i
-0j
-10
-#231500
-b11110011100000 !
-1j
-00
-#232000
-b11111011100000 !
-b11101011100000 !
-b11001011100000 !
-b10001011100000 !
-b1011100000 !
-1f
-0g
-0h
-0i
-0j
-10
-#232500
-b10001011100000 !
-1j
-00
-#233000
-b11001011100000 !
-b1001011100000 !
-1i
-0j
-10
-#233500
-b11001011100000 !
-1j
-00
-#234000
-b11101011100000 !
-b10101011100000 !
-b101011100000 !
-1h
-0i
-0j
-10
-#234500
-b10101011100000 !
-1j
-00
-#235000
-b11101011100000 !
-b1101011100000 !
-1i
-0j
-10
-#235500
-b11101011100000 !
-1j
-00
-#236000
-b11111011100000 !
-b11011011100000 !
-b10011011100000 !
-b11011100000 !
-1g
-0h
-0i
-0j
-10
-#236500
-b10011011100000 !
-1j
-00
-#237000
-b11011011100000 !
-b1011011100000 !
-1i
-0j
-10
-#237500
-b11011011100000 !
-1j
-00
-#238000
-b11111011100000 !
-b10111011100000 !
-b111011100000 !
-1h
-0i
-0j
-10
-#238500
-b10111011100000 !
-1j
-00
-#239000
-b11111011100000 !
-b1111011100000 !
-1i
-0j
-10
-#239500
-b11111011100000 !
-1j
-00
-#240000
-b11111111100000 !
-b11110111100000 !
-b11100111100000 !
-b11000111100000 !
-b10000111100000 !
-b111100000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#240500
-b10000111100000 !
-1j
-00
-#241000
-b11000111100000 !
-b1000111100000 !
-1i
-0j
-10
-#241500
-b11000111100000 !
-1j
-00
-#242000
-b11100111100000 !
-b10100111100000 !
-b100111100000 !
-1h
-0i
-0j
-10
-#242500
-b10100111100000 !
-1j
-00
-#243000
-b11100111100000 !
-b1100111100000 !
-1i
-0j
-10
-#243500
-b11100111100000 !
-1j
-00
-#244000
-b11110111100000 !
-b11010111100000 !
-b10010111100000 !
-b10111100000 !
-1g
-0h
-0i
-0j
-10
-#244500
-b10010111100000 !
-1j
-00
-#245000
-b11010111100000 !
-b1010111100000 !
-1i
-0j
-10
-#245500
-b11010111100000 !
-1j
-00
-#246000
-b11110111100000 !
-b10110111100000 !
-b110111100000 !
-1h
-0i
-0j
-10
-#246500
-b10110111100000 !
-1j
-00
-#247000
-b11110111100000 !
-b1110111100000 !
-1i
-0j
-10
-#247500
-b11110111100000 !
-1j
-00
-#248000
-b11111111100000 !
-b11101111100000 !
-b11001111100000 !
-b10001111100000 !
-b1111100000 !
-1f
-0g
-0h
-0i
-0j
-10
-#248500
-b10001111100000 !
-1j
-00
-#249000
-b11001111100000 !
-b1001111100000 !
-1i
-0j
-10
-#249500
-b11001111100000 !
-1j
-00
-#250000
-b11101111100000 !
-b10101111100000 !
-b101111100000 !
-1h
-0i
-0j
-10
-#250500
-b10101111100000 !
-1j
-00
-#251000
-b11101111100000 !
-b1101111100000 !
-1i
-0j
-10
-#251500
-b11101111100000 !
-1j
-00
-#252000
-b11111111100000 !
-b11011111100000 !
-b10011111100000 !
-b11111100000 !
-1g
-0h
-0i
-0j
-10
-#252500
-b10011111100000 !
-1j
-00
-#253000
-b11011111100000 !
-b1011111100000 !
-1i
-0j
-10
-#253500
-b11011111100000 !
-1j
-00
-#254000
-b11111111100000 !
-b10111111100000 !
-b111111100000 !
-1h
-0i
-0j
-10
-#254500
-b10111111100000 !
-1j
-00
-#255000
-b11111111100000 !
-b1111111100000 !
-1i
-0j
-10
-#255500
-b11111111100000 !
-1j
-00
-#256000
-b11111111110000 !
-b11111111010000 !
-b11111110010000 !
-b11111100010000 !
-b11111000010000 !
-b11110000010000 !
-b11100000010000 !
-b11000000010000 !
-b10000000010000 !
-b10000 !
-0d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#256500
-b10000000010000 !
-1j
-00
-#256535
-1{
-#256698
-0z
-#256711
-0y
-#257000
-b11000000010000 !
-b1000000010000 !
-1i
-0j
-10
-#257500
-b11000000010000 !
-1j
-00
-#258000
-b11100000010000 !
-b10100000010000 !
-b100000010000 !
-1h
-0i
-0j
-10
-#258500
-b10100000010000 !
-1j
-00
-#259000
-b11100000010000 !
-b1100000010000 !
-1i
-0j
-10
-#259500
-b11100000010000 !
-1j
-00
-#260000
-b11110000010000 !
-b11010000010000 !
-b10010000010000 !
-b10000010000 !
-1g
-0h
-0i
-0j
-10
-#260308
-0S!
-#260385
-1K!
-#260394
-0~
-#260431
-18
-#260470
-0.!
-#260500
-b10010000010000 !
-1j
-00
-#260547
-1|
-#260639
-0T!
-#260654
-0M!
-#260691
-1O!
-#260849
-1!!
-#260854
-1H
-#260926
-0^!
-#261000
-b11010000010000 !
-b1010000010000 !
-1i
-0j
-10
-#261004
-1P!
-#261093
-0/!
-#261102
-0J
-#261109
-1N!
-#261210
-1c
-#261213
-0H
-#261431
-1#!
-#261482
-1/!
-#261500
-b11010000010000 !
-1j
-00
-#261523
-0+!
-#261579
-1T
-#261580
-0P!
-#261581
-1^!
-#261615
-0a
-#261653
-1<
-#261654
-0@
-#261690
-0c
-#261749
-1W!
-#261893
-0J!
-#261899
-1D!
-1G!
-1I!
-#261960
-0,!
-#262000
-b11110000010000 !
-b10110000010000 !
-b110000010000 !
-1h
-0i
-0j
-10
-#262019
-1+!
-#262186
-0=
-#262244
-1a
-#262291
-1@
-#262474
-1,!
-#262500
-b10110000010000 !
-1j
-00
-#262516
-1M
-1-!
-1;!
-#262518
-0W!
-#262548
-0/!
-#262569
-0<
-#262973
-1=
-#262990
-0-!
-0;!
-#262991
-0M
-#263000
-b11110000010000 !
-b1110000010000 !
-1i
-0j
-10
-#263041
-06!
-#263042
-04!
-#263052
-1/!
-#263093
-0;
-#263328
-0^
-#263478
-07!
-#263500
-b11110000010000 !
-1j
-00
-#263588
-1;
-#263674
-14!
-#263675
-16!
-#263779
-1^
-#263967
-19!
-#264000
-b11111000010000 !
-b11101000010000 !
-b11001000010000 !
-b10001000010000 !
-b1000010000 !
-1f
-0g
-0h
-0i
-0j
-10
-#264130
-17!
-#264149
-1O
-#264228
-1P
-#264229
-0D!
-0G!
-#264230
-1J!
-#264244
-0^
-#264500
-b10001000010000 !
-1j
-00
-#264584
-0O
-09!
-#264815
-0J!
-0P
-#264817
-1D!
-1G!
-#264852
-1^
-#264922
-0@!
-#265000
-b11001000010000 !
-b1001000010000 !
-1i
-0j
-10
-#265259
-1k
-1(
-#265412
-1p
-1#
-#265500
-b11001000010000 !
-1j
-00
-#265624
-1q
 1"
-#265654
-1@!
-#266000
-b11101000010000 !
-b10101000010000 !
-b101000010000 !
-1h
-0i
-0j
-10
-#266500
-b10101000010000 !
-1j
-00
-#267000
-b11101000010000 !
-b1101000010000 !
-1i
-0j
-10
-#267500
-b11101000010000 !
-1j
-00
-#268000
-b11111000010000 !
-b11011000010000 !
-b10011000010000 !
-b11000010000 !
-1g
-0h
-0i
-0j
-10
-#268500
-b10011000010000 !
-1j
-00
-#268728
-1n
-1%
-#269000
-b11011000010000 !
-b1011000010000 !
-1i
-0j
-10
-#269500
-b11011000010000 !
-1j
-00
-#270000
-b11111000010000 !
-b10111000010000 !
-b111000010000 !
-1h
-0i
-0j
-10
-#270500
-b10111000010000 !
-1j
-00
-#271000
-b11111000010000 !
-b1111000010000 !
-1i
-0j
-10
-#271500
-b11111000010000 !
-1j
-00
-#272000
-b11111100010000 !
-b11110100010000 !
-b11100100010000 !
-b11000100010000 !
-b10000100010000 !
-b100010000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#272500
-b10000100010000 !
-1j
-00
-#273000
-b11000100010000 !
-b1000100010000 !
-1i
-0j
-10
-#273500
-b11000100010000 !
-1j
-00
-#274000
-b11100100010000 !
-b10100100010000 !
-b100100010000 !
-1h
-0i
-0j
-10
-#274500
-b10100100010000 !
-1j
-00
-#275000
-b11100100010000 !
-b1100100010000 !
-1i
-0j
-10
-#275500
-b11100100010000 !
-1j
-00
-#276000
-b11110100010000 !
-b11010100010000 !
-b10010100010000 !
-b10100010000 !
-1g
-0h
-0i
-0j
-10
-#276500
-b10010100010000 !
-1j
-00
-#277000
-b11010100010000 !
-b1010100010000 !
-1i
-0j
-10
-#277500
-b11010100010000 !
-1j
-00
-#278000
-b11110100010000 !
-b10110100010000 !
-b110100010000 !
-1h
-0i
-0j
-10
-#278500
-b10110100010000 !
-1j
-00
-#279000
-b11110100010000 !
-b1110100010000 !
-1i
-0j
-10
-#279500
-b11110100010000 !
-1j
-00
-#280000
-b11111100010000 !
-b11101100010000 !
-b11001100010000 !
-b10001100010000 !
-b1100010000 !
-1f
-0g
-0h
-0i
-0j
-10
-#280500
-b10001100010000 !
-1j
-00
-#281000
-b11001100010000 !
-b1001100010000 !
-1i
-0j
-10
-#281500
-b11001100010000 !
-1j
-00
-#282000
-b11101100010000 !
-b10101100010000 !
-b101100010000 !
-1h
-0i
-0j
-10
-#282500
-b10101100010000 !
-1j
-00
-#283000
-b11101100010000 !
-b1101100010000 !
-1i
-0j
-10
-#283500
-b11101100010000 !
-1j
-00
-#284000
-b11111100010000 !
-b11011100010000 !
-b10011100010000 !
-b11100010000 !
-1g
-0h
-0i
-0j
-10
-#284500
-b10011100010000 !
-1j
-00
-#285000
-b11011100010000 !
-b1011100010000 !
-1i
-0j
-10
-#285500
-b11011100010000 !
-1j
-00
-#286000
-b11111100010000 !
-b10111100010000 !
-b111100010000 !
-1h
-0i
-0j
-10
-#286500
-b10111100010000 !
-1j
-00
-#287000
-b11111100010000 !
-b1111100010000 !
-1i
-0j
-10
-#287500
-b11111100010000 !
-1j
-00
-#288000
-b11111110010000 !
-b11111010010000 !
-b11110010010000 !
-b11100010010000 !
-b11000010010000 !
-b10000010010000 !
-b10010000 !
-1d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#288500
-b10000010010000 !
-1j
-00
-#289000
-b11000010010000 !
-b1000010010000 !
-1i
-0j
-10
-#289500
-b11000010010000 !
-1j
-00
-#290000
-b11100010010000 !
-b10100010010000 !
-b100010010000 !
-1h
-0i
-0j
-10
-#290500
-b10100010010000 !
-1j
-00
-#291000
-b11100010010000 !
-b1100010010000 !
-1i
-0j
-10
-#291500
-b11100010010000 !
-1j
-00
-#292000
-b11110010010000 !
-b11010010010000 !
-b10010010010000 !
-b10010010000 !
-1g
-0h
-0i
-0j
-10
-#292500
-b10010010010000 !
-1j
-00
-#293000
-b11010010010000 !
-b1010010010000 !
-1i
-0j
-10
-#293500
-b11010010010000 !
-1j
-00
-#294000
-b11110010010000 !
-b10110010010000 !
-b110010010000 !
-1h
-0i
-0j
-10
-#294500
-b10110010010000 !
-1j
-00
-#295000
-b11110010010000 !
-b1110010010000 !
-1i
-0j
-10
-#295500
-b11110010010000 !
-1j
-00
-#296000
-b11111010010000 !
-b11101010010000 !
-b11001010010000 !
-b10001010010000 !
-b1010010000 !
-1f
-0g
-0h
-0i
-0j
-10
-#296500
-b10001010010000 !
-1j
-00
-#297000
-b11001010010000 !
-b1001010010000 !
-1i
-0j
-10
-#297500
-b11001010010000 !
-1j
-00
-#298000
-b11101010010000 !
-b10101010010000 !
-b101010010000 !
-1h
-0i
-0j
-10
-#298500
-b10101010010000 !
-1j
-00
-#299000
-b11101010010000 !
-b1101010010000 !
-1i
-0j
-10
-#299500
-b11101010010000 !
-1j
-00
-#300000
-b11111010010000 !
-b11011010010000 !
-b10011010010000 !
-b11010010000 !
-1g
-0h
-0i
-0j
-10
-#300500
-b10011010010000 !
-1j
-00
-#301000
-b11011010010000 !
-b1011010010000 !
-1i
-0j
-10
-#301500
-b11011010010000 !
-1j
-00
-#302000
-b11111010010000 !
-b10111010010000 !
-b111010010000 !
-1h
-0i
-0j
-10
-#302500
-b10111010010000 !
-1j
-00
-#303000
-b11111010010000 !
-b1111010010000 !
-1i
-0j
-10
-#303500
-b11111010010000 !
-1j
-00
-#304000
-b11111110010000 !
-b11110110010000 !
-b11100110010000 !
-b11000110010000 !
-b10000110010000 !
-b110010000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#304500
-b10000110010000 !
-1j
-00
-#305000
-b11000110010000 !
-b1000110010000 !
-1i
-0j
-10
-#305500
-b11000110010000 !
-1j
-00
-#306000
-b11100110010000 !
-b10100110010000 !
-b100110010000 !
-1h
-0i
-0j
-10
-#306500
-b10100110010000 !
-1j
-00
-#307000
-b11100110010000 !
-b1100110010000 !
-1i
-0j
-10
-#307500
-b11100110010000 !
-1j
-00
-#308000
-b11110110010000 !
-b11010110010000 !
-b10010110010000 !
-b10110010000 !
-1g
-0h
-0i
-0j
-10
-#308500
-b10010110010000 !
-1j
-00
-#309000
-b11010110010000 !
-b1010110010000 !
-1i
-0j
-10
-#309500
-b11010110010000 !
-1j
-00
-#310000
-b11110110010000 !
-b10110110010000 !
-b110110010000 !
-1h
-0i
-0j
-10
-#310500
-b10110110010000 !
-1j
-00
-#311000
-b11110110010000 !
-b1110110010000 !
-1i
-0j
-10
-#311500
-b11110110010000 !
-1j
-00
-#312000
-b11111110010000 !
-b11101110010000 !
-b11001110010000 !
-b10001110010000 !
-b1110010000 !
-1f
-0g
-0h
-0i
-0j
-10
-#312500
-b10001110010000 !
-1j
-00
-#313000
-b11001110010000 !
-b1001110010000 !
-1i
-0j
-10
-#313500
-b11001110010000 !
-1j
-00
-#314000
-b11101110010000 !
-b10101110010000 !
-b101110010000 !
-1h
-0i
-0j
-10
-#314500
-b10101110010000 !
-1j
-00
-#315000
-b11101110010000 !
-b1101110010000 !
-1i
-0j
-10
-#315500
-b11101110010000 !
-1j
-00
-#316000
-b11111110010000 !
-b11011110010000 !
-b10011110010000 !
-b11110010000 !
-1g
-0h
-0i
-0j
-10
-#316500
-b10011110010000 !
-1j
-00
-#317000
-b11011110010000 !
-b1011110010000 !
-1i
-0j
-10
-#317500
-b11011110010000 !
-1j
-00
-#318000
-b11111110010000 !
-b10111110010000 !
-b111110010000 !
-1h
-0i
-0j
-10
-#318500
-b10111110010000 !
-1j
-00
-#319000
-b11111110010000 !
-b1111110010000 !
-1i
-0j
-10
-#319500
-b11111110010000 !
-1j
-00
-#320000
-b11111111010000 !
-b11111101010000 !
-b11111001010000 !
-b11110001010000 !
-b11100001010000 !
-b11000001010000 !
-b10000001010000 !
-b1010000 !
-0d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#320500
-b10000001010000 !
-1j
-00
-#320537
-1y
-#321000
-b11000001010000 !
-b1000001010000 !
-1i
-0j
-10
-#321500
-b11000001010000 !
-1j
-00
-#322000
-b11100001010000 !
-b10100001010000 !
-b100001010000 !
-1h
-0i
-0j
-10
-#322500
-b10100001010000 !
-1j
-00
-#323000
-b11100001010000 !
-b1100001010000 !
-1i
-0j
-10
-#323500
-b11100001010000 !
-1j
-00
-#323866
-1)!
-#324000
-b11110001010000 !
-b11010001010000 !
-b10010001010000 !
-b10001010000 !
-1g
-0h
-0i
-0j
-10
-#324022
-08
-#324072
-1c
-#324082
-1R
-#324099
-1~
-#324237
-0O!
-#324314
-1M!
-#324391
-0+!
-#324500
-b10010001010000 !
-1j
-00
-#324536
-0!!
-#324608
-0[!
-#324659
-0Y!
-#324751
-0N!
-#324828
-0,!
-#324940
-0)!
-#325000
-b11010001010000 !
-b1010001010000 !
-1i
-0j
-10
-#325012
-1_
-#325037
-0B
-#325045
-0\!
-#325154
-1e!
-#325176
-0#!
-#325236
-0/!
-#325266
-0T
-#325268
-0^!
-#325382
-0c
-#325384
-1M
-1-!
-1;!
-#325500
-b11010001010000 !
-1j
-00
-#325546
-1V
-1F!
-#325548
-1X
-1`
-#325549
-1E!
-#325591
-0f!
-#325601
-1J!
-#325624
-1+!
-#325766
-19
-#325799
-0R
-#325862
-1'!
-#325909
-06!
-#325910
-04!
-#325957
-0a
-#325961
-0;
-#325970
-0_
-#325980
-1]
-#325981
-1\
-#325996
-0@
-#326000
-b11110001010000 !
-b10110001010000 !
-b110001010000 !
-1h
-0i
-0j
-10
-#326016
-0^
-#326079
-1,!
-#326109
-1n!
-#326260
-1<
-#326299
-0(!
-#326338
-1^
-#326340
-1L
-#326346
-1W!
-07!
-#326374
-0e!
-#326389
-0`
-#326394
-1Y!
-#326400
-1B
-#326442
-0]
-#326480
-1[!
-#326500
-b10110001010000 !
-1j
-00
-#326508
-0b!
-#326513
-0d!
-#326559
-0?
-#326564
-0A
-#326571
-1e!
-#326594
-0^
-#326595
-0-!
-0;!
-#326596
-0L
-0M
-#326681
-1l!
-#326771
-0F!
-#326773
-0D!
-0E!
-0G!
-0I!
-#326783
-0=
-#326835
-19!
-#326935
-1\!
-#326950
-0B
-#326961
-1[
-#326963
-1@
-#326981
-1g!
-#326982
-1q!
-#327000
-b11110001010000 !
-b1110001010000 !
-1i
-0j
-10
-#327063
-1D
-#327096
-1P
-1F!
-1I!
-#327098
-0n!
-1D!
-1E!
-1G!
-#327173
-0\
-#327193
-1;
-#327238
-1Z!
-#327241
-1W
-#327245
-1o!
-#327279
-14!
-#327280
-16!
-#327384
-1]
-#327397
-0X
-#327407
-0V
-#327500
-b11110001010000 !
-1j
-00
-#327557
-0[
-#327563
-0g!
-#327672
-0k!
-#327716
-08!
-#327723
-0p!
-#327730
-1C
-#327735
-17!
-#327754
-1O
-#327786
-1B
-#327788
-0D
-#327790
-0@!
-#327800
-0@
-#327887
-1c!
-#327888
-0W
-#328000
-b11111001010000 !
-b11101001010000 !
-b11001001010000 !
-b10001001010000 !
-b1001010000 !
-1f
-0g
-0h
-0i
-0j
-10
-#328034
-09!
-#328049
-0Z!
-#328129
-0C
-#328187
-1D
-#328189
-0O
-#328245
-0E
-#328246
-0]
-#328303
-1F
-#328313
-0r!
-#328347
-1[
-#328420
-0P
-0E!
-0F!
-0I!
-#328421
-0D!
-0G!
-#328422
-1?
-#328449
-0c!
-#328488
-1@
-#328500
-b10001001010000 !
-1j
-00
-#328507
-1d!
-#328508
-1b!
-#328531
-0D
-#328544
-1A!
-#328565
-0e!
-#328589
-1E
-#328647
-0F
-#328886
-0A!
-#328900
-1x!
-#328901
-1v!
-#328904
-1A
-1z!
-#328906
-1{!
-#328909
-1y!
-1]
-#328942
-1m
-1&
-#328944
-1B!
-#328945
-0@
-#329000
-b11001001010000 !
-b1001001010000 !
-1i
-0j
-10
-#329020
-1f!
-#329239
-1l
-1'
-#329259
-1@!
-#329359
-0[
-#329377
-1g!
-#329391
-0]
-#329399
-1C!
-#329422
-0q
-0"
-#329500
-b11001001010000 !
-1j
-00
-#329939
-0l!
-#330000
-b11101001010000 !
-b10101001010000 !
-b101001010000 !
-1h
-0i
-0j
-10
-#330028
-0H!
-#330036
-1C
-#330383
-0g!
-#330384
-0q!
-#330500
-b10101001010000 !
-1j
-00
-#330529
-0o!
-#330949
-0C
-#330986
-1l!
-#331000
-b11101001010000 !
-b1101001010000 !
-1i
-0j
-10
-#331007
-1D
-#331065
-0E
-#331123
-1F
-#331124
-1p!
-#331210
-1k!
-#331500
-b11101001010000 !
-1j
-00
-#331550
-1o!
-#331578
-1G
-#331647
-0l!
-#331667
-0k
-0(
-#331688
-1r!
-#331706
-0m
-0&
-#331851
-0p
-0#
-#331938
-1t
-1-
-#331983
-1u
-1,
-#331998
-0l
-0'
-#332000
-b11111001010000 !
-b11011001010000 !
-b10011001010000 !
-b11001010000 !
-1g
-0h
-0i
-0j
-10
-#332153
-0t!
-#332183
-0o!
-0r!
-#332217
-1w
-1*
-#332287
-0n
-0%
-#332316
-1v
-1+
-#332490
-1r
-1/
-#332500
-b10011001010000 !
-1j
-00
-#333000
-b11011001010000 !
-b1011001010000 !
-1i
-0j
-10
-#333313
-0o
-0$
-#333500
-b11011001010000 !
-1j
-00
-#333524
-0y!
-#333525
-0{!
-#333526
-0z!
-#333528
-0x!
-#333529
-0v!
-0w!
-#333916
-0|!
-#334000
-b11111001010000 !
-b10111001010000 !
-b111001010000 !
-1h
-0i
-0j
-10
-#334500
-b10111001010000 !
-1j
-00
-#335000
-b11111001010000 !
-b1111001010000 !
-1i
-0j
-10
-#335500
-b11111001010000 !
-1j
-00
-#336000
-b11111101010000 !
-b11110101010000 !
-b11100101010000 !
-b11000101010000 !
-b10000101010000 !
-b101010000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#336490
-0t
-0-
-#336494
-0u
-0,
-#336500
-b10000101010000 !
-1j
-00
-#336757
-0w
-0*
-#336787
-0s
-0.
-#336823
-0v
-0+
-#337000
-b11000101010000 !
-b1000101010000 !
-1i
-0j
-10
-#337032
-0r
-0/
-#337388
-1x
-1)
-#337500
-b11000101010000 !
-1j
-00
-#338000
-b11100101010000 !
-b10100101010000 !
-b100101010000 !
-1h
-0i
-0j
-10
-#338500
-b10100101010000 !
-1j
-00
-#339000
-b11100101010000 !
-b1100101010000 !
-1i
-0j
-10
-#339500
-b11100101010000 !
-1j
-00
-#340000
-b11110101010000 !
-b11010101010000 !
-b10010101010000 !
-b10101010000 !
-1g
-0h
-0i
-0j
-10
-#340500
-b10010101010000 !
-1j
-00
-#341000
-b11010101010000 !
-b1010101010000 !
-1i
-0j
-10
-#341500
-b11010101010000 !
-1j
-00
-#342000
-b11110101010000 !
-b10110101010000 !
-b110101010000 !
-1h
-0i
-0j
-10
-#342500
-b10110101010000 !
-1j
-00
-#343000
-b11110101010000 !
-b1110101010000 !
-1i
-0j
-10
-#343500
-b11110101010000 !
-1j
-00
-#344000
-b11111101010000 !
-b11101101010000 !
-b11001101010000 !
-b10001101010000 !
-b1101010000 !
-1f
-0g
-0h
-0i
-0j
-10
-#344500
-b10001101010000 !
-1j
-00
-#345000
-b11001101010000 !
-b1001101010000 !
-1i
-0j
-10
-#345500
-b11001101010000 !
-1j
-00
-#346000
-b11101101010000 !
-b10101101010000 !
-b101101010000 !
-1h
-0i
-0j
-10
-#346500
-b10101101010000 !
-1j
-00
-#347000
-b11101101010000 !
-b1101101010000 !
-1i
-0j
-10
-#347500
-b11101101010000 !
-1j
-00
-#348000
-b11111101010000 !
-b11011101010000 !
-b10011101010000 !
-b11101010000 !
-1g
-0h
-0i
-0j
-10
-#348500
-b10011101010000 !
-1j
-00
-#349000
-b11011101010000 !
-b1011101010000 !
-1i
-0j
-10
-#349500
-b11011101010000 !
-1j
-00
-#350000
-b11111101010000 !
-b10111101010000 !
-b111101010000 !
-1h
-0i
-0j
-10
-#350500
-b10111101010000 !
-1j
-00
-#351000
-b11111101010000 !
-b1111101010000 !
-1i
-0j
-10
-#351500
-b11111101010000 !
-1j
-00
-#352000
-b11111111010000 !
-b11111011010000 !
-b11110011010000 !
-b11100011010000 !
-b11000011010000 !
-b10000011010000 !
-b11010000 !
-1d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#352500
-b10000011010000 !
-1j
-00
-#353000
-b11000011010000 !
-b1000011010000 !
-1i
-0j
-10
-#353500
-b11000011010000 !
-1j
-00
-#354000
-b11100011010000 !
-b10100011010000 !
-b100011010000 !
-1h
-0i
-0j
-10
-#354500
-b10100011010000 !
-1j
-00
-#355000
-b11100011010000 !
-b1100011010000 !
-1i
-0j
-10
-#355500
-b11100011010000 !
-1j
-00
-#356000
-b11110011010000 !
-b11010011010000 !
-b10010011010000 !
-b10011010000 !
-1g
-0h
-0i
-0j
-10
-#356500
-b10010011010000 !
-1j
-00
-#357000
-b11010011010000 !
-b1010011010000 !
-1i
-0j
-10
-#357500
-b11010011010000 !
-1j
-00
-#358000
-b11110011010000 !
-b10110011010000 !
-b110011010000 !
-1h
-0i
-0j
-10
-#358500
-b10110011010000 !
-1j
-00
-#359000
-b11110011010000 !
-b1110011010000 !
-1i
-0j
-10
-#359500
-b11110011010000 !
-1j
-00
-#360000
-b11111011010000 !
-b11101011010000 !
-b11001011010000 !
-b10001011010000 !
-b1011010000 !
-1f
-0g
-0h
-0i
-0j
-10
-#360500
-b10001011010000 !
-1j
-00
-#361000
-b11001011010000 !
-b1001011010000 !
-1i
-0j
-10
-#361500
-b11001011010000 !
-1j
-00
-#362000
-b11101011010000 !
-b10101011010000 !
-b101011010000 !
-1h
-0i
-0j
-10
-#362500
-b10101011010000 !
-1j
-00
-#363000
-b11101011010000 !
-b1101011010000 !
-1i
-0j
-10
-#363500
-b11101011010000 !
-1j
-00
-#364000
-b11111011010000 !
-b11011011010000 !
-b10011011010000 !
-b11011010000 !
-1g
-0h
-0i
-0j
-10
-#364500
-b10011011010000 !
-1j
-00
-#365000
-b11011011010000 !
-b1011011010000 !
-1i
-0j
-10
-#365500
-b11011011010000 !
-1j
-00
-#366000
-b11111011010000 !
-b10111011010000 !
-b111011010000 !
-1h
-0i
-0j
-10
-#366500
-b10111011010000 !
-1j
-00
-#367000
-b11111011010000 !
-b1111011010000 !
-1i
-0j
-10
-#367500
-b11111011010000 !
-1j
-00
-#368000
-b11111111010000 !
-b11110111010000 !
-b11100111010000 !
-b11000111010000 !
-b10000111010000 !
-b111010000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#368500
-b10000111010000 !
-1j
-00
-#369000
-b11000111010000 !
-b1000111010000 !
-1i
-0j
-10
-#369500
-b11000111010000 !
-1j
-00
-#370000
-b11100111010000 !
-b10100111010000 !
-b100111010000 !
-1h
-0i
-0j
-10
-#370500
-b10100111010000 !
-1j
-00
-#371000
-b11100111010000 !
-b1100111010000 !
-1i
-0j
-10
-#371500
-b11100111010000 !
-1j
-00
-#372000
-b11110111010000 !
-b11010111010000 !
-b10010111010000 !
-b10111010000 !
-1g
-0h
-0i
-0j
-10
-#372500
-b10010111010000 !
-1j
-00
-#373000
-b11010111010000 !
-b1010111010000 !
-1i
-0j
-10
-#373500
-b11010111010000 !
-1j
-00
-#374000
-b11110111010000 !
-b10110111010000 !
-b110111010000 !
-1h
-0i
-0j
-10
-#374500
-b10110111010000 !
-1j
-00
-#375000
-b11110111010000 !
-b1110111010000 !
-1i
-0j
-10
-#375500
-b11110111010000 !
-1j
-00
-#376000
-b11111111010000 !
-b11101111010000 !
-b11001111010000 !
-b10001111010000 !
-b1111010000 !
-1f
-0g
-0h
-0i
-0j
-10
-#376500
-b10001111010000 !
-1j
-00
-#377000
-b11001111010000 !
-b1001111010000 !
-1i
-0j
-10
-#377500
-b11001111010000 !
-1j
-00
-#378000
-b11101111010000 !
-b10101111010000 !
-b101111010000 !
-1h
-0i
-0j
-10
-#378500
-b10101111010000 !
-1j
-00
-#379000
-b11101111010000 !
-b1101111010000 !
-1i
-0j
-10
-#379500
-b11101111010000 !
-1j
-00
-#380000
-b11111111010000 !
-b11011111010000 !
-b10011111010000 !
-b11111010000 !
-1g
-0h
-0i
-0j
-10
-#380500
-b10011111010000 !
-1j
-00
-#381000
-b11011111010000 !
-b1011111010000 !
-1i
-0j
-10
-#381500
-b11011111010000 !
-1j
-00
-#382000
-b11111111010000 !
-b10111111010000 !
-b111111010000 !
-1h
-0i
-0j
-10
-#382500
-b10111111010000 !
-1j
-00
-#383000
-b11111111010000 !
-b1111111010000 !
-1i
-0j
-10
-#383500
-b11111111010000 !
-1j
-00
-#384000
-b11111111110000 !
-b11111110110000 !
-b11111100110000 !
-b11111000110000 !
-b11110000110000 !
-b11100000110000 !
-b11000000110000 !
-b10000000110000 !
-b110000 !
-0d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#384500
-b10000000110000 !
-1j
-00
-#384525
-1z
-#384711
-0y
-#385000
-b11000000110000 !
-b1000000110000 !
-1i
-0j
-10
-#385500
-b11000000110000 !
-1j
-00
-#386000
-b11100000110000 !
-b10100000110000 !
-b100000110000 !
-1h
-0i
-0j
-10
-#386500
-b10100000110000 !
-1j
-00
-#387000
-b11100000110000 !
-b1100000110000 !
-1i
-0j
-10
-#387500
-b11100000110000 !
-1j
-00
-#388000
-b11110000110000 !
-b11010000110000 !
-b10010000110000 !
-b10000110000 !
-1g
-0h
-0i
-0j
-10
-#388269
-1Q!
-#388338
-17
-#388394
-0~
-#388431
-18
-#388500
-b10010000110000 !
-1j
-00
-#388654
-0M!
-#388691
-1O!
-#388849
-1!!
-#388854
-1H
-#388924
-1I
-#388928
-1b
-#389000
-b11010000110000 !
-b1010000110000 !
-1i
-0j
-10
-#389004
-1P!
-#389109
-1N!
-#389210
-1c
-#389213
-0H
-#389214
-0I
-#389220
-1]!
-#389234
-1R!
-#389431
-1#!
-#389482
-1/!
-#389500
-b11010000110000 !
-1j
-00
-#389523
-0+!
-#389579
-1T
-#389580
-0P!
-#389581
-1^!
-#389594
-06!
-#389690
-0c
-#389797
-1=
-#389864
-0R!
-#389884
-1`
-#389893
-0J!
-#389956
-0'!
-#389958
-1"!
-#389960
-0,!
-#390000
-b11110000110000 !
-b10110000110000 !
-b110000110000 !
-1h
-0i
-0j
-10
-#390006
-09
-#390019
-1+!
-#390031
-07!
-#390109
-1S
-#390182
-0d!
-#390209
-1^
-#390219
-18!
-#390232
-0A
-#390240
-1e!
-#390244
-1a
-#390291
-1@
-#390411
-1(!
-#390474
-1,!
-#390500
-b10110000110000 !
-1j
-00
-#390516
-1M
-#390518
-0W!
-#390519
-1O
-#390523
-19!
-#390548
-0b
-0/!
-#390569
-0<
-#390576
-1X!
-#390619
-0B
-#390634
-0[!
-#390677
-0f!
-#390781
-1P
-1F!
-1I!
-#390783
-1J!
-#390797
-0^
-#390906
-0B!
-#390955
-0=
-#390991
-0M
-#391000
-b11110000110000 !
-b1110000110000 !
-1i
-0j
-10
-#391013
-0Y!
-#391042
-04!
-#391052
-1b
-1/!
-#391056
-0a
-#391066
-1]
-#391071
-0\!
-#391093
-0;
-#391160
-1E
-#391189
-0D
-#391218
-0F
-#391343
-0C!
-#391360
-16!
-#391435
-0(!
-#391475
-0@!
-0`
-#391500
-b11110000110000 !
-1j
-00
-#391532
-1*!
-#391533
-1A!
-#391574
-1X
-#391575
-0]!
-#391588
-1;
-#391590
-0+!
-#391655
-0G
-#391674
-14!
-#391699
-0O
-#391718
-06!
-#391957
-0F!
-#392000
-b11111000110000 !
-b11101000110000 !
-b11001000110000 !
-b10001000110000 !
-b1000110000 !
-1f
-0g
-0h
-0i
-0j
-10
-#392027
-0,!
-1H!
-#392067
-1g!
-#392068
-1q!
-#392131
-0^!
-#392149
-1O
-#392265
-1t!
-#392297
-1r!
-#392396
-0A!
-#392500
-b10001000110000 !
-1j
-00
-#392534
-0b!
-#392583
-1M
-#392585
-0?
-#392603
-1A
-#392615
-0b
-0/!
-#392635
-1l!
-#392699
-1d!
-#392738
-0J!
-#392747
-1G!
-#392757
-0e!
-#392758
-0k!
-#392809
-0p!
-#392816
-1C
-#392939
-1A!
-#393000
-b11001000110000 !
-b1001000110000 !
-1i
-0j
-10
-#393109
-04!
-#393154
-1B
-#393160
-0;
-#393166
-1\
-#393195
-0l!
-#393199
-1o!
-#393212
-1f!
-#393399
-0r!
-#393427
-16!
-#393500
-b11001000110000 !
-1j
-00
-#393555
-0]
-#393556
-0\
-#393589
-0g!
-#393615
-1|!
-#393617
-1{!
-#393620
-1x!
-#393766
-0O
-#393785
-0o!
-#393882
-17!
-#394000
-b11101000110000 !
-b10101000110000 !
-b101000110000 !
-1h
-0i
-0j
-10
-#394155
-0C
-#394192
-1l!
-#394294
-1p
-1#
-#394336
-09!
-#394463
-0A!
-#394467
-1;!
-#394500
-b10101000110000 !
-1j
-00
-#394567
-0P
-0I!
-#394568
-0G!
-#394569
-1J!
-1E!
-#394576
-0q!
-#394708
-1n!
-#394756
-1o!
-#394839
-1D
-#394897
-0E
-#394955
-1F
-#395000
-b11101000110000 !
-b1101000110000 !
-1i
-0j
-10
-#395185
-1B!
-#395275
-0l!
-#395289
-1A!
-#395316
-1p!
-#395347
-0B!
-#395362
-1C
-#395402
-1k!
-#395406
-1@!
-#395410
-1G
-#395420
-0D
-#395427
-1o
-1$
-#395460
-0C
-#395464
-0A!
-#395478
-1E
-#395500
-b11101000110000 !
-1j
-00
-#395518
-1D
-#395522
-1B!
-#395536
-0F
-#395576
-0E
-#395634
-1F
-#395857
-1l!
-#395977
-1C!
-#395985
-0t!
-#396000
-b11111000110000 !
-b11011000110000 !
-b10011000110000 !
-b11000110000 !
-1g
-0h
-0i
-0j
-10
-#396412
-1v!
-#396413
-1w!
-#396415
-1z!
-#396420
-1y!
-#396500
-b10011000110000 !
-1j
-00
-#396564
-1D!
-#396603
-0E!
-#396610
-1G!
-#396658
-1t
-1-
-#396928
-1w
-1*
-#397000
-b11011000110000 !
-b1011000110000 !
-1i
-0j
-10
-#397181
-0x
-0)
-#397356
-0y!
-#397357
-0{!
-#397358
-0z!
-#397360
-0x!
-#397361
-0v!
-0w!
-#397500
-b11011000110000 !
-1j
-00
-#397998
-0p
-0#
-#398000
-b11111000110000 !
-b10111000110000 !
-b111000110000 !
-1h
-0i
-0j
-10
-#398500
-b10111000110000 !
-1j
-00
-#399000
-b11111000110000 !
-b1111000110000 !
-1i
-0j
-10
-#399500
-b11111000110000 !
-1j
-00
-#399924
-1k
-1(
-#400000
-b11111100110000 !
-b11110100110000 !
-b11100100110000 !
-b11000100110000 !
-b10000100110000 !
-b100110000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#400322
-0t
-0-
-#400500
-b10000100110000 !
-1j
-00
-#400521
-1n
-1%
-#400589
-0w
-0*
-#401000
-b11000100110000 !
-b1000100110000 !
-1i
-0j
-10
-#401500
-b11000100110000 !
-1j
-00
-#402000
-b11100100110000 !
-b10100100110000 !
-b100100110000 !
-1h
-0i
-0j
-10
-#402500
-b10100100110000 !
-1j
-00
-#403000
-b11100100110000 !
-b1100100110000 !
-1i
-0j
-10
-#403500
-b11100100110000 !
-1j
-00
-#404000
-b11110100110000 !
-b11010100110000 !
-b10010100110000 !
-b10100110000 !
-1g
-0h
-0i
-0j
-10
-#404500
-b10010100110000 !
-1j
-00
-#405000
-b11010100110000 !
-b1010100110000 !
-1i
-0j
-10
-#405500
-b11010100110000 !
-1j
-00
-#406000
-b11110100110000 !
-b10110100110000 !
-b110100110000 !
-1h
-0i
-0j
-10
-#406500
-b10110100110000 !
-1j
-00
-#407000
-b11110100110000 !
-b1110100110000 !
-1i
-0j
-10
-#407500
-b11110100110000 !
-1j
-00
-#408000
-b11111100110000 !
-b11101100110000 !
-b11001100110000 !
-b10001100110000 !
-b1100110000 !
-1f
-0g
-0h
-0i
-0j
-10
-#408500
-b10001100110000 !
-1j
-00
-#409000
-b11001100110000 !
-b1001100110000 !
-1i
-0j
-10
-#409500
-b11001100110000 !
-1j
-00
-#410000
-b11101100110000 !
-b10101100110000 !
-b101100110000 !
-1h
-0i
-0j
-10
-#410500
-b10101100110000 !
-1j
-00
-#411000
-b11101100110000 !
-b1101100110000 !
-1i
-0j
-10
-#411500
-b11101100110000 !
-1j
-00
-#412000
-b11111100110000 !
-b11011100110000 !
-b10011100110000 !
-b11100110000 !
-1g
-0h
-0i
-0j
-10
-#412500
-b10011100110000 !
-1j
-00
-#413000
-b11011100110000 !
-b1011100110000 !
-1i
-0j
-10
-#413500
-b11011100110000 !
-1j
-00
-#414000
-b11111100110000 !
-b10111100110000 !
-b111100110000 !
-1h
-0i
-0j
-10
-#414500
-b10111100110000 !
-1j
-00
-#415000
-b11111100110000 !
-b1111100110000 !
-1i
-0j
-10
-#415500
-b11111100110000 !
-1j
-00
-#416000
-b11111110110000 !
-b11111010110000 !
-b11110010110000 !
-b11100010110000 !
-b11000010110000 !
-b10000010110000 !
-b10110000 !
-1d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#416500
-b10000010110000 !
-1j
-00
-#417000
-b11000010110000 !
-b1000010110000 !
-1i
-0j
-10
-#417500
-b11000010110000 !
-1j
-00
-#418000
-b11100010110000 !
-b10100010110000 !
-b100010110000 !
-1h
-0i
-0j
-10
-#418500
-b10100010110000 !
-1j
-00
-#419000
-b11100010110000 !
-b1100010110000 !
-1i
-0j
-10
-#419500
-b11100010110000 !
-1j
-00
-#420000
-b11110010110000 !
-b11010010110000 !
-b10010010110000 !
-b10010110000 !
-1g
-0h
-0i
-0j
-10
-#420500
-b10010010110000 !
-1j
-00
-#421000
-b11010010110000 !
-b1010010110000 !
-1i
-0j
-10
-#421500
-b11010010110000 !
-1j
-00
-#422000
-b11110010110000 !
-b10110010110000 !
-b110010110000 !
-1h
-0i
-0j
-10
-#422500
-b10110010110000 !
-1j
-00
-#423000
-b11110010110000 !
-b1110010110000 !
-1i
-0j
-10
-#423500
-b11110010110000 !
-1j
-00
-#424000
-b11111010110000 !
-b11101010110000 !
-b11001010110000 !
-b10001010110000 !
-b1010110000 !
-1f
-0g
-0h
-0i
-0j
-10
-#424500
-b10001010110000 !
-1j
-00
-#425000
-b11001010110000 !
-b1001010110000 !
-1i
-0j
-10
-#425500
-b11001010110000 !
-1j
-00
-#426000
-b11101010110000 !
-b10101010110000 !
-b101010110000 !
-1h
-0i
-0j
-10
-#426500
-b10101010110000 !
-1j
-00
-#427000
-b11101010110000 !
-b1101010110000 !
-1i
-0j
-10
-#427500
-b11101010110000 !
-1j
-00
-#428000
-b11111010110000 !
-b11011010110000 !
-b10011010110000 !
-b11010110000 !
-1g
-0h
-0i
-0j
-10
-#428500
-b10011010110000 !
-1j
-00
-#429000
-b11011010110000 !
-b1011010110000 !
-1i
-0j
-10
-#429500
-b11011010110000 !
-1j
-00
-#430000
-b11111010110000 !
-b10111010110000 !
-b111010110000 !
-1h
-0i
-0j
-10
-#430500
-b10111010110000 !
-1j
-00
-#431000
-b11111010110000 !
-b1111010110000 !
-1i
-0j
-10
-#431500
-b11111010110000 !
-1j
-00
-#432000
-b11111110110000 !
-b11110110110000 !
-b11100110110000 !
-b11000110110000 !
-b10000110110000 !
-b110110000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#432500
-b10000110110000 !
-1j
-00
-#433000
-b11000110110000 !
-b1000110110000 !
-1i
-0j
-10
-#433500
-b11000110110000 !
-1j
-00
-#434000
-b11100110110000 !
-b10100110110000 !
-b100110110000 !
-1h
-0i
-0j
-10
-#434500
-b10100110110000 !
-1j
-00
-#435000
-b11100110110000 !
-b1100110110000 !
-1i
-0j
-10
-#435500
-b11100110110000 !
-1j
-00
-#436000
-b11110110110000 !
-b11010110110000 !
-b10010110110000 !
-b10110110000 !
-1g
-0h
-0i
-0j
-10
-#436500
-b10010110110000 !
-1j
-00
-#437000
-b11010110110000 !
-b1010110110000 !
-1i
-0j
-10
-#437500
-b11010110110000 !
-1j
-00
-#438000
-b11110110110000 !
-b10110110110000 !
-b110110110000 !
-1h
-0i
-0j
-10
-#438500
-b10110110110000 !
-1j
-00
-#439000
-b11110110110000 !
-b1110110110000 !
-1i
-0j
-10
-#439500
-b11110110110000 !
-1j
-00
-#440000
-b11111110110000 !
-b11101110110000 !
-b11001110110000 !
-b10001110110000 !
-b1110110000 !
-1f
-0g
-0h
-0i
-0j
-10
-#440500
-b10001110110000 !
-1j
-00
-#441000
-b11001110110000 !
-b1001110110000 !
-1i
-0j
-10
-#441500
-b11001110110000 !
-1j
-00
-#442000
-b11101110110000 !
-b10101110110000 !
-b101110110000 !
-1h
-0i
-0j
-10
-#442500
-b10101110110000 !
-1j
-00
-#443000
-b11101110110000 !
-b1101110110000 !
-1i
-0j
-10
-#443500
-b11101110110000 !
-1j
-00
-#444000
-b11111110110000 !
-b11011110110000 !
-b10011110110000 !
-b11110110000 !
-1g
-0h
-0i
-0j
-10
-#444500
-b10011110110000 !
-1j
-00
-#445000
-b11011110110000 !
-b1011110110000 !
-1i
-0j
-10
-#445500
-b11011110110000 !
-1j
-00
-#446000
-b11111110110000 !
-b10111110110000 !
-b111110110000 !
-1h
-0i
-0j
-10
-#446500
-b10111110110000 !
-1j
-00
-#447000
-b11111110110000 !
-b1111110110000 !
-1i
-0j
-10
-#447500
-b11111110110000 !
-1j
-00
-#448000
-b11111111110000 !
-b11111101110000 !
-b11111001110000 !
-b11110001110000 !
-b11100001110000 !
-b11000001110000 !
-b10000001110000 !
-b1110000 !
-0d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#448500
-b10000001110000 !
-1j
-00
-#448537
-1y
-#449000
-b11000001110000 !
-b1000001110000 !
-1i
-0j
-10
-#449500
-b11000001110000 !
-1j
-00
-#450000
-b11100001110000 !
-b10100001110000 !
-b100001110000 !
-1h
-0i
-0j
-10
-#450500
-b10100001110000 !
-1j
-00
-#451000
-b11100001110000 !
-b1100001110000 !
-1i
-0j
-10
-#451500
-b11100001110000 !
-1j
-00
-#451866
-1)!
-#452000
-b11110001110000 !
-b11010001110000 !
-b10010001110000 !
-b10001110000 !
-1g
-0h
-0i
-0j
-10
-#452022
-08
-#452082
-1R
-#452099
-1~
-#452237
-0O!
-#452314
-1M!
-#452500
-b10010001110000 !
-1j
-00
-#452536
-0!!
-#452643
-1Y!
-#452751
-0N!
-#452940
-0)!
-#452954
-1I
-#453000
-b11010001110000 !
-b1010001110000 !
-1i
-0j
-10
-#453176
-0#!
-#453266
-0T
-#453487
-1Z!
-#453488
-1_
-#453500
-b11010001110000 !
-1j
-00
-#453552
-1R!
-#453608
-1E!
-#453623
-1I!
-#453626
-1F!
-#453680
-0"!
-#453766
-19
-#453792
-0S
-#453799
-0R
-#453862
-1'!
-#453920
-0*!
-#453978
-1+!
-#454000
-b11110001110000 !
-b10110001110000 !
-b110001110000 !
-1h
-0i
-0j
-10
-#454011
-0B
-#454139
-1e!
-#454260
-1<
-#454317
-1(!
-#454338
-1^
-#454340
-1L
-#454346
-1W!
-#454404
-0X!
-#454433
-1,!
-#454462
-1[!
-#454500
-b10110001110000 !
-1j
-00
-#454576
-0f!
-#454619
-0F
-#454801
-1=
-#454917
-1\!
-#454948
-0^
-#454949
-0;!
-#454950
-0L
-0M
-#454955
-0_
-#454965
-1]
-#454966
-1\
-#455000
-b11110001110000 !
-b1110001110000 !
-1i
-0j
-10
-#455011
-1b
-#455035
-0B!
-#455047
-08!
-#455056
-0G
-#455125
-0F!
-0H!
-#455127
-0D!
-0E!
-0G!
-0I!
-#455134
-15!
-#455192
-06!
-#455241
-1W
-#455379
-0X
-#455382
-1]!
-#455472
-0C!
-#455500
-b11110001110000 !
-1j
-00
-#455547
-1;
-#455629
-07!
-#455633
-14!
-#455639
-05!
-#455666
-1t!
-#455698
-1r!
-#455793
-1B!
-#455800
-0@
-#455870
-0W
-#455887
-1c!
-#455933
-1E
-#455945
-0d!
-#455954
-0n!
-#455967
-1q!
-#456000
-b11111001110000 !
-b11101001110000 !
-b11001001110000 !
-b10001001110000 !
-b1001110000 !
-1f
-0g
-0h
-0i
-0j
-10
-#456031
-0Z!
-#456112
-0D
-#456117
-1O
-#456156
-1H!
-#456246
-0]
-#456248
-1C!
-#456379
-1P
-1F!
-1I!
-#456381
-1D!
-1E!
-1G!
-#456404
-1?
-#456431
-0c!
-#456470
-1@
-#456490
-1b!
-#456500
-b10001001110000 !
-1j
-00
-#456559
-0l!
-#456657
-0k!
-#456708
-0p!
-#456868
-0A
-#456891
-1]
-#456927
-0@
-#457000
-b11001001110000 !
-b1001001110000 !
-1i
-0j
-10
-#457017
-1y!
-#457018
-1{!
-#457020
-1z!
-#457021
-1w!
-1x!
-#457022
-1v!
-#457073
-0@!
-#457112
-1l!
-#457131
-1A!
-#457149
-0o!
-#457189
-0B!
-#457298
-0r!
-#457359
-1g!
-#457373
-0]
-#457477
-0\
-#457500
-b11001001110000 !
-1j
-00
-#457626
-0C!
-#457676
-1o!
-#457921
-0l!
-#458000
-b11101001110000 !
-b10101001110000 !
-b101001110000 !
-1h
-0i
-0j
-10
-#458018
-1C
-#458500
-b10101001110000 !
-1j
-00
-#458511
-0o!
-#459000
-b11101001110000 !
-b1101001110000 !
-1i
-0j
-10
-#459500
-b11101001110000 !
-1j
-00
-#459775
-1m
-1&
-#459892
-1p
-1#
-#460000
-b11111001110000 !
-b11011001110000 !
-b10011001110000 !
-b11001110000 !
-1g
-0h
-0i
-0j
-10
-#460059
-1t
-1-
-#460071
-1l
-1'
-#460091
-1u
-1,
-#460230
-0v!
-#460233
-0z!
-#460239
-0y!
-#460251
-0w!
-#460329
-1w
-1*
-#460394
-1s
-1.
-#460432
-1v
-1+
-#460500
-b10011001110000 !
-1j
-00
-#460611
-1r
-1/
-#461000
-b11011001110000 !
-b1011001110000 !
-1i
-0j
-10
-#461500
-b11011001110000 !
-1j
-00
-#462000
-b11111001110000 !
-b10111001110000 !
-b111001110000 !
-1h
-0i
-0j
-10
-#462500
-b10111001110000 !
-1j
-00
-#463000
-b11111001110000 !
-b1111001110000 !
-1i
-0j
-10
-#463209
-0u
-0,
-#463500
-b11111001110000 !
-1j
-00
-#463509
-0s
-0.
-#463530
-0v
-0+
-#463733
-0r
-0/
-#464000
-b11111101110000 !
-b11110101110000 !
-b11100101110000 !
-b11000101110000 !
-b10000101110000 !
-b101110000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#464500
-b10000101110000 !
-1j
-00
-#465000
-b11000101110000 !
-b1000101110000 !
-1i
-0j
-10
-#465500
-b11000101110000 !
-1j
-00
-#466000
-b11100101110000 !
-b10100101110000 !
-b100101110000 !
-1h
-0i
-0j
-10
-#466500
-b10100101110000 !
-1j
-00
-#467000
-b11100101110000 !
-b1100101110000 !
-1i
-0j
-10
-#467500
-b11100101110000 !
-1j
-00
-#468000
-b11110101110000 !
-b11010101110000 !
-b10010101110000 !
-b10101110000 !
-1g
-0h
-0i
-0j
-10
-#468500
-b10010101110000 !
-1j
-00
-#469000
-b11010101110000 !
-b1010101110000 !
-1i
-0j
-10
-#469500
-b11010101110000 !
-1j
-00
-#470000
-b11110101110000 !
-b10110101110000 !
-b110101110000 !
-1h
-0i
-0j
-10
-#470500
-b10110101110000 !
-1j
-00
-#471000
-b11110101110000 !
-b1110101110000 !
-1i
-0j
-10
-#471500
-b11110101110000 !
-1j
-00
-#472000
-b11111101110000 !
-b11101101110000 !
-b11001101110000 !
-b10001101110000 !
-b1101110000 !
-1f
-0g
-0h
-0i
-0j
-10
-#472500
-b10001101110000 !
-1j
-00
-#473000
-b11001101110000 !
-b1001101110000 !
-1i
-0j
-10
-#473500
-b11001101110000 !
-1j
-00
-#474000
-b11101101110000 !
-b10101101110000 !
-b101101110000 !
-1h
-0i
-0j
-10
-#474500
-b10101101110000 !
-1j
-00
-#475000
-b11101101110000 !
-b1101101110000 !
-1i
-0j
-10
-#475500
-b11101101110000 !
-1j
-00
-#476000
-b11111101110000 !
-b11011101110000 !
-b10011101110000 !
-b11101110000 !
-1g
-0h
-0i
-0j
-10
-#476500
-b10011101110000 !
-1j
-00
-#477000
-b11011101110000 !
-b1011101110000 !
-1i
-0j
-10
-#477500
-b11011101110000 !
-1j
-00
-#478000
-b11111101110000 !
-b10111101110000 !
-b111101110000 !
-1h
-0i
-0j
-10
-#478500
-b10111101110000 !
-1j
-00
-#479000
-b11111101110000 !
-b1111101110000 !
-1i
-0j
-10
-#479500
-b11111101110000 !
-1j
-00
-#480000
-b11111111110000 !
-b11111011110000 !
-b11110011110000 !
-b11100011110000 !
-b11000011110000 !
-b10000011110000 !
-b11110000 !
-1d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#480500
-b10000011110000 !
-1j
-00
-#481000
-b11000011110000 !
-b1000011110000 !
-1i
-0j
-10
-#481500
-b11000011110000 !
-1j
-00
-#482000
-b11100011110000 !
-b10100011110000 !
-b100011110000 !
-1h
-0i
-0j
-10
-#482500
-b10100011110000 !
-1j
-00
-#483000
-b11100011110000 !
-b1100011110000 !
-1i
-0j
-10
-#483500
-b11100011110000 !
-1j
-00
-#484000
-b11110011110000 !
-b11010011110000 !
-b10010011110000 !
-b10011110000 !
-1g
-0h
-0i
-0j
-10
-#484500
-b10010011110000 !
-1j
-00
-#485000
-b11010011110000 !
-b1010011110000 !
-1i
-0j
-10
-#485500
-b11010011110000 !
-1j
-00
-#486000
-b11110011110000 !
-b10110011110000 !
-b110011110000 !
-1h
-0i
-0j
-10
-#486500
-b10110011110000 !
-1j
-00
-#487000
-b11110011110000 !
-b1110011110000 !
-1i
-0j
-10
-#487500
-b11110011110000 !
-1j
-00
-#488000
-b11111011110000 !
-b11101011110000 !
-b11001011110000 !
-b10001011110000 !
-b1011110000 !
-1f
-0g
-0h
-0i
-0j
-10
-#488500
-b10001011110000 !
-1j
-00
-#489000
-b11001011110000 !
-b1001011110000 !
-1i
-0j
-10
-#489500
-b11001011110000 !
-1j
-00
-#490000
-b11101011110000 !
-b10101011110000 !
-b101011110000 !
-1h
-0i
-0j
-10
-#490500
-b10101011110000 !
-1j
-00
-#491000
-b11101011110000 !
-b1101011110000 !
-1i
-0j
-10
-#491500
-b11101011110000 !
-1j
-00
-#492000
-b11111011110000 !
-b11011011110000 !
-b10011011110000 !
-b11011110000 !
-1g
-0h
-0i
-0j
-10
-#492500
-b10011011110000 !
-1j
-00
-#493000
-b11011011110000 !
-b1011011110000 !
-1i
-0j
-10
-#493500
-b11011011110000 !
-1j
-00
-#494000
-b11111011110000 !
-b10111011110000 !
-b111011110000 !
-1h
-0i
-0j
-10
-#494500
-b10111011110000 !
-1j
-00
-#495000
-b11111011110000 !
-b1111011110000 !
-1i
-0j
-10
-#495500
-b11111011110000 !
-1j
-00
-#496000
-b11111111110000 !
-b11110111110000 !
-b11100111110000 !
-b11000111110000 !
-b10000111110000 !
-b111110000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#496500
-b10000111110000 !
-1j
-00
-#497000
-b11000111110000 !
-b1000111110000 !
-1i
-0j
-10
-#497500
-b11000111110000 !
-1j
-00
-#498000
-b11100111110000 !
-b10100111110000 !
-b100111110000 !
-1h
-0i
-0j
-10
-#498500
-b10100111110000 !
-1j
-00
-#499000
-b11100111110000 !
-b1100111110000 !
-1i
-0j
-10
-#499500
-b11100111110000 !
-1j
-00
-#500000
-b11110111110000 !
-b11010111110000 !
-b10010111110000 !
-b10111110000 !
-1g
-0h
-0i
-0j
-10
-#500500
-b10010111110000 !
-1j
-00
-#501000
-b11010111110000 !
-b1010111110000 !
-1i
-0j
-10
-#501500
-b11010111110000 !
-1j
-00
-#502000
-b11110111110000 !
-b10110111110000 !
-b110111110000 !
-1h
-0i
-0j
-10
-#502500
-b10110111110000 !
-1j
-00
-#503000
-b11110111110000 !
-b1110111110000 !
-1i
-0j
-10
-#503500
-b11110111110000 !
-1j
-00
-#504000
-b11111111110000 !
-b11101111110000 !
-b11001111110000 !
-b10001111110000 !
-b1111110000 !
-1f
-0g
-0h
-0i
-0j
-10
-#504500
-b10001111110000 !
-1j
-00
-#505000
-b11001111110000 !
-b1001111110000 !
-1i
-0j
-10
-#505500
-b11001111110000 !
-1j
-00
-#506000
-b11101111110000 !
-b10101111110000 !
-b101111110000 !
-1h
-0i
-0j
-10
-#506500
-b10101111110000 !
-1j
-00
-#507000
-b11101111110000 !
-b1101111110000 !
-1i
-0j
-10
-#507500
-b11101111110000 !
-1j
-00
-#508000
-b11111111110000 !
-b11011111110000 !
-b10011111110000 !
-b11111110000 !
-1g
-0h
-0i
-0j
-10
-#508500
-b10011111110000 !
-1j
-00
-#509000
-b11011111110000 !
-b1011111110000 !
-1i
-0j
-10
-#509500
-b11011111110000 !
-1j
-00
-#510000
-b11111111110000 !
-b10111111110000 !
-b111111110000 !
-1h
-0i
-0j
-10
-#510500
-b10111111110000 !
-1j
-00
-#511000
-b11111111110000 !
-b1111111110000 !
-1i
-0j
-10
-#511500
-b11111111110000 !
-1j
-00
-#512000
-b11111111100000 !
-b11111111000000 !
-b11111110000000 !
-b11111100000000 !
-b11111000000000 !
-b11110000000000 !
-b11100000000000 !
-b11000000000000 !
-b10000000000000 !
+b1110 !
+b1100 !
+b1000 !
 b0 !
-0d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#512500
-b10000000000000 !
-1j
-00
-#512698
-0z
-#512708
-0{
-#512711
-0y
-#513000
-b11000000000000 !
-b1000000000000 !
-1i
-0j
-10
-#513500
-b11000000000000 !
-1j
-00
-#514000
-b11100000000000 !
-b10100000000000 !
-b100000000000 !
-1h
-0i
-0j
-10
-#514500
-b10100000000000 !
-1j
-00
-#515000
-b11100000000000 !
-b1100000000000 !
-1i
-0j
-10
-#515500
-b11100000000000 !
-1j
-00
-#516000
-b11110000000000 !
-b11010000000000 !
-b10010000000000 !
-b10000000000 !
-1g
-0h
-0i
-0j
-10
-#516394
-0~
-#516431
-18
-#516500
-b10010000000000 !
-1j
-00
-#516654
-0M!
-#516691
-1O!
-#516698
-0K!
-#516735
-1S!
-#516756
-1L!
-#516788
-07
-#516849
-1!!
-#516854
-1H
-#516893
-0|
-#516930
-1.!
-#516951
-1}
-#517000
-b11010000000000 !
-b1010000000000 !
-1i
-0j
-10
-#517004
-1P!
-#517048
-1T!
-#517109
-1N!
-#517193
-0O!
-#517210
-1c
-#517213
-0H
-#517294
-1^!
-#517348
-17
-#517388
-08
-#517420
+12
+#80517
+1G
+#80681
 0I
-#517493
-0b
-#517500
-b11010000000000 !
-1j
-00
-#517523
-0+!
-#517580
-0P!
-0T!
-#517582
-0^!
-#517690
-0c
-#517862
-0]!
-#517864
-0R!
-#517896
-0E!
-#517904
-0D!
-0G!
-#517907
-0F!
-#517960
-0,!
-#518000
-b11110000000000 !
-b10110000000000 !
-b110000000000 !
-1h
-0i
-0j
-10
-#518016
-0(!
-#518019
-1+!
-#518305
-16!
-#518454
-0=
-#518474
-1,!
-#518500
-b10110000000000 !
-1j
-00
-#518516
-1M
-#518517
-1L
-#518760
-17!
-#518890
-1A
-#518986
-1d!
-#518991
-0L
+#80691
 0M
-#519000
-b11110000000000 !
-b1110000000000 !
-1i
-0j
-10
-#519042
-04!
-#519044
-0e!
-#519093
-0;
-#519100
-15!
-#519158
-06!
-#519214
-0O
-#519441
-1B
-#519445
-0J!
-0P
-#519447
-1D!
-1G!
-#519453
-1\
-#519499
-1f!
-#519500
-b11110000000000 !
-1j
-00
-#519588
-1;
-#519595
-07!
-#519674
-14!
-#519680
-05!
-#519738
-16!
-#519843
-0\
-#519911
-0A!
-#519969
-1B!
-#520000
-b11111000000000 !
-b11101000000000 !
-b11001000000000 !
-b10001000000000 !
-b1000000000 !
-1f
-0g
-0h
-0i
-0j
-10
-#520083
-1O
-#520193
-17!
-#520284
-1@!
-#520345
-1P
-#520346
-0D!
-0G!
-#520347
-1J!
-#520424
-1C!
-#520500
-b10001000000000 !
-1j
-00
-#520647
-0O
-#520862
-0g!
-#520863
-0q!
-#520878
-0J!
-0P
-#521000
-b11001000000000 !
-b1001000000000 !
-1i
-0j
-10
-#521039
-0@!
-#521053
-0H!
-#521057
-0I!
-#521193
-0m
-0&
-#521428
-0C
-#521465
-1l!
-#521474
-0l
-0'
-#521486
-1D
-#521500
-b11001000000000 !
-1j
-00
-#521544
-0E
-#521602
-1F
-#521603
-1p!
-#521689
-1k!
-#521717
-1@!
-#522000
-b11101000000000 !
-b10101000000000 !
-b101000000000 !
-1h
-0i
-0j
-10
-#522029
-1o!
-#522057
-1G
-#522126
-0l!
-#522167
-1r!
-#522500
-b10101000000000 !
-1j
-00
-#522632
-0t!
-#522662
-0o!
-0r!
-#523000
-b11101000000000 !
-b1101000000000 !
-1i
-0j
-10
-#523500
-b11101000000000 !
-1j
-00
-#523592
-0k
-0(
-#524000
-b11111000000000 !
-b11011000000000 !
-b10011000000000 !
-b11000000000 !
-1g
-0h
-0i
-0j
-10
-#524002
-0|!
-#524004
-0{!
-#524007
-0x!
-#524212
-0n
-0%
-#524338
-0o
-0$
-#524488
-0p
-0#
-#524500
-b10011000000000 !
-1j
-00
-#524609
-1q
-1"
-#525000
-b11011000000000 !
-b1011000000000 !
-1i
-0j
-10
-#525500
-b11011000000000 !
-1j
-00
-#526000
-b11111000000000 !
-b10111000000000 !
-b111000000000 !
-1h
-0i
-0j
-10
-#526500
-b10111000000000 !
-1j
-00
-#526969
-0t
-0-
-#527000
-b11111000000000 !
-b1111000000000 !
-1i
-0j
-10
-#527236
-0w
-0*
-#527474
-1x
-1)
-#527500
-b11111000000000 !
-1j
-00
-#528000
-b11111100000000 !
-b11110100000000 !
-b11100100000000 !
-b11000100000000 !
-b10000100000000 !
-b100000000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#528500
-b10000100000000 !
-1j
-00
-#529000
-b11000100000000 !
-b1000100000000 !
-1i
-0j
-10
-#529500
-b11000100000000 !
-1j
-00
-#530000
-b11100100000000 !
-b10100100000000 !
-b100100000000 !
-1h
-0i
-0j
-10
-#530500
-b10100100000000 !
-1j
-00
-#531000
-b11100100000000 !
-b1100100000000 !
-1i
-0j
-10
-#531500
-b11100100000000 !
-1j
-00
-#532000
-b11110100000000 !
-b11010100000000 !
-b10010100000000 !
-b10100000000 !
-1g
-0h
-0i
-0j
-10
-#532500
-b10010100000000 !
-1j
-00
-#533000
-b11010100000000 !
-b1010100000000 !
-1i
-0j
-10
-#533500
-b11010100000000 !
-1j
-00
-#534000
-b11110100000000 !
-b10110100000000 !
-b110100000000 !
-1h
-0i
-0j
-10
-#534500
-b10110100000000 !
-1j
-00
-#535000
-b11110100000000 !
-b1110100000000 !
-1i
-0j
-10
-#535500
-b11110100000000 !
-1j
-00
-#536000
-b11111100000000 !
-b11101100000000 !
-b11001100000000 !
-b10001100000000 !
-b1100000000 !
-1f
-0g
-0h
-0i
-0j
-10
-#536500
-b10001100000000 !
-1j
-00
-#537000
-b11001100000000 !
-b1001100000000 !
-1i
-0j
-10
-#537500
-b11001100000000 !
-1j
-00
-#538000
-b11101100000000 !
-b10101100000000 !
-b101100000000 !
-1h
-0i
-0j
-10
-#538500
-b10101100000000 !
-1j
-00
-#539000
-b11101100000000 !
-b1101100000000 !
-1i
-0j
-10
-#539500
-b11101100000000 !
-1j
-00
-#540000
-b11111100000000 !
-b11011100000000 !
-b10011100000000 !
-b11100000000 !
-1g
-0h
-0i
-0j
-10
-#540500
-b10011100000000 !
-1j
-00
-#541000
-b11011100000000 !
-b1011100000000 !
-1i
-0j
-10
-#541500
-b11011100000000 !
-1j
-00
-#542000
-b11111100000000 !
-b10111100000000 !
-b111100000000 !
-1h
-0i
-0j
-10
-#542500
-b10111100000000 !
-1j
-00
-#543000
-b11111100000000 !
-b1111100000000 !
-1i
-0j
-10
-#543500
-b11111100000000 !
-1j
-00
-#544000
-b11111110000000 !
-b11111010000000 !
-b11110010000000 !
-b11100010000000 !
-b11000010000000 !
-b10000010000000 !
-b10000000 !
-1d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#544500
-b10000010000000 !
-1j
-00
-#545000
-b11000010000000 !
-b1000010000000 !
-1i
-0j
-10
-#545500
-b11000010000000 !
-1j
-00
-#546000
-b11100010000000 !
-b10100010000000 !
-b100010000000 !
-1h
-0i
-0j
-10
-#546500
-b10100010000000 !
-1j
-00
-#547000
-b11100010000000 !
-b1100010000000 !
-1i
-0j
-10
-#547500
-b11100010000000 !
-1j
-00
-#548000
-b11110010000000 !
-b11010010000000 !
-b10010010000000 !
-b10010000000 !
-1g
-0h
-0i
-0j
-10
-#548500
-b10010010000000 !
-1j
-00
-#549000
-b11010010000000 !
-b1010010000000 !
-1i
-0j
-10
-#549500
-b11010010000000 !
-1j
-00
-#550000
-b11110010000000 !
-b10110010000000 !
-b110010000000 !
-1h
-0i
-0j
-10
-#550500
-b10110010000000 !
-1j
-00
-#551000
-b11110010000000 !
-b1110010000000 !
-1i
-0j
-10
-#551500
-b11110010000000 !
-1j
-00
-#552000
-b11111010000000 !
-b11101010000000 !
-b11001010000000 !
-b10001010000000 !
-b1010000000 !
-1f
-0g
-0h
-0i
-0j
-10
-#552500
-b10001010000000 !
-1j
-00
-#553000
-b11001010000000 !
-b1001010000000 !
-1i
-0j
-10
-#553500
-b11001010000000 !
-1j
-00
-#554000
-b11101010000000 !
-b10101010000000 !
-b101010000000 !
-1h
-0i
-0j
-10
-#554500
-b10101010000000 !
-1j
-00
-#555000
-b11101010000000 !
-b1101010000000 !
-1i
-0j
-10
-#555500
-b11101010000000 !
-1j
-00
-#556000
-b11111010000000 !
-b11011010000000 !
-b10011010000000 !
-b11010000000 !
-1g
-0h
-0i
-0j
-10
-#556500
-b10011010000000 !
-1j
-00
-#557000
-b11011010000000 !
-b1011010000000 !
-1i
-0j
-10
-#557500
-b11011010000000 !
-1j
-00
-#558000
-b11111010000000 !
-b10111010000000 !
-b111010000000 !
-1h
-0i
-0j
-10
-#558500
-b10111010000000 !
-1j
-00
-#559000
-b11111010000000 !
-b1111010000000 !
-1i
-0j
-10
-#559500
-b11111010000000 !
-1j
-00
-#560000
-b11111110000000 !
-b11110110000000 !
-b11100110000000 !
-b11000110000000 !
-b10000110000000 !
-b110000000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#560500
-b10000110000000 !
-1j
-00
-#561000
-b11000110000000 !
-b1000110000000 !
-1i
-0j
-10
-#561500
-b11000110000000 !
-1j
-00
-#562000
-b11100110000000 !
-b10100110000000 !
-b100110000000 !
-1h
-0i
-0j
-10
-#562500
-b10100110000000 !
-1j
-00
-#563000
-b11100110000000 !
-b1100110000000 !
-1i
-0j
-10
-#563500
-b11100110000000 !
-1j
-00
-#564000
-b11110110000000 !
-b11010110000000 !
-b10010110000000 !
-b10110000000 !
-1g
-0h
-0i
-0j
-10
-#564500
-b10010110000000 !
-1j
-00
-#565000
-b11010110000000 !
-b1010110000000 !
-1i
-0j
-10
-#565500
-b11010110000000 !
-1j
-00
-#566000
-b11110110000000 !
-b10110110000000 !
-b110110000000 !
-1h
-0i
-0j
-10
-#566500
-b10110110000000 !
-1j
-00
-#567000
-b11110110000000 !
-b1110110000000 !
-1i
-0j
-10
-#567500
-b11110110000000 !
-1j
-00
-#568000
-b11111110000000 !
-b11101110000000 !
-b11001110000000 !
-b10001110000000 !
-b1110000000 !
-1f
-0g
-0h
-0i
-0j
-10
-#568500
-b10001110000000 !
-1j
-00
-#569000
-b11001110000000 !
-b1001110000000 !
-1i
-0j
-10
-#569500
-b11001110000000 !
-1j
-00
-#570000
-b11101110000000 !
-b10101110000000 !
-b101110000000 !
-1h
-0i
-0j
-10
-#570500
-b10101110000000 !
-1j
-00
-#571000
-b11101110000000 !
-b1101110000000 !
-1i
-0j
-10
-#571500
-b11101110000000 !
-1j
-00
-#572000
-b11111110000000 !
-b11011110000000 !
-b10011110000000 !
-b11110000000 !
-1g
-0h
-0i
-0j
-10
-#572500
-b10011110000000 !
-1j
-00
-#573000
-b11011110000000 !
-b1011110000000 !
-1i
-0j
-10
-#573500
-b11011110000000 !
-1j
-00
-#574000
-b11111110000000 !
-b10111110000000 !
-b111110000000 !
-1h
-0i
-0j
-10
-#574500
-b10111110000000 !
-1j
-00
-#575000
-b11111110000000 !
-b1111110000000 !
-1i
-0j
-10
-#575500
-b11111110000000 !
-1j
-00
-#576000
-b11111111000000 !
-b11111101000000 !
-b11111001000000 !
-b11110001000000 !
-b11100001000000 !
-b11000001000000 !
-b10000001000000 !
-b1000000 !
-0d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#576500
-b10000001000000 !
-1j
-00
-#576537
-1y
-#577000
-b11000001000000 !
-b1000001000000 !
-1i
-0j
-10
-#577500
-b11000001000000 !
-1j
-00
-#578000
-b11100001000000 !
-b10100001000000 !
-b100001000000 !
-1h
-0i
-0j
-10
-#578500
-b10100001000000 !
-1j
-00
-#579000
-b11100001000000 !
-b1100001000000 !
-1i
-0j
-10
-#579500
-b11100001000000 !
-1j
-00
-#579866
-1)!
-#580000
-b11110001000000 !
-b11010001000000 !
-b10010001000000 !
-b10001000000 !
-1g
-0h
-0i
-0j
-10
-#580008
-18
-#580072
-1c
-#580082
-1R
-#580223
-1O!
-#580391
-0+!
-#580500
-b10010001000000 !
-1j
-00
-#580608
-0[!
-#580659
-0Y!
-#580828
-0,!
-#581000
-b11010001000000 !
-b1010001000000 !
-1i
-0j
-10
-#581012
-1_
-#581037
-0B
-#581045
-0\!
-#581154
-1e!
-#581383
-1^
-#581384
-1M
-1;!
-#581385
-1L
-#581500
-b11010001000000 !
-1j
-00
-#581546
-1H!
-#581548
-1X
-1G!
-#581549
-1J!
-1D!
-#581591
-0f!
-#581910
-04!
-#581961
-0;
-#581968
-15!
-#581970
-0_
-#581981
-1\
-#582000
-b11110001000000 !
-b10110001000000 !
-b110001000000 !
-1h
-0i
-0j
-10
-#582026
-06!
-#582029
-1W
-#582080
-0B!
-#582106
-0c
-#582109
-1n!
-#582143
-0F
-#582463
-07!
-#582500
-b10110001000000 !
-1j
-00
-#582508
-0b!
-#582517
-0C!
-#582536
-1o!
-#582559
-0?
-#582566
-1c!
-#582580
-0G
-#582624
-0d!
-#582681
-1l!
-#582948
-1E
-#582981
-1g!
-#582982
-1q!
-#583000
-b11110001000000 !
-b1110001000000 !
-1i
-0j
-10
-#583003
-0A
-#583085
-0;!
-#583098
-0n!
-#583169
-0D!
-#583190
-1t!
-#583213
-0J!
-1P
-1I!
-#583222
-1r!
-#583229
-0^
-#583500
-b11110001000000 !
-1j
-00
-#583563
-0g!
-#583612
-0\
-#583672
-0k!
-#583723
-0p!
-#583730
-1C
-#583788
-0D
-#583907
-0@!
-#584000
-b11111001000000 !
-b11101001000000 !
-b11001001000000 !
-b10001001000000 !
-b1001000000 !
-1f
-0g
-0h
-0i
-0j
-10
-#584074
-1B!
-#584129
-0C
-#584187
-1D
-#584215
-1|!
-#584245
-0E
-#584303
-1F
-#584313
-0r!
-#584500
-b10001001000000 !
-1j
-00
-#584529
-1C!
-#584541
-1y!
-#584542
-1{!
-#584544
-1z!
-#584545
-1w!
-1x!
-#584546
-1v!
-#584758
-1G
-#584946
-1o
-1$
-#585000
-b11001001000000 !
-b1001001000000 !
-1i
-0j
-10
-#585127
-1J!
-#585147
-1E!
-#585158
-0H!
-#585161
-0G!
-#585162
-0I!
-#585333
-0t!
-#585358
-1r!
-#585363
-0o!
-#585459
-1n
-1%
-#585500
-b11001001000000 !
-1j
-00
-#586000
-b11101001000000 !
-b10101001000000 !
-b101001000000 !
-1h
-0i
-0j
-10
-#586500
-b10101001000000 !
-1j
-00
-#587000
-b11101001000000 !
-b1101001000000 !
-1i
-0j
-10
-#587103
-0w!
-#587104
-0x!
-#587110
-0{!
-#587500
-b11101001000000 !
-1j
-00
-#587615
-1u
-1,
-#587781
-0x
-0)
-#587956
-1v
-1+
-#588000
-b11111001000000 !
-b11011001000000 !
-b10011001000000 !
-b11001000000 !
-1g
-0h
-0i
-0j
-10
-#588135
-1r
-1/
-#588443
-0o
-0$
-#588500
-b10011001000000 !
-1j
-00
-#588837
-1l
-1'
-#588948
-0q
-0"
-#589000
-b11011001000000 !
-b1011001000000 !
-1i
-0j
-10
-#589027
-0n
-0%
-#589500
-b11011001000000 !
-1j
-00
-#590000
-b11111001000000 !
-b10111001000000 !
-b111001000000 !
-1h
-0i
-0j
-10
-#590500
-b10111001000000 !
-1j
-00
-#591000
-b11111001000000 !
-b1111001000000 !
-1i
-0j
-10
-#591500
-b11111001000000 !
-1j
-00
-#592000
-b11111101000000 !
-b11110101000000 !
-b11100101000000 !
-b11000101000000 !
-b10000101000000 !
-b101000000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#592500
-b10000101000000 !
-1j
-00
-#593000
-b11000101000000 !
-b1000101000000 !
-1i
-0j
-10
-#593500
-b11000101000000 !
-1j
-00
-#594000
-b11100101000000 !
-b10100101000000 !
-b100101000000 !
-1h
-0i
-0j
-10
-#594500
-b10100101000000 !
-1j
-00
-#595000
-b11100101000000 !
-b1100101000000 !
-1i
-0j
-10
-#595500
-b11100101000000 !
-1j
-00
-#596000
-b11110101000000 !
-b11010101000000 !
-b10010101000000 !
-b10101000000 !
-1g
-0h
-0i
-0j
-10
-#596500
-b10010101000000 !
-1j
-00
-#597000
-b11010101000000 !
-b1010101000000 !
-1i
-0j
-10
-#597500
-b11010101000000 !
-1j
-00
-#598000
-b11110101000000 !
-b10110101000000 !
-b110101000000 !
-1h
-0i
-0j
-10
-#598500
-b10110101000000 !
-1j
-00
-#599000
-b11110101000000 !
-b1110101000000 !
-1i
-0j
-10
-#599500
-b11110101000000 !
-1j
-00
-#600000
-b11111101000000 !
-b11101101000000 !
-b11001101000000 !
-b10001101000000 !
-b1101000000 !
-1f
-0g
-0h
-0i
-0j
-10
-#600500
-b10001101000000 !
-1j
-00
-#601000
-b11001101000000 !
-b1001101000000 !
-1i
-0j
-10
-#601500
-b11001101000000 !
-1j
-00
-#602000
-b11101101000000 !
-b10101101000000 !
-b101101000000 !
-1h
-0i
-0j
-10
-#602500
-b10101101000000 !
-1j
-00
-#603000
-b11101101000000 !
-b1101101000000 !
-1i
-0j
-10
-#603500
-b11101101000000 !
-1j
-00
-#604000
-b11111101000000 !
-b11011101000000 !
-b10011101000000 !
-b11101000000 !
-1g
-0h
-0i
-0j
-10
-#604500
-b10011101000000 !
-1j
-00
-#605000
-b11011101000000 !
-b1011101000000 !
-1i
-0j
-10
-#605500
-b11011101000000 !
-1j
-00
-#606000
-b11111101000000 !
-b10111101000000 !
-b111101000000 !
-1h
-0i
-0j
-10
-#606500
-b10111101000000 !
-1j
-00
-#607000
-b11111101000000 !
-b1111101000000 !
-1i
-0j
-10
-#607500
-b11111101000000 !
-1j
-00
-#608000
-b11111111000000 !
-b11111011000000 !
-b11110011000000 !
-b11100011000000 !
-b11000011000000 !
-b10000011000000 !
-b11000000 !
-1d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#608500
-b10000011000000 !
-1j
-00
-#609000
-b11000011000000 !
-b1000011000000 !
-1i
-0j
-10
-#609500
-b11000011000000 !
-1j
-00
-#610000
-b11100011000000 !
-b10100011000000 !
-b100011000000 !
-1h
-0i
-0j
-10
-#610500
-b10100011000000 !
-1j
-00
-#611000
-b11100011000000 !
-b1100011000000 !
-1i
-0j
-10
-#611500
-b11100011000000 !
-1j
-00
-#612000
-b11110011000000 !
-b11010011000000 !
-b10010011000000 !
-b10011000000 !
-1g
-0h
-0i
-0j
-10
-#612500
-b10010011000000 !
-1j
-00
-#613000
-b11010011000000 !
-b1010011000000 !
-1i
-0j
-10
-#613500
-b11010011000000 !
-1j
-00
-#614000
-b11110011000000 !
-b10110011000000 !
-b110011000000 !
-1h
-0i
-0j
-10
-#614500
-b10110011000000 !
-1j
-00
-#615000
-b11110011000000 !
-b1110011000000 !
-1i
-0j
-10
-#615500
-b11110011000000 !
-1j
-00
-#616000
-b11111011000000 !
-b11101011000000 !
-b11001011000000 !
-b10001011000000 !
-b1011000000 !
-1f
-0g
-0h
-0i
-0j
-10
-#616500
-b10001011000000 !
-1j
-00
-#617000
-b11001011000000 !
-b1001011000000 !
-1i
-0j
-10
-#617500
-b11001011000000 !
-1j
-00
-#618000
-b11101011000000 !
-b10101011000000 !
-b101011000000 !
-1h
-0i
-0j
-10
-#618500
-b10101011000000 !
-1j
-00
-#619000
-b11101011000000 !
-b1101011000000 !
-1i
-0j
-10
-#619500
-b11101011000000 !
-1j
-00
-#620000
-b11111011000000 !
-b11011011000000 !
-b10011011000000 !
-b11011000000 !
-1g
-0h
-0i
-0j
-10
-#620500
-b10011011000000 !
-1j
-00
-#621000
-b11011011000000 !
-b1011011000000 !
-1i
-0j
-10
-#621500
-b11011011000000 !
-1j
-00
-#622000
-b11111011000000 !
-b10111011000000 !
-b111011000000 !
-1h
-0i
-0j
-10
-#622500
-b10111011000000 !
-1j
-00
-#623000
-b11111011000000 !
-b1111011000000 !
-1i
-0j
-10
-#623500
-b11111011000000 !
-1j
-00
-#624000
-b11111111000000 !
-b11110111000000 !
-b11100111000000 !
-b11000111000000 !
-b10000111000000 !
-b111000000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#624500
-b10000111000000 !
-1j
-00
-#625000
-b11000111000000 !
-b1000111000000 !
-1i
-0j
-10
-#625500
-b11000111000000 !
-1j
-00
-#626000
-b11100111000000 !
-b10100111000000 !
-b100111000000 !
-1h
-0i
-0j
-10
-#626500
-b10100111000000 !
-1j
-00
-#627000
-b11100111000000 !
-b1100111000000 !
-1i
-0j
-10
-#627500
-b11100111000000 !
-1j
-00
-#628000
-b11110111000000 !
-b11010111000000 !
-b10010111000000 !
-b10111000000 !
-1g
-0h
-0i
-0j
-10
-#628500
-b10010111000000 !
-1j
-00
-#629000
-b11010111000000 !
-b1010111000000 !
-1i
-0j
-10
-#629500
-b11010111000000 !
-1j
-00
-#630000
-b11110111000000 !
-b10110111000000 !
-b110111000000 !
-1h
-0i
-0j
-10
-#630500
-b10110111000000 !
-1j
-00
-#631000
-b11110111000000 !
-b1110111000000 !
-1i
-0j
-10
-#631500
-b11110111000000 !
-1j
-00
-#632000
-b11111111000000 !
-b11101111000000 !
-b11001111000000 !
-b10001111000000 !
-b1111000000 !
-1f
-0g
-0h
-0i
-0j
-10
-#632500
-b10001111000000 !
-1j
-00
-#633000
-b11001111000000 !
-b1001111000000 !
-1i
-0j
-10
-#633500
-b11001111000000 !
-1j
-00
-#634000
-b11101111000000 !
-b10101111000000 !
-b101111000000 !
-1h
-0i
-0j
-10
-#634500
-b10101111000000 !
-1j
-00
-#635000
-b11101111000000 !
-b1101111000000 !
-1i
-0j
-10
-#635500
-b11101111000000 !
-1j
-00
-#636000
-b11111111000000 !
-b11011111000000 !
-b10011111000000 !
-b11111000000 !
-1g
-0h
-0i
-0j
-10
-#636500
-b10011111000000 !
-1j
-00
-#637000
-b11011111000000 !
-b1011111000000 !
-1i
-0j
-10
-#637500
-b11011111000000 !
-1j
-00
-#638000
-b11111111000000 !
-b10111111000000 !
-b111111000000 !
-1h
-0i
-0j
-10
-#638500
-b10111111000000 !
-1j
-00
-#639000
-b11111111000000 !
-b1111111000000 !
-1i
-0j
-10
-#639500
-b11111111000000 !
-1j
-00
-#640000
-b11111111100000 !
-b11111110100000 !
-b11111100100000 !
-b11111000100000 !
-b11110000100000 !
-b11100000100000 !
-b11000000100000 !
-b10000000100000 !
-b100000 !
-0d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#640500
-b10000000100000 !
-1j
-00
-#640525
-1z
-#640711
-0y
-#641000
-b11000000100000 !
-b1000000100000 !
-1i
-0j
-10
-#641500
-b11000000100000 !
-1j
-00
-#642000
-b11100000100000 !
-b10100000100000 !
-b100000100000 !
-1h
-0i
-0j
-10
-#642500
-b10100000100000 !
-1j
-00
-#643000
-b11100000100000 !
-b1100000100000 !
-1i
-0j
-10
-#643500
-b11100000100000 !
-1j
-00
-#644000
-b11110000100000 !
-b11010000100000 !
-b10010000100000 !
-b10000100000 !
-1g
-0h
-0i
-0j
-10
-#644143
-1S
-#644206
-0L!
-#644264
-1M!
-#644268
-0Q!
-#644275
-0}
-#644283
-1"!
-#644286
-0)!
-#644337
-07
-#644500
-b10010000100000 !
-1j
-00
-#644545
-0R
-#644654
-0M!
-#644706
-1=
-#644970
-1+!
-#645000
-b11010000100000 !
-b1010000100000 !
-1i
-0j
-10
-#645140
-1Y!
-#645226
-1[!
-#645279
-1V
-#645425
-1,!
-#645500
-b11010000100000 !
-1j
-00
-#645681
-1\!
-#645766
-1(!
-#645942
-0L
-0M
-#645984
-1Z!
-#646000
-b11110000100000 !
-b10110000100000 !
-b110000100000 !
-1h
-0i
-0j
-10
-#646003
-1b
-#646119
-0E!
-#646127
-1F!
-#646129
-1I!
-#646142
-0V
-#646143
-0X
-#646146
-1]!
-#646281
-1A
-#646500
-b10110000100000 !
-1j
-00
-#646532
-1B
-#646539
-1;
-#646625
-14!
-#646631
-05!
-#646634
-0W
-#646795
-0Z!
-#646844
-1\
-#647000
-b11110000100000 !
-b1110000100000 !
-1i
-0j
-10
-#647093
-1[
-#647100
-1O
-#647168
-1?
-#647195
-0c!
-#647234
-1@
-#647254
-1b!
-#647351
-0B
-#647500
-b11110000100000 !
-1j
-00
-#647632
-0A
-#647655
-1]
-#647691
-0@
-#647811
-1E
-#647890
-1A!
-#647948
-0B!
-#647958
-0[
-#648000
-b11111000100000 !
-b11101000100000 !
-b11001000100000 !
-b10001000100000 !
-b1000100000 !
-1f
-0g
-0h
-0i
-0j
-10
-#648041
-0F
-#648123
-1g!
-#648137
-0]
-#648241
-0\
-#648385
-0C!
-#648434
-1o!
-#648478
-0G
-#648500
-b10001000100000 !
-1j
-00
-#648685
-0l!
-#648782
-1C
-#648840
-0D
-#648999
-0F!
-#649000
-b11001000100000 !
-b1001000100000 !
-1i
-0j
-10
-#649069
-1H!
-#649088
-1t!
-#649125
-0r!
-#649275
-0o!
-#649500
-b11001000100000 !
-1j
-00
-#649523
-1m
-1&
-#649642
-1p
-1#
-#649697
-0l
-0'
-#650000
-b11101000100000 !
-b10101000100000 !
-b101000100000 !
-1h
-0i
-0j
-10
-#650438
-0y!
-#650440
-0z!
-#650443
-0v!
-#650500
-b10101000100000 !
-1j
-00
-#650688
-1x!
-#650694
-1{!
-#651000
-b11101000100000 !
-b1101000100000 !
-1i
-0j
-10
-#651500
-b11101000100000 !
-1j
-00
-#652000
-b11111000100000 !
-b11011000100000 !
-b10011000100000 !
-b11000100000 !
-1g
-0h
-0i
-0j
-10
-#652285
-0m
-0&
-#652469
-1o
-1$
-#652500
-b10011000100000 !
-1j
-00
-#653000
-b11011000100000 !
-b1011000100000 !
-1i
-0j
-10
-#653408
-0u
-0,
-#653500
-b11011000100000 !
-1j
-00
-#653726
-1t
-1-
-#653737
-0v
-0+
-#653946
-0r
-0/
-#654000
-b11111000100000 !
-b10111000100000 !
-b111000100000 !
-1h
-0i
-0j
-10
-#654005
-1w
-1*
-#654500
-b10111000100000 !
-1j
-00
-#655000
-b11111000100000 !
-b1111000100000 !
-1i
-0j
-10
-#655500
-b11111000100000 !
-1j
-00
-#656000
-b11111100100000 !
-b11110100100000 !
-b11100100100000 !
-b11000100100000 !
-b10000100100000 !
-b100100000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#656500
-b10000100100000 !
-1j
-00
-#657000
-b11000100100000 !
-b1000100100000 !
-1i
-0j
-10
-#657500
-b11000100100000 !
-1j
-00
-#658000
-b11100100100000 !
-b10100100100000 !
-b100100100000 !
-1h
-0i
-0j
-10
-#658500
-b10100100100000 !
-1j
-00
-#659000
-b11100100100000 !
-b1100100100000 !
-1i
-0j
-10
-#659500
-b11100100100000 !
-1j
-00
-#660000
-b11110100100000 !
-b11010100100000 !
-b10010100100000 !
-b10100100000 !
-1g
-0h
-0i
-0j
-10
-#660500
-b10010100100000 !
-1j
-00
-#661000
-b11010100100000 !
-b1010100100000 !
-1i
-0j
-10
-#661500
-b11010100100000 !
-1j
-00
-#662000
-b11110100100000 !
-b10110100100000 !
-b110100100000 !
-1h
-0i
-0j
-10
-#662500
-b10110100100000 !
-1j
-00
-#663000
-b11110100100000 !
-b1110100100000 !
-1i
-0j
-10
-#663500
-b11110100100000 !
-1j
-00
-#664000
-b11111100100000 !
-b11101100100000 !
-b11001100100000 !
-b10001100100000 !
-b1100100000 !
-1f
-0g
-0h
-0i
-0j
-10
-#664500
-b10001100100000 !
-1j
-00
-#665000
-b11001100100000 !
-b1001100100000 !
-1i
-0j
-10
-#665500
-b11001100100000 !
-1j
-00
-#666000
-b11101100100000 !
-b10101100100000 !
-b101100100000 !
-1h
-0i
-0j
-10
-#666500
-b10101100100000 !
-1j
-00
-#667000
-b11101100100000 !
-b1101100100000 !
-1i
-0j
-10
-#667500
-b11101100100000 !
-1j
-00
-#668000
-b11111100100000 !
-b11011100100000 !
-b10011100100000 !
-b11100100000 !
-1g
-0h
-0i
-0j
-10
-#668500
-b10011100100000 !
-1j
-00
-#669000
-b11011100100000 !
-b1011100100000 !
-1i
-0j
-10
-#669500
-b11011100100000 !
-1j
-00
-#670000
-b11111100100000 !
-b10111100100000 !
-b111100100000 !
-1h
-0i
-0j
-10
-#670500
-b10111100100000 !
-1j
-00
-#671000
-b11111100100000 !
-b1111100100000 !
-1i
-0j
-10
-#671500
-b11111100100000 !
-1j
-00
-#672000
-b11111110100000 !
-b11111010100000 !
-b11110010100000 !
-b11100010100000 !
-b11000010100000 !
-b10000010100000 !
-b10100000 !
-1d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#672500
-b10000010100000 !
-1j
-00
-#673000
-b11000010100000 !
-b1000010100000 !
-1i
-0j
-10
-#673500
-b11000010100000 !
-1j
-00
-#674000
-b11100010100000 !
-b10100010100000 !
-b100010100000 !
-1h
-0i
-0j
-10
-#674500
-b10100010100000 !
-1j
-00
-#675000
-b11100010100000 !
-b1100010100000 !
-1i
-0j
-10
-#675500
-b11100010100000 !
-1j
-00
-#676000
-b11110010100000 !
-b11010010100000 !
-b10010010100000 !
-b10010100000 !
-1g
-0h
-0i
-0j
-10
-#676500
-b10010010100000 !
-1j
-00
-#677000
-b11010010100000 !
-b1010010100000 !
-1i
-0j
-10
-#677500
-b11010010100000 !
-1j
-00
-#678000
-b11110010100000 !
-b10110010100000 !
-b110010100000 !
-1h
-0i
-0j
-10
-#678500
-b10110010100000 !
-1j
-00
-#679000
-b11110010100000 !
-b1110010100000 !
-1i
-0j
-10
-#679500
-b11110010100000 !
-1j
-00
-#680000
-b11111010100000 !
-b11101010100000 !
-b11001010100000 !
-b10001010100000 !
-b1010100000 !
-1f
-0g
-0h
-0i
-0j
-10
-#680500
-b10001010100000 !
-1j
-00
-#681000
-b11001010100000 !
-b1001010100000 !
-1i
-0j
-10
-#681500
-b11001010100000 !
-1j
-00
-#682000
-b11101010100000 !
-b10101010100000 !
-b101010100000 !
-1h
-0i
-0j
-10
-#682500
-b10101010100000 !
-1j
-00
-#683000
-b11101010100000 !
-b1101010100000 !
-1i
-0j
-10
-#683500
-b11101010100000 !
-1j
-00
-#684000
-b11111010100000 !
-b11011010100000 !
-b10011010100000 !
-b11010100000 !
-1g
-0h
-0i
-0j
-10
-#684500
-b10011010100000 !
-1j
-00
-#685000
-b11011010100000 !
-b1011010100000 !
-1i
-0j
-10
-#685500
-b11011010100000 !
-1j
-00
-#686000
-b11111010100000 !
-b10111010100000 !
-b111010100000 !
-1h
-0i
-0j
-10
-#686500
-b10111010100000 !
-1j
-00
-#687000
-b11111010100000 !
-b1111010100000 !
-1i
-0j
-10
-#687500
-b11111010100000 !
-1j
-00
-#688000
-b11111110100000 !
-b11110110100000 !
-b11100110100000 !
-b11000110100000 !
-b10000110100000 !
-b110100000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#688500
-b10000110100000 !
-1j
-00
-#689000
-b11000110100000 !
-b1000110100000 !
-1i
-0j
-10
-#689500
-b11000110100000 !
-1j
-00
-#690000
-b11100110100000 !
-b10100110100000 !
-b100110100000 !
-1h
-0i
-0j
-10
-#690500
-b10100110100000 !
-1j
-00
-#691000
-b11100110100000 !
-b1100110100000 !
-1i
-0j
-10
-#691500
-b11100110100000 !
-1j
-00
-#692000
-b11110110100000 !
-b11010110100000 !
-b10010110100000 !
-b10110100000 !
-1g
-0h
-0i
-0j
-10
-#692500
-b10010110100000 !
-1j
-00
-#693000
-b11010110100000 !
-b1010110100000 !
-1i
-0j
-10
-#693500
-b11010110100000 !
-1j
-00
-#694000
-b11110110100000 !
-b10110110100000 !
-b110110100000 !
-1h
-0i
-0j
-10
-#694500
-b10110110100000 !
-1j
-00
-#695000
-b11110110100000 !
-b1110110100000 !
-1i
-0j
-10
-#695500
-b11110110100000 !
-1j
-00
-#696000
-b11111110100000 !
-b11101110100000 !
-b11001110100000 !
-b10001110100000 !
-b1110100000 !
-1f
-0g
-0h
-0i
-0j
-10
-#696500
-b10001110100000 !
-1j
-00
-#697000
-b11001110100000 !
-b1001110100000 !
-1i
-0j
-10
-#697500
-b11001110100000 !
-1j
-00
-#698000
-b11101110100000 !
-b10101110100000 !
-b101110100000 !
-1h
-0i
-0j
-10
-#698500
-b10101110100000 !
-1j
-00
-#699000
-b11101110100000 !
-b1101110100000 !
-1i
-0j
-10
-#699500
-b11101110100000 !
-1j
-00
-#700000
-b11111110100000 !
-b11011110100000 !
-b10011110100000 !
-b11110100000 !
-1g
-0h
-0i
-0j
-10
-#700500
-b10011110100000 !
-1j
-00
-#701000
-b11011110100000 !
-b1011110100000 !
-1i
-0j
-10
-#701500
-b11011110100000 !
-1j
-00
-#702000
-b11111110100000 !
-b10111110100000 !
-b111110100000 !
-1h
-0i
-0j
-10
-#702500
-b10111110100000 !
-1j
-00
-#703000
-b11111110100000 !
-b1111110100000 !
-1i
-0j
-10
-#703500
-b11111110100000 !
-1j
-00
-#704000
-b11111111100000 !
-b11111101100000 !
-b11111001100000 !
-b11110001100000 !
-b11100001100000 !
-b11000001100000 !
-b10000001100000 !
-b1100000 !
-0d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#704500
-b10000001100000 !
-1j
-00
-#704537
-1y
-#705000
-b11000001100000 !
-b1000001100000 !
-1i
-0j
-10
-#705500
-b11000001100000 !
-1j
-00
-#706000
-b11100001100000 !
-b10100001100000 !
-b100001100000 !
-1h
-0i
-0j
-10
-#706500
-b10100001100000 !
-1j
-00
-#707000
-b11100001100000 !
-b1100001100000 !
-1i
-0j
-10
-#707500
-b11100001100000 !
-1j
-00
-#707866
-1)!
-#708000
-b11110001100000 !
-b11010001100000 !
-b10010001100000 !
-b10001100000 !
-1g
-0h
-0i
-0j
-10
-#708022
-08
-#708072
-1c
-#708082
-1R
-#708099
-1~
-#708237
-0O!
-#708314
-1M!
-#708391
-0+!
-#708500
-b10010001100000 !
-1j
-00
-#708536
-0!!
-#708608
-0[!
-#708659
-0Y!
-#708751
-0N!
-#708828
-0,!
-#708940
-0)!
-#708953
-1J
-#709000
-b11010001100000 !
-b1010001100000 !
-1i
-0j
-10
-#709045
-0\!
-#709059
-1B
-#709235
-0b
-#709266
-1T!
-#709267
-1^!
-#709382
-0c
-#709384
-1M
-1-!
-#709385
-1L
-#709479
-0'!
-#709500
-b11010001100000 !
-1j
-00
-#709530
-09
-#709537
-1*!
-#709546
-1V
-#709548
-1X
-#709549
-0]!
-#709608
-1E!
-#709620
-1[
-#709622
-1D!
-#709623
-1G!
-#709626
-1F!
-#709680
-0"!
-#709792
-0S
-#709799
-0R
-#709910
-04!
-#709916
-0(!
-#709961
-0;
-#709968
-15!
-#709977
-1@
-#710000
-b11110001100000 !
-b10110001100000 !
-b110001100000 !
-1h
-0i
-0j
-10
-#710029
-1W
-#710105
-0^!
-#710126
-0L
-#710217
-0W!
-#710267
-0<
-#710378
-0B
-#710394
-1Y!
-#710398
-1]
-#710480
-1[!
-#710500
-b10110001100000 !
-1j
-00
-#710508
-0b!
-#710521
-0-!
-#710559
-0?
-#710566
-1c!
-#710567
-0O
-#710815
-05!
-#710854
-18!
-#710873
-16!
-#710935
-1\!
-#710945
-0@
-#710985
-0[
-#711000
-b11110001100000 !
-b1110001100000 !
-1i
-0j
-10
-#711021
-1A
-#711154
-0*!
-#711158
-19!
-#711191
-1(!
-#711212
-1+!
-#711238
-1Z!
-#711264
-0A!
-#711290
-0W
-#711322
-1B!
-#711328
-17!
-#711391
-0]
-#711396
-0V
-#711397
-0X
-#711500
-b11110001100000 !
-1j
-00
-#711563
-0g!
-#711584
-1\
-#711667
-1,!
-#711774
-1-!
-#711777
-1C!
-#711782
-09!
-#711786
-1B
-#711851
-0c!
-#711854
-0B!
-#711890
-1@
-#711913
-1;!
-#711944
-1^!
-#712000
-b11111001100000 !
-b11101001100000 !
-b11001001100000 !
-b10001001100000 !
-b1001100000 !
-1f
-0g
-0h
-0i
-0j
-10
-#712013
-0P
-#712049
-0Z!
-#712129
-0C
-#712166
-1l!
-#712183
-0-!
-0;!
-#712184
-0M
-#712245
-1/!
-#712291
-0C!
-#712299
-06!
-#712311
-1]
-#712347
-1[
-#712359
-0F!
-0H!
-#712361
-0D!
-0E!
-0G!
-0I!
-#712422
-1?
-#712500
-b10001001100000 !
-1j
-00
-#712501
-1d!
-#712508
-1b!
-#712559
-0e!
-#712631
-1B!
-#712675
-1D
-#712730
-1o!
-#712736
-07!
-#712781
-1;
-#712852
-1@!
-#712867
-14!
-#712868
-16!
-#712972
-1^
-#712975
-1H!
-#712982
-1k
-1(
-#713000
-b11001001100000 !
-b1001001100000 !
-1i
-0j
-10
-#713014
-1f!
-#713022
-1m
-1&
-#713086
-1C!
-#713225
-19!
-#713298
-1l
-1'
-#713323
-17!
-#713342
-1O
-#713353
-0[
-#713357
-0]
-#713358
-0\
-#713367
-1a
-#713377
-1g!
-#713458
-0D
-#713486
-1P
-1F!
-1I!
-#713488
-1D!
-1E!
-1G!
-#713500
-b11001001100000 !
-1j
-00
-#713502
-0^
-#713669
-0B!
-#713777
-0O
-09!
-#713939
-0l!
-#714000
-b11101001100000 !
-b10101001100000 !
-b101001100000 !
-1h
-0i
-0j
-10
-#714008
-0P
-0E!
-0F!
-0I!
-#714009
-0D!
-0G!
-0H!
-#714036
-1C
-#714045
-1^
-#714106
-0C!
-#714180
-0@!
-#714377
-0g!
-#714378
-0q!
-#714386
-1v!
-#714387
-1w!
-#714389
-1z!
-#714394
-1y!
-#714500
-b10101001100000 !
-1j
-00
-#714529
-0o!
-#714790
-1H!
-#714847
-1@!
-#714943
-0C
-#714980
-1l!
-#715000
-b11101001100000 !
-b1101001100000 !
-1i
-0j
-10
-#715118
-1p!
-#715204
-1k!
-#715500
-b11101001100000 !
-1j
-00
-#715544
-1o!
-#715607
-0k
-0(
-#715641
-0l!
-#715645
-0m
-0&
-#715682
-1r!
-#715792
-0p
-0#
-#716000
-b11111001100000 !
-b11011001100000 !
-b10011001100000 !
-b11001100000 !
-1g
-0h
-0i
-0j
-10
-#716231
-0o!
-#716500
-b10011001100000 !
-1j
-00
-#717000
-b11011001100000 !
-b1011001100000 !
-1i
-0j
-10
-#717468
-1u
-1,
-#717500
-b11011001100000 !
-1j
-00
-#717586
-0l
-0'
-#717760
-1s
+0K
+0H
+#82996
+1<
 1.
-#717801
-1v
-1+
-#717950
-0v!
-#717953
-0z!
-#717959
-0y!
-#717972
-0x!
-#717975
-1r
-1/
-#717978
-0{!
-#718000
-b11111001100000 !
-b10111001100000 !
-b111001100000 !
-1h
-0i
-0j
-10
-#718500
-b10111001100000 !
-1j
-00
-#719000
-b11111001100000 !
-b1111001100000 !
-1i
-0j
-10
-#719500
-b11111001100000 !
-1j
-00
-#720000
-b11111101100000 !
-b11110101100000 !
-b11100101100000 !
-b11000101100000 !
-b10000101100000 !
-b101100000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#720500
-b10000101100000 !
-1j
-00
-#720929
-0u
-0,
-#720934
-0t
-0-
-#721000
-b11000101100000 !
-b1000101100000 !
-1i
-0j
-10
-#721210
-0w
-0*
-#721250
-0v
-0+
-#721453
-0r
-0/
-#721500
-b11000101100000 !
-1j
-00
-#722000
-b11100101100000 !
-b10100101100000 !
-b100101100000 !
-1h
-0i
-0j
-10
-#722500
-b10100101100000 !
-1j
-00
-#723000
-b11100101100000 !
-b1100101100000 !
-1i
-0j
-10
-#723500
-b11100101100000 !
-1j
-00
-#724000
-b11110101100000 !
-b11010101100000 !
-b10010101100000 !
-b10101100000 !
-1g
-0h
-0i
-0j
-10
-#724500
-b10010101100000 !
-1j
-00
-#725000
-b11010101100000 !
-b1010101100000 !
-1i
-0j
-10
-#725500
-b11010101100000 !
-1j
-00
-#726000
-b11110101100000 !
-b10110101100000 !
-b110101100000 !
-1h
-0i
-0j
-10
-#726500
-b10110101100000 !
-1j
-00
-#727000
-b11110101100000 !
-b1110101100000 !
-1i
-0j
-10
-#727500
-b11110101100000 !
-1j
-00
-#728000
-b11111101100000 !
-b11101101100000 !
-b11001101100000 !
-b10001101100000 !
-b1101100000 !
-1f
-0g
-0h
-0i
-0j
-10
-#728500
-b10001101100000 !
-1j
-00
-#729000
-b11001101100000 !
-b1001101100000 !
-1i
-0j
-10
-#729500
-b11001101100000 !
-1j
-00
-#730000
-b11101101100000 !
-b10101101100000 !
-b101101100000 !
-1h
-0i
-0j
-10
-#730500
-b10101101100000 !
-1j
-00
-#731000
-b11101101100000 !
-b1101101100000 !
-1i
-0j
-10
-#731500
-b11101101100000 !
-1j
-00
-#732000
-b11111101100000 !
-b11011101100000 !
-b10011101100000 !
-b11101100000 !
-1g
-0h
-0i
-0j
-10
-#732500
-b10011101100000 !
-1j
-00
-#733000
-b11011101100000 !
-b1011101100000 !
-1i
-0j
-10
-#733500
-b11011101100000 !
-1j
-00
-#734000
-b11111101100000 !
-b10111101100000 !
-b111101100000 !
-1h
-0i
-0j
-10
-#734500
-b10111101100000 !
-1j
-00
-#735000
-b11111101100000 !
-b1111101100000 !
-1i
-0j
-10
-#735500
-b11111101100000 !
-1j
-00
-#736000
-b11111111100000 !
-b11111011100000 !
-b11110011100000 !
-b11100011100000 !
-b11000011100000 !
-b10000011100000 !
-b11100000 !
-1d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#736500
-b10000011100000 !
-1j
-00
-#737000
-b11000011100000 !
-b1000011100000 !
-1i
-0j
-10
-#737500
-b11000011100000 !
-1j
-00
-#738000
-b11100011100000 !
-b10100011100000 !
-b100011100000 !
-1h
-0i
-0j
-10
-#738500
-b10100011100000 !
-1j
-00
-#739000
-b11100011100000 !
-b1100011100000 !
-1i
-0j
-10
-#739500
-b11100011100000 !
-1j
-00
-#740000
-b11110011100000 !
-b11010011100000 !
-b10010011100000 !
-b10011100000 !
-1g
-0h
-0i
-0j
-10
-#740500
-b10010011100000 !
-1j
-00
-#741000
-b11010011100000 !
-b1010011100000 !
-1i
-0j
-10
-#741500
-b11010011100000 !
-1j
-00
-#742000
-b11110011100000 !
-b10110011100000 !
-b110011100000 !
-1h
-0i
-0j
-10
-#742500
-b10110011100000 !
-1j
-00
-#743000
-b11110011100000 !
-b1110011100000 !
-1i
-0j
-10
-#743500
-b11110011100000 !
-1j
-00
-#744000
-b11111011100000 !
-b11101011100000 !
-b11001011100000 !
-b10001011100000 !
-b1011100000 !
-1f
-0g
-0h
-0i
-0j
-10
-#744500
-b10001011100000 !
-1j
-00
-#745000
-b11001011100000 !
-b1001011100000 !
-1i
-0j
-10
-#745500
-b11001011100000 !
-1j
-00
-#746000
-b11101011100000 !
-b10101011100000 !
-b101011100000 !
-1h
-0i
-0j
-10
-#746500
-b10101011100000 !
-1j
-00
-#747000
-b11101011100000 !
-b1101011100000 !
-1i
-0j
-10
-#747500
-b11101011100000 !
-1j
-00
-#748000
-b11111011100000 !
-b11011011100000 !
-b10011011100000 !
-b11011100000 !
-1g
-0h
-0i
-0j
-10
-#748500
-b10011011100000 !
-1j
-00
-#749000
-b11011011100000 !
-b1011011100000 !
-1i
-0j
-10
-#749500
-b11011011100000 !
-1j
-00
-#750000
-b11111011100000 !
-b10111011100000 !
-b111011100000 !
-1h
-0i
-0j
-10
-#750500
-b10111011100000 !
-1j
-00
-#751000
-b11111011100000 !
-b1111011100000 !
-1i
-0j
-10
-#751500
-b11111011100000 !
-1j
-00
-#752000
-b11111111100000 !
-b11110111100000 !
-b11100111100000 !
-b11000111100000 !
-b10000111100000 !
-b111100000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#752500
-b10000111100000 !
-1j
-00
-#753000
-b11000111100000 !
-b1000111100000 !
-1i
-0j
-10
-#753500
-b11000111100000 !
-1j
-00
-#754000
-b11100111100000 !
-b10100111100000 !
-b100111100000 !
-1h
-0i
-0j
-10
-#754500
-b10100111100000 !
-1j
-00
-#755000
-b11100111100000 !
-b1100111100000 !
-1i
-0j
-10
-#755500
-b11100111100000 !
-1j
-00
-#756000
-b11110111100000 !
-b11010111100000 !
-b10010111100000 !
-b10111100000 !
-1g
-0h
-0i
-0j
-10
-#756500
-b10010111100000 !
-1j
-00
-#757000
-b11010111100000 !
-b1010111100000 !
-1i
-0j
-10
-#757500
-b11010111100000 !
-1j
-00
-#758000
-b11110111100000 !
-b10110111100000 !
-b110111100000 !
-1h
-0i
-0j
-10
-#758500
-b10110111100000 !
-1j
-00
-#759000
-b11110111100000 !
-b1110111100000 !
-1i
-0j
-10
-#759500
-b11110111100000 !
-1j
-00
-#760000
-b11111111100000 !
-b11101111100000 !
-b11001111100000 !
-b10001111100000 !
-b1111100000 !
-1f
-0g
-0h
-0i
-0j
-10
-#760500
-b10001111100000 !
-1j
-00
-#761000
-b11001111100000 !
-b1001111100000 !
-1i
-0j
-10
-#761500
-b11001111100000 !
-1j
-00
-#762000
-b11101111100000 !
-b10101111100000 !
-b101111100000 !
-1h
-0i
-0j
-10
-#762500
-b10101111100000 !
-1j
-00
-#763000
-b11101111100000 !
-b1101111100000 !
-1i
-0j
-10
-#763500
-b11101111100000 !
-1j
-00
-#764000
-b11111111100000 !
-b11011111100000 !
-b10011111100000 !
-b11111100000 !
-1g
-0h
-0i
-0j
-10
-#764500
-b10011111100000 !
-1j
-00
-#765000
-b11011111100000 !
-b1011111100000 !
-1i
-0j
-10
-#765500
-b11011111100000 !
-1j
-00
-#766000
-b11111111100000 !
-b10111111100000 !
-b111111100000 !
-1h
-0i
-0j
-10
-#766500
-b10111111100000 !
-1j
-00
-#767000
-b11111111100000 !
-b1111111100000 !
-1i
-0j
-10
-#767500
-b11111111100000 !
-1j
-00
-#768000
-b11111111110000 !
-b11111111010000 !
-b11111110010000 !
-b11111100010000 !
-b11111000010000 !
-b11110000010000 !
-b11100000010000 !
-b11000000010000 !
-b10000000010000 !
-b10000 !
-0d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#768500
-b10000000010000 !
-1j
-00
-#768535
-1{
-#768698
-0z
-#768711
-0y
-#769000
-b11000000010000 !
-b1000000010000 !
-1i
-0j
-10
-#769500
-b11000000010000 !
-1j
-00
-#770000
-b11100000010000 !
-b10100000010000 !
-b100000010000 !
-1h
-0i
-0j
-10
-#770500
-b10100000010000 !
-1j
-00
-#771000
-b11100000010000 !
-b1100000010000 !
-1i
-0j
-10
-#771500
-b11100000010000 !
-1j
-00
-#772000
-b11110000010000 !
-b11010000010000 !
-b10010000010000 !
-b10000010000 !
-1g
-0h
-0i
-0j
-10
-#772308
-0S!
-#772385
-1K!
-#772394
-0~
-#772431
-18
-#772470
-0.!
-#772500
-b10010000010000 !
-1j
-00
-#772547
-1|
-#772639
-0T!
-#772654
-0M!
-#772691
-1O!
-#772849
-1!!
-#772854
-1H
-#772926
-0^!
-#773000
-b11010000010000 !
-b1010000010000 !
-1i
-0j
-10
-#773004
-1P!
-#773093
-0/!
-#773102
+#84370
+0L
+#84401
+0P
+#84558
 0J
-#773109
-1N!
-#773210
-1c
-#773213
-0H
-#773431
-1#!
-#773482
-1/!
-#773500
-b11010000010000 !
-1j
-00
-#773523
-0+!
-#773579
-1T
-#773580
-0P!
-#773581
-1^!
-#773615
-0a
-#773653
-1<
-#773654
-0@
-#773690
-0c
-#773749
-1W!
-#773893
-0J!
-#773899
-1D!
-1G!
-1I!
-#773960
-0,!
-#774000
-b11110000010000 !
-b10110000010000 !
-b110000010000 !
-1h
-0i
-0j
-10
-#774019
-1+!
-#774186
-0=
-#774244
-1a
-#774291
-1@
-#774474
-1,!
-#774500
-b10110000010000 !
-1j
-00
-#774516
+#84573
+0N
+#85000
+b1000 !
+02
+#85517
 1M
-1-!
-1;!
-#774518
-0W!
-#774548
-0/!
-#774569
-0<
-#774973
-1=
-#774990
-0-!
-0;!
-#774991
-0M
-#775000
-b11110000010000 !
-b1110000010000 !
-1i
-0j
-10
-#775041
-06!
-#775042
-04!
-#775052
-1/!
-#775093
+#87330
+0:
+00
+#87570
 0;
-#775328
-0^
-#775478
-07!
-#775500
-b11110000010000 !
-1j
-00
-#775588
-1;
-#775674
-14!
-#775675
-16!
-#775779
-1^
-#775967
-19!
-#776000
-b11111000010000 !
-b11101000010000 !
-b11001000010000 !
-b10001000010000 !
-b1000010000 !
-1f
-0g
-0h
-0i
-0j
-10
-#776130
-17!
-#776149
-1O
-#776228
-1P
-#776229
-0D!
-0G!
-#776230
-1J!
-#776244
-0^
-#776500
-b10001000010000 !
-1j
-00
-#776584
-0O
-09!
-#776815
-0J!
-0P
-#776817
-1D!
-1G!
-#776852
-1^
-#776922
-0@!
-#777000
-b11001000010000 !
-b1001000010000 !
-1i
-0j
-10
-#777259
-1k
-1(
-#777412
-1p
-1#
-#777500
-b11001000010000 !
-1j
-00
-#777624
-1q
-1"
-#777654
-1@!
-#778000
-b11101000010000 !
-b10101000010000 !
-b101000010000 !
-1h
-0i
-0j
-10
-#778500
-b10101000010000 !
-1j
-00
-#779000
-b11101000010000 !
-b1101000010000 !
-1i
-0j
-10
-#779500
-b11101000010000 !
-1j
-00
-#780000
-b11111000010000 !
-b11011000010000 !
-b10011000010000 !
-b11000010000 !
-1g
-0h
-0i
-0j
-10
-#780500
-b10011000010000 !
-1j
-00
-#780728
-1n
-1%
-#781000
-b11011000010000 !
-b1011000010000 !
-1i
-0j
-10
-#781500
-b11011000010000 !
-1j
-00
-#782000
-b11111000010000 !
-b10111000010000 !
-b111000010000 !
-1h
-0i
-0j
-10
-#782500
-b10111000010000 !
-1j
-00
-#783000
-b11111000010000 !
-b1111000010000 !
-1i
-0j
-10
-#783500
-b11111000010000 !
-1j
-00
-#784000
-b11111100010000 !
-b11110100010000 !
-b11100100010000 !
-b11000100010000 !
-b10000100010000 !
-b100010000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#784500
-b10000100010000 !
-1j
-00
-#785000
-b11000100010000 !
-b1000100010000 !
-1i
-0j
-10
-#785500
-b11000100010000 !
-1j
-00
-#786000
-b11100100010000 !
-b10100100010000 !
-b100100010000 !
-1h
-0i
-0j
-10
-#786500
-b10100100010000 !
-1j
-00
-#787000
-b11100100010000 !
-b1100100010000 !
-1i
-0j
-10
-#787500
-b11100100010000 !
-1j
-00
-#788000
-b11110100010000 !
-b11010100010000 !
-b10010100010000 !
-b10100010000 !
-1g
-0h
-0i
-0j
-10
-#788500
-b10010100010000 !
-1j
-00
-#789000
-b11010100010000 !
-b1010100010000 !
-1i
-0j
-10
-#789500
-b11010100010000 !
-1j
-00
-#790000
-b11110100010000 !
-b10110100010000 !
-b110100010000 !
-1h
-0i
-0j
-10
-#790500
-b10110100010000 !
-1j
-00
-#791000
-b11110100010000 !
-b1110100010000 !
-1i
-0j
-10
-#791500
-b11110100010000 !
-1j
-00
-#792000
-b11111100010000 !
-b11101100010000 !
-b11001100010000 !
-b10001100010000 !
-b1100010000 !
-1f
-0g
-0h
-0i
-0j
-10
-#792500
-b10001100010000 !
-1j
-00
-#793000
-b11001100010000 !
-b1001100010000 !
-1i
-0j
-10
-#793500
-b11001100010000 !
-1j
-00
-#794000
-b11101100010000 !
-b10101100010000 !
-b101100010000 !
-1h
-0i
-0j
-10
-#794500
-b10101100010000 !
-1j
-00
-#795000
-b11101100010000 !
-b1101100010000 !
-1i
-0j
-10
-#795500
-b11101100010000 !
-1j
-00
-#796000
-b11111100010000 !
-b11011100010000 !
-b10011100010000 !
-b11100010000 !
-1g
-0h
-0i
-0j
-10
-#796500
-b10011100010000 !
-1j
-00
-#797000
-b11011100010000 !
-b1011100010000 !
-1i
-0j
-10
-#797500
-b11011100010000 !
-1j
-00
-#798000
-b11111100010000 !
-b10111100010000 !
-b111100010000 !
-1h
-0i
-0j
-10
-#798500
-b10111100010000 !
-1j
-00
-#799000
-b11111100010000 !
-b1111100010000 !
-1i
-0j
-10
-#799500
-b11111100010000 !
-1j
-00
-#800000
-b11111110010000 !
-b11111010010000 !
-b11110010010000 !
-b11100010010000 !
-b11000010010000 !
-b10000010010000 !
-b10010000 !
-1d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#800500
-b10000010010000 !
-1j
-00
-#801000
-b11000010010000 !
-b1000010010000 !
-1i
-0j
-10
-#801500
-b11000010010000 !
-1j
-00
-#802000
-b11100010010000 !
-b10100010010000 !
-b100010010000 !
-1h
-0i
-0j
-10
-#802500
-b10100010010000 !
-1j
-00
-#803000
-b11100010010000 !
-b1100010010000 !
-1i
-0j
-10
-#803500
-b11100010010000 !
-1j
-00
-#804000
-b11110010010000 !
-b11010010010000 !
-b10010010010000 !
-b10010010000 !
-1g
-0h
-0i
-0j
-10
-#804500
-b10010010010000 !
-1j
-00
-#805000
-b11010010010000 !
-b1010010010000 !
-1i
-0j
-10
-#805500
-b11010010010000 !
-1j
-00
-#806000
-b11110010010000 !
-b10110010010000 !
-b110010010000 !
-1h
-0i
-0j
-10
-#806500
-b10110010010000 !
-1j
-00
-#807000
-b11110010010000 !
-b1110010010000 !
-1i
-0j
-10
-#807500
-b11110010010000 !
-1j
-00
-#808000
-b11111010010000 !
-b11101010010000 !
-b11001010010000 !
-b10001010010000 !
-b1010010000 !
-1f
-0g
-0h
-0i
-0j
-10
-#808500
-b10001010010000 !
-1j
-00
-#809000
-b11001010010000 !
-b1001010010000 !
-1i
-0j
-10
-#809500
-b11001010010000 !
-1j
-00
-#810000
-b11101010010000 !
-b10101010010000 !
-b101010010000 !
-1h
-0i
-0j
-10
-#810500
-b10101010010000 !
-1j
-00
-#811000
-b11101010010000 !
-b1101010010000 !
-1i
-0j
-10
-#811500
-b11101010010000 !
-1j
-00
-#812000
-b11111010010000 !
-b11011010010000 !
-b10011010010000 !
-b11010010000 !
-1g
-0h
-0i
-0j
-10
-#812500
-b10011010010000 !
-1j
-00
-#813000
-b11011010010000 !
-b1011010010000 !
-1i
-0j
-10
-#813500
-b11011010010000 !
-1j
-00
-#814000
-b11111010010000 !
-b10111010010000 !
-b111010010000 !
-1h
-0i
-0j
-10
-#814500
-b10111010010000 !
-1j
-00
-#815000
-b11111010010000 !
-b1111010010000 !
-1i
-0j
-10
-#815500
-b11111010010000 !
-1j
-00
-#816000
-b11111110010000 !
-b11110110010000 !
-b11100110010000 !
-b11000110010000 !
-b10000110010000 !
-b110010000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#816500
-b10000110010000 !
-1j
-00
-#817000
-b11000110010000 !
-b1000110010000 !
-1i
-0j
-10
-#817500
-b11000110010000 !
-1j
-00
-#818000
-b11100110010000 !
-b10100110010000 !
-b100110010000 !
-1h
-0i
-0j
-10
-#818500
-b10100110010000 !
-1j
-00
-#819000
-b11100110010000 !
-b1100110010000 !
-1i
-0j
-10
-#819500
-b11100110010000 !
-1j
-00
-#820000
-b11110110010000 !
-b11010110010000 !
-b10010110010000 !
-b10110010000 !
-1g
-0h
-0i
-0j
-10
-#820500
-b10010110010000 !
-1j
-00
-#821000
-b11010110010000 !
-b1010110010000 !
-1i
-0j
-10
-#821500
-b11010110010000 !
-1j
-00
-#822000
-b11110110010000 !
-b10110110010000 !
-b110110010000 !
-1h
-0i
-0j
-10
-#822500
-b10110110010000 !
-1j
-00
-#823000
-b11110110010000 !
-b1110110010000 !
-1i
-0j
-10
-#823500
-b11110110010000 !
-1j
-00
-#824000
-b11111110010000 !
-b11101110010000 !
-b11001110010000 !
-b10001110010000 !
-b1110010000 !
-1f
-0g
-0h
-0i
-0j
-10
-#824500
-b10001110010000 !
-1j
-00
-#825000
-b11001110010000 !
-b1001110010000 !
-1i
-0j
-10
-#825500
-b11001110010000 !
-1j
-00
-#826000
-b11101110010000 !
-b10101110010000 !
-b101110010000 !
-1h
-0i
-0j
-10
-#826500
-b10101110010000 !
-1j
-00
-#827000
-b11101110010000 !
-b1101110010000 !
-1i
-0j
-10
-#827500
-b11101110010000 !
-1j
-00
-#828000
-b11111110010000 !
-b11011110010000 !
-b10011110010000 !
-b11110010000 !
-1g
-0h
-0i
-0j
-10
-#828500
-b10011110010000 !
-1j
-00
-#829000
-b11011110010000 !
-b1011110010000 !
-1i
-0j
-10
-#829500
-b11011110010000 !
-1j
-00
-#830000
-b11111110010000 !
-b10111110010000 !
-b111110010000 !
-1h
-0i
-0j
-10
-#830500
-b10111110010000 !
-1j
-00
-#831000
-b11111110010000 !
-b1111110010000 !
-1i
-0j
-10
-#831500
-b11111110010000 !
-1j
-00
-#832000
-b11111111010000 !
-b11111101010000 !
-b11111001010000 !
-b11110001010000 !
-b11100001010000 !
-b11000001010000 !
-b10000001010000 !
-b1010000 !
-0d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#832500
-b10000001010000 !
-1j
-00
-#832537
-1y
-#833000
-b11000001010000 !
-b1000001010000 !
-1i
-0j
-10
-#833500
-b11000001010000 !
-1j
-00
-#834000
-b11100001010000 !
-b10100001010000 !
-b100001010000 !
-1h
-0i
-0j
-10
-#834500
-b10100001010000 !
-1j
-00
-#835000
-b11100001010000 !
-b1100001010000 !
-1i
-0j
-10
-#835500
-b11100001010000 !
-1j
-00
-#835866
-1)!
-#836000
-b11110001010000 !
-b11010001010000 !
-b10010001010000 !
-b10001010000 !
-1g
-0h
-0i
-0j
-10
-#836022
-08
-#836072
-1c
-#836082
-1R
-#836099
-1~
-#836237
-0O!
-#836314
-1M!
-#836391
-0+!
-#836500
-b10010001010000 !
-1j
-00
-#836536
-0!!
-#836608
-0[!
-#836659
-0Y!
-#836751
-0N!
-#836828
-0,!
-#836940
-0)!
-#837000
-b11010001010000 !
-b1010001010000 !
-1i
-0j
-10
-#837012
-1_
-#837037
-0B
-#837045
-0\!
-#837154
-1e!
-#837176
-0#!
-#837236
-0/!
-#837266
-0T
-#837268
-0^!
-#837382
-0c
-#837384
-1M
-1-!
-1;!
-#837500
-b11010001010000 !
-1j
-00
-#837546
-1V
-1F!
-#837548
-1X
-1`
-#837549
-1E!
-#837591
-0f!
-#837601
-1J!
-#837624
-1+!
-#837766
-19
-#837799
-0R
-#837862
-1'!
-#837909
-06!
-#837910
-04!
-#837957
-0a
-#837961
-0;
-#837970
-0_
-#837980
-1]
-#837981
-1\
-#837996
-0@
-#838000
-b11110001010000 !
-b10110001010000 !
-b110001010000 !
-1h
-0i
-0j
-10
-#838016
-0^
-#838079
-1,!
-#838109
-1n!
-#838260
-1<
-#838299
-0(!
-#838338
-1^
-#838340
-1L
-#838346
-1W!
-07!
-#838374
-0e!
-#838389
-0`
-#838394
-1Y!
-#838400
-1B
-#838442
-0]
-#838480
-1[!
-#838500
-b10110001010000 !
-1j
-00
-#838508
-0b!
-#838513
-0d!
-#838559
-0?
-#838564
-0A
-#838571
-1e!
-#838594
-0^
-#838595
-0-!
-0;!
-#838596
-0L
-0M
-#838681
-1l!
-#838771
-0F!
-#838773
-0D!
-0E!
-0G!
-0I!
-#838783
-0=
-#838835
-19!
-#838935
-1\!
-#838950
-0B
-#838961
-1[
-#838963
-1@
-#838981
-1g!
-#838982
-1q!
-#839000
-b11110001010000 !
-b1110001010000 !
-1i
-0j
-10
-#839063
-1D
-#839096
-1P
-1F!
-1I!
-#839098
-0n!
-1D!
-1E!
-1G!
-#839173
-0\
-#839193
-1;
-#839238
-1Z!
-#839241
-1W
-#839245
-1o!
-#839279
-14!
-#839280
-16!
-#839384
-1]
-#839397
-0X
-#839407
-0V
-#839500
-b11110001010000 !
-1j
-00
-#839557
-0[
-#839563
-0g!
-#839672
-0k!
-#839716
-08!
-#839723
-0p!
-#839730
-1C
-#839735
-17!
-#839754
-1O
-#839786
-1B
-#839788
-0D
-#839790
-0@!
-#839800
-0@
-#839887
-1c!
-#839888
-0W
-#840000
-b11111001010000 !
-b11101001010000 !
-b11001001010000 !
-b10001001010000 !
-b1001010000 !
-1f
-0g
-0h
-0i
-0j
-10
-#840034
-09!
-#840049
-0Z!
-#840129
-0C
-#840187
-1D
-#840189
-0O
-#840245
-0E
-#840246
-0]
-#840303
-1F
-#840313
-0r!
-#840347
-1[
-#840420
-0P
-0E!
-0F!
-0I!
-#840421
-0D!
-0G!
-#840422
-1?
-#840449
-0c!
-#840488
-1@
-#840500
-b10001001010000 !
-1j
-00
-#840507
-1d!
-#840508
-1b!
-#840531
-0D
-#840544
-1A!
-#840565
-0e!
-#840589
-1E
-#840647
-0F
-#840886
-0A!
-#840900
-1x!
-#840901
-1v!
-#840904
-1A
-1z!
-#840906
-1{!
-#840909
-1y!
-1]
-#840942
-1m
-1&
-#840944
-1B!
-#840945
-0@
-#841000
-b11001001010000 !
-b1001001010000 !
-1i
-0j
-10
-#841020
-1f!
-#841239
-1l
-1'
-#841259
-1@!
-#841359
-0[
-#841377
-1g!
-#841391
-0]
-#841399
-1C!
-#841422
-0q
-0"
-#841500
-b11001001010000 !
-1j
-00
-#841939
-0l!
-#842000
-b11101001010000 !
-b10101001010000 !
-b101001010000 !
-1h
-0i
-0j
-10
-#842028
-0H!
-#842036
-1C
-#842383
-0g!
-#842384
-0q!
-#842500
-b10101001010000 !
-1j
-00
-#842529
-0o!
-#842949
-0C
-#842986
-1l!
-#843000
-b11101001010000 !
-b1101001010000 !
-1i
-0j
-10
-#843007
-1D
-#843065
-0E
-#843123
-1F
-#843124
-1p!
-#843210
-1k!
-#843500
-b11101001010000 !
-1j
-00
-#843550
-1o!
-#843578
-1G
-#843647
-0l!
-#843667
-0k
-0(
-#843688
-1r!
-#843706
-0m
-0&
-#843851
-0p
-0#
-#843938
-1t
-1-
-#843983
-1u
-1,
-#843998
-0l
-0'
-#844000
-b11111001010000 !
-b11011001010000 !
-b10011001010000 !
-b11001010000 !
-1g
-0h
-0i
-0j
-10
-#844153
-0t!
-#844183
-0o!
-0r!
-#844217
-1w
-1*
-#844287
-0n
-0%
-#844316
-1v
-1+
-#844490
-1r
-1/
-#844500
-b10011001010000 !
-1j
-00
-#845000
-b11011001010000 !
-b1011001010000 !
-1i
-0j
-10
-#845313
-0o
-0$
-#845500
-b11011001010000 !
-1j
-00
-#845524
-0y!
-#845525
-0{!
-#845526
-0z!
-#845528
-0x!
-#845529
-0v!
-0w!
-#845916
-0|!
-#846000
-b11111001010000 !
-b10111001010000 !
-b111001010000 !
-1h
-0i
-0j
-10
-#846500
-b10111001010000 !
-1j
-00
-#847000
-b11111001010000 !
-b1111001010000 !
-1i
-0j
-10
-#847500
-b11111001010000 !
-1j
-00
-#848000
-b11111101010000 !
-b11110101010000 !
-b11100101010000 !
-b11000101010000 !
-b10000101010000 !
-b101010000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#848490
-0t
-0-
-#848494
-0u
-0,
-#848500
-b10000101010000 !
-1j
-00
-#848757
-0w
-0*
-#848787
-0s
-0.
-#848823
-0v
-0+
-#849000
-b11000101010000 !
-b1000101010000 !
-1i
-0j
-10
-#849032
-0r
 0/
-#849388
-1x
-1)
-#849500
-b11000101010000 !
-1j
-00
-#850000
-b11100101010000 !
-b10100101010000 !
-b100101010000 !
-1h
-0i
-0j
-10
-#850500
-b10100101010000 !
-1j
-00
-#851000
-b11100101010000 !
-b1100101010000 !
-1i
-0j
-10
-#851500
-b11100101010000 !
-1j
-00
-#852000
-b11110101010000 !
-b11010101010000 !
-b10010101010000 !
-b10101010000 !
-1g
-0h
-0i
-0j
-10
-#852500
-b10010101010000 !
-1j
-00
-#853000
-b11010101010000 !
-b1010101010000 !
-1i
-0j
-10
-#853500
-b11010101010000 !
-1j
-00
-#854000
-b11110101010000 !
-b10110101010000 !
-b110101010000 !
-1h
-0i
-0j
-10
-#854500
-b10110101010000 !
-1j
-00
-#855000
-b11110101010000 !
-b1110101010000 !
-1i
-0j
-10
-#855500
-b11110101010000 !
-1j
-00
-#856000
-b11111101010000 !
-b11101101010000 !
-b11001101010000 !
-b10001101010000 !
-b1101010000 !
-1f
-0g
-0h
-0i
-0j
-10
-#856500
-b10001101010000 !
-1j
-00
-#857000
-b11001101010000 !
-b1001101010000 !
-1i
-0j
-10
-#857500
-b11001101010000 !
-1j
-00
-#858000
-b11101101010000 !
-b10101101010000 !
-b101101010000 !
-1h
-0i
-0j
-10
-#858500
-b10101101010000 !
-1j
-00
-#859000
-b11101101010000 !
-b1101101010000 !
-1i
-0j
-10
-#859500
-b11101101010000 !
-1j
-00
-#860000
-b11111101010000 !
-b11011101010000 !
-b10011101010000 !
-b11101010000 !
-1g
-0h
-0i
-0j
-10
-#860500
-b10011101010000 !
-1j
-00
-#861000
-b11011101010000 !
-b1011101010000 !
-1i
-0j
-10
-#861500
-b11011101010000 !
-1j
-00
-#862000
-b11111101010000 !
-b10111101010000 !
-b111101010000 !
-1h
-0i
-0j
-10
-#862500
-b10111101010000 !
-1j
-00
-#863000
-b11111101010000 !
-b1111101010000 !
-1i
-0j
-10
-#863500
-b11111101010000 !
-1j
-00
-#864000
-b11111111010000 !
-b11111011010000 !
-b11110011010000 !
-b11100011010000 !
-b11000011010000 !
-b10000011010000 !
-b11010000 !
-1d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#864500
-b10000011010000 !
-1j
-00
-#865000
-b11000011010000 !
-b1000011010000 !
-1i
-0j
-10
-#865500
-b11000011010000 !
-1j
-00
-#866000
-b11100011010000 !
-b10100011010000 !
-b100011010000 !
-1h
-0i
-0j
-10
-#866500
-b10100011010000 !
-1j
-00
-#867000
-b11100011010000 !
-b1100011010000 !
-1i
-0j
-10
-#867500
-b11100011010000 !
-1j
-00
-#868000
-b11110011010000 !
-b11010011010000 !
-b10010011010000 !
-b10011010000 !
-1g
-0h
-0i
-0j
-10
-#868500
-b10010011010000 !
-1j
-00
-#869000
-b11010011010000 !
-b1010011010000 !
-1i
-0j
-10
-#869500
-b11010011010000 !
-1j
-00
-#870000
-b11110011010000 !
-b10110011010000 !
-b110011010000 !
-1h
-0i
-0j
-10
-#870500
-b10110011010000 !
-1j
-00
-#871000
-b11110011010000 !
-b1110011010000 !
-1i
-0j
-10
-#871500
-b11110011010000 !
-1j
-00
-#872000
-b11111011010000 !
-b11101011010000 !
-b11001011010000 !
-b10001011010000 !
-b1011010000 !
-1f
-0g
-0h
-0i
-0j
-10
-#872500
-b10001011010000 !
-1j
-00
-#873000
-b11001011010000 !
-b1001011010000 !
-1i
-0j
-10
-#873500
-b11001011010000 !
-1j
-00
-#874000
-b11101011010000 !
-b10101011010000 !
-b101011010000 !
-1h
-0i
-0j
-10
-#874500
-b10101011010000 !
-1j
-00
-#875000
-b11101011010000 !
-b1101011010000 !
-1i
-0j
-10
-#875500
-b11101011010000 !
-1j
-00
-#876000
-b11111011010000 !
-b11011011010000 !
-b10011011010000 !
-b11011010000 !
-1g
-0h
-0i
-0j
-10
-#876500
-b10011011010000 !
-1j
-00
-#877000
-b11011011010000 !
-b1011011010000 !
-1i
-0j
-10
-#877500
-b11011011010000 !
-1j
-00
-#878000
-b11111011010000 !
-b10111011010000 !
-b111011010000 !
-1h
-0i
-0j
-10
-#878500
-b10111011010000 !
-1j
-00
-#879000
-b11111011010000 !
-b1111011010000 !
-1i
-0j
-10
-#879500
-b11111011010000 !
-1j
-00
-#880000
-b11111111010000 !
-b11110111010000 !
-b11100111010000 !
-b11000111010000 !
-b10000111010000 !
-b111010000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#880500
-b10000111010000 !
-1j
-00
-#881000
-b11000111010000 !
-b1000111010000 !
-1i
-0j
-10
-#881500
-b11000111010000 !
-1j
-00
-#882000
-b11100111010000 !
-b10100111010000 !
-b100111010000 !
-1h
-0i
-0j
-10
-#882500
-b10100111010000 !
-1j
-00
-#883000
-b11100111010000 !
-b1100111010000 !
-1i
-0j
-10
-#883500
-b11100111010000 !
-1j
-00
-#884000
-b11110111010000 !
-b11010111010000 !
-b10010111010000 !
-b10111010000 !
-1g
-0h
-0i
-0j
-10
-#884500
-b10010111010000 !
-1j
-00
-#885000
-b11010111010000 !
-b1010111010000 !
-1i
-0j
-10
-#885500
-b11010111010000 !
-1j
-00
-#886000
-b11110111010000 !
-b10110111010000 !
-b110111010000 !
-1h
-0i
-0j
-10
-#886500
-b10110111010000 !
-1j
-00
-#887000
-b11110111010000 !
-b1110111010000 !
-1i
-0j
-10
-#887500
-b11110111010000 !
-1j
-00
-#888000
-b11111111010000 !
-b11101111010000 !
-b11001111010000 !
-b10001111010000 !
-b1111010000 !
-1f
-0g
-0h
-0i
-0j
-10
-#888500
-b10001111010000 !
-1j
-00
-#889000
-b11001111010000 !
-b1001111010000 !
-1i
-0j
-10
-#889500
-b11001111010000 !
-1j
-00
-#890000
-b11101111010000 !
-b10101111010000 !
-b101111010000 !
-1h
-0i
-0j
-10
-#890500
-b10101111010000 !
-1j
-00
-#891000
-b11101111010000 !
-b1101111010000 !
-1i
-0j
-10
-#891500
-b11101111010000 !
-1j
-00
-#892000
-b11111111010000 !
-b11011111010000 !
-b10011111010000 !
-b11111010000 !
-1g
-0h
-0i
-0j
-10
-#892500
-b10011111010000 !
-1j
-00
-#893000
-b11011111010000 !
-b1011111010000 !
-1i
-0j
-10
-#893500
-b11011111010000 !
-1j
-00
-#894000
-b11111111010000 !
-b10111111010000 !
-b111111010000 !
-1h
-0i
-0j
-10
-#894500
-b10111111010000 !
-1j
-00
-#895000
-b11111111010000 !
-b1111111010000 !
-1i
-0j
-10
-#895500
-b11111111010000 !
-1j
-00
-#896000
-b11111111110000 !
-b11111110110000 !
-b11111100110000 !
-b11111000110000 !
-b11110000110000 !
-b11100000110000 !
-b11000000110000 !
-b10000000110000 !
-b110000 !
-0d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#896500
-b10000000110000 !
-1j
-00
-#896525
-1z
-#896711
-0y
-#897000
-b11000000110000 !
-b1000000110000 !
-1i
-0j
-10
-#897500
-b11000000110000 !
-1j
-00
-#898000
-b11100000110000 !
-b10100000110000 !
-b100000110000 !
-1h
-0i
-0j
-10
-#898500
-b10100000110000 !
-1j
-00
-#899000
-b11100000110000 !
-b1100000110000 !
-1i
-0j
-10
-#899500
-b11100000110000 !
-1j
-00
-#900000
-b11110000110000 !
-b11010000110000 !
-b10010000110000 !
-b10000110000 !
-1g
-0h
-0i
-0j
-10
-#900269
-1Q!
-#900338
-17
-#900394
-0~
-#900431
-18
-#900500
-b10010000110000 !
-1j
-00
-#900654
-0M!
-#900691
-1O!
-#900849
-1!!
-#900854
-1H
-#900924
-1I
-#900928
-1b
-#901000
-b11010000110000 !
-b1010000110000 !
-1i
-0j
-10
-#901004
-1P!
-#901109
-1N!
-#901210
-1c
-#901213
-0H
-#901214
-0I
-#901220
-1]!
-#901234
-1R!
-#901431
-1#!
-#901482
-1/!
-#901500
-b11010000110000 !
-1j
-00
-#901523
-0+!
-#901579
-1T
-#901580
-0P!
-#901581
-1^!
-#901594
-06!
-#901690
-0c
-#901797
-1=
-#901864
-0R!
-#901884
-1`
-#901893
-0J!
-#901956
-0'!
-#901958
-1"!
-#901960
-0,!
-#902000
-b11110000110000 !
-b10110000110000 !
-b110000110000 !
-1h
-0i
-0j
-10
-#902006
+#87624
 09
-#902019
-1+!
-#902031
-07!
-#902109
-1S
-#902182
-0d!
-#902209
-1^
-#902219
-18!
-#902232
-0A
-#902240
-1e!
-#902244
-1a
-#902291
-1@
-#902411
-1(!
-#902474
-1,!
-#902500
-b10110000110000 !
-1j
-00
-#902516
-1M
-#902518
-0W!
-#902519
-1O
-#902523
-19!
-#902548
-0b
-0/!
-#902569
+01
+#88369
 0<
-#902576
-1X!
-#902619
-0B
-#902634
-0[!
-#902677
-0f!
-#902781
-1P
-1F!
-1I!
-#902783
-1J!
-#902797
-0^
-#902906
-0B!
-#902955
-0=
-#902991
-0M
-#903000
-b11110000110000 !
-b1110000110000 !
-1i
-0j
-10
-#903013
-0Y!
-#903042
-04!
-#903052
-1b
-1/!
-#903056
-0a
-#903066
-1]
-#903071
-0\!
-#903093
-0;
-#903160
-1E
-#903189
-0D
-#903218
-0F
-#903343
-0C!
-#903360
-16!
-#903435
-0(!
-#903475
-0@!
-0`
-#903500
-b11110000110000 !
-1j
-00
-#903532
-1*!
-#903533
-1A!
-#903574
-1X
-#903575
-0]!
-#903588
-1;
-#903590
-0+!
-#903655
-0G
-#903674
-14!
-#903699
-0O
-#903718
-06!
-#903957
-0F!
-#904000
-b11111000110000 !
-b11101000110000 !
-b11001000110000 !
-b10001000110000 !
-b1000110000 !
-1f
-0g
-0h
-0i
-0j
-10
-#904027
-0,!
-1H!
-#904067
-1g!
-#904068
-1q!
-#904131
-0^!
-#904149
-1O
-#904265
-1t!
-#904297
-1r!
-#904396
-0A!
-#904500
-b10001000110000 !
-1j
-00
-#904534
-0b!
-#904583
-1M
-#904585
-0?
-#904603
-1A
-#904615
-0b
-0/!
-#904635
-1l!
-#904699
-1d!
-#904738
-0J!
-#904747
-1G!
-#904757
-0e!
-#904758
-0k!
-#904809
-0p!
-#904816
-1C
-#904939
-1A!
-#905000
-b11001000110000 !
-b1001000110000 !
-1i
-0j
-10
-#905109
-04!
-#905154
-1B
-#905160
-0;
-#905166
-1\
-#905195
-0l!
-#905199
-1o!
-#905212
-1f!
-#905399
-0r!
-#905427
-16!
-#905500
-b11001000110000 !
-1j
-00
-#905555
-0]
-#905556
-0\
-#905589
-0g!
-#905615
-1|!
-#905617
-1{!
-#905620
-1x!
-#905766
-0O
-#905785
-0o!
-#905882
-17!
-#906000
-b11101000110000 !
-b10101000110000 !
-b101000110000 !
-1h
-0i
-0j
-10
-#906155
-0C
-#906192
-1l!
-#906294
-1p
-1#
-#906336
-09!
-#906463
-0A!
-#906467
-1;!
-#906500
-b10101000110000 !
-1j
-00
-#906567
-0P
-0I!
-#906568
-0G!
-#906569
-1J!
-1E!
-#906576
-0q!
-#906708
-1n!
-#906756
-1o!
-#906839
-1D
-#906897
-0E
-#906955
-1F
-#907000
-b11101000110000 !
-b1101000110000 !
-1i
-0j
-10
-#907185
-1B!
-#907275
-0l!
-#907289
-1A!
-#907316
-1p!
-#907347
-0B!
-#907362
-1C
-#907402
-1k!
-#907406
-1@!
-#907410
-1G
-#907420
-0D
-#907427
-1o
-1$
-#907460
-0C
-#907464
-0A!
-#907478
-1E
-#907500
-b11101000110000 !
-1j
-00
-#907518
-1D
-#907522
-1B!
-#907536
-0F
-#907576
-0E
-#907634
-1F
-#907857
-1l!
-#907977
-1C!
-#907985
-0t!
-#908000
-b11111000110000 !
-b11011000110000 !
-b10011000110000 !
-b11000110000 !
-1g
-0h
-0i
-0j
-10
-#908412
-1v!
-#908413
-1w!
-#908415
-1z!
-#908420
-1y!
-#908500
-b10011000110000 !
-1j
-00
-#908564
-1D!
-#908603
-0E!
-#908610
-1G!
-#908658
-1t
-1-
-#908928
-1w
-1*
-#909000
-b11011000110000 !
-b1011000110000 !
-1i
-0j
-10
-#909181
-0x
-0)
-#909356
-0y!
-#909357
-0{!
-#909358
-0z!
-#909360
-0x!
-#909361
-0v!
-0w!
-#909500
-b11011000110000 !
-1j
-00
-#909998
-0p
-0#
-#910000
-b11111000110000 !
-b10111000110000 !
-b111000110000 !
-1h
-0i
-0j
-10
-#910500
-b10111000110000 !
-1j
-00
-#911000
-b11111000110000 !
-b1111000110000 !
-1i
-0j
-10
-#911500
-b11111000110000 !
-1j
-00
-#911924
-1k
-1(
-#912000
-b11111100110000 !
-b11110100110000 !
-b11100100110000 !
-b11000100110000 !
-b10000100110000 !
-b100110000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#912322
-0t
-0-
-#912500
-b10000100110000 !
-1j
-00
-#912521
-1n
-1%
-#912589
-0w
-0*
-#913000
-b11000100110000 !
-b1000100110000 !
-1i
-0j
-10
-#913500
-b11000100110000 !
-1j
-00
-#914000
-b11100100110000 !
-b10100100110000 !
-b100100110000 !
-1h
-0i
-0j
-10
-#914500
-b10100100110000 !
-1j
-00
-#915000
-b11100100110000 !
-b1100100110000 !
-1i
-0j
-10
-#915500
-b11100100110000 !
-1j
-00
-#916000
-b11110100110000 !
-b11010100110000 !
-b10010100110000 !
-b10100110000 !
-1g
-0h
-0i
-0j
-10
-#916500
-b10010100110000 !
-1j
-00
-#917000
-b11010100110000 !
-b1010100110000 !
-1i
-0j
-10
-#917500
-b11010100110000 !
-1j
-00
-#918000
-b11110100110000 !
-b10110100110000 !
-b110100110000 !
-1h
-0i
-0j
-10
-#918500
-b10110100110000 !
-1j
-00
-#919000
-b11110100110000 !
-b1110100110000 !
-1i
-0j
-10
-#919500
-b11110100110000 !
-1j
-00
-#920000
-b11111100110000 !
-b11101100110000 !
-b11001100110000 !
-b10001100110000 !
-b1100110000 !
-1f
-0g
-0h
-0i
-0j
-10
-#920500
-b10001100110000 !
-1j
-00
-#921000
-b11001100110000 !
-b1001100110000 !
-1i
-0j
-10
-#921500
-b11001100110000 !
-1j
-00
-#922000
-b11101100110000 !
-b10101100110000 !
-b101100110000 !
-1h
-0i
-0j
-10
-#922500
-b10101100110000 !
-1j
-00
-#923000
-b11101100110000 !
-b1101100110000 !
-1i
-0j
-10
-#923500
-b11101100110000 !
-1j
-00
-#924000
-b11111100110000 !
-b11011100110000 !
-b10011100110000 !
-b11100110000 !
-1g
-0h
-0i
-0j
-10
-#924500
-b10011100110000 !
-1j
-00
-#925000
-b11011100110000 !
-b1011100110000 !
-1i
-0j
-10
-#925500
-b11011100110000 !
-1j
-00
-#926000
-b11111100110000 !
-b10111100110000 !
-b111100110000 !
-1h
-0i
-0j
-10
-#926500
-b10111100110000 !
-1j
-00
-#927000
-b11111100110000 !
-b1111100110000 !
-1i
-0j
-10
-#927500
-b11111100110000 !
-1j
-00
-#928000
-b11111110110000 !
-b11111010110000 !
-b11110010110000 !
-b11100010110000 !
-b11000010110000 !
-b10000010110000 !
-b10110000 !
-1d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#928500
-b10000010110000 !
-1j
-00
-#929000
-b11000010110000 !
-b1000010110000 !
-1i
-0j
-10
-#929500
-b11000010110000 !
-1j
-00
-#930000
-b11100010110000 !
-b10100010110000 !
-b100010110000 !
-1h
-0i
-0j
-10
-#930500
-b10100010110000 !
-1j
-00
-#931000
-b11100010110000 !
-b1100010110000 !
-1i
-0j
-10
-#931500
-b11100010110000 !
-1j
-00
-#932000
-b11110010110000 !
-b11010010110000 !
-b10010010110000 !
-b10010110000 !
-1g
-0h
-0i
-0j
-10
-#932500
-b10010010110000 !
-1j
-00
-#933000
-b11010010110000 !
-b1010010110000 !
-1i
-0j
-10
-#933500
-b11010010110000 !
-1j
-00
-#934000
-b11110010110000 !
-b10110010110000 !
-b110010110000 !
-1h
-0i
-0j
-10
-#934500
-b10110010110000 !
-1j
-00
-#935000
-b11110010110000 !
-b1110010110000 !
-1i
-0j
-10
-#935500
-b11110010110000 !
-1j
-00
-#936000
-b11111010110000 !
-b11101010110000 !
-b11001010110000 !
-b10001010110000 !
-b1010110000 !
-1f
-0g
-0h
-0i
-0j
-10
-#936500
-b10001010110000 !
-1j
-00
-#937000
-b11001010110000 !
-b1001010110000 !
-1i
-0j
-10
-#937500
-b11001010110000 !
-1j
-00
-#938000
-b11101010110000 !
-b10101010110000 !
-b101010110000 !
-1h
-0i
-0j
-10
-#938500
-b10101010110000 !
-1j
-00
-#939000
-b11101010110000 !
-b1101010110000 !
-1i
-0j
-10
-#939500
-b11101010110000 !
-1j
-00
-#940000
-b11111010110000 !
-b11011010110000 !
-b10011010110000 !
-b11010110000 !
-1g
-0h
-0i
-0j
-10
-#940500
-b10011010110000 !
-1j
-00
-#941000
-b11011010110000 !
-b1011010110000 !
-1i
-0j
-10
-#941500
-b11011010110000 !
-1j
-00
-#942000
-b11111010110000 !
-b10111010110000 !
-b111010110000 !
-1h
-0i
-0j
-10
-#942500
-b10111010110000 !
-1j
-00
-#943000
-b11111010110000 !
-b1111010110000 !
-1i
-0j
-10
-#943500
-b11111010110000 !
-1j
-00
-#944000
-b11111110110000 !
-b11110110110000 !
-b11100110110000 !
-b11000110110000 !
-b10000110110000 !
-b110110000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#944500
-b10000110110000 !
-1j
-00
-#945000
-b11000110110000 !
-b1000110110000 !
-1i
-0j
-10
-#945500
-b11000110110000 !
-1j
-00
-#946000
-b11100110110000 !
-b10100110110000 !
-b100110110000 !
-1h
-0i
-0j
-10
-#946500
-b10100110110000 !
-1j
-00
-#947000
-b11100110110000 !
-b1100110110000 !
-1i
-0j
-10
-#947500
-b11100110110000 !
-1j
-00
-#948000
-b11110110110000 !
-b11010110110000 !
-b10010110110000 !
-b10110110000 !
-1g
-0h
-0i
-0j
-10
-#948500
-b10010110110000 !
-1j
-00
-#949000
-b11010110110000 !
-b1010110110000 !
-1i
-0j
-10
-#949500
-b11010110110000 !
-1j
-00
-#950000
-b11110110110000 !
-b10110110110000 !
-b110110110000 !
-1h
-0i
-0j
-10
-#950500
-b10110110110000 !
-1j
-00
-#951000
-b11110110110000 !
-b1110110110000 !
-1i
-0j
-10
-#951500
-b11110110110000 !
-1j
-00
-#952000
-b11111110110000 !
-b11101110110000 !
-b11001110110000 !
-b10001110110000 !
-b1110110000 !
-1f
-0g
-0h
-0i
-0j
-10
-#952500
-b10001110110000 !
-1j
-00
-#953000
-b11001110110000 !
-b1001110110000 !
-1i
-0j
-10
-#953500
-b11001110110000 !
-1j
-00
-#954000
-b11101110110000 !
-b10101110110000 !
-b101110110000 !
-1h
-0i
-0j
-10
-#954500
-b10101110110000 !
-1j
-00
-#955000
-b11101110110000 !
-b1101110110000 !
-1i
-0j
-10
-#955500
-b11101110110000 !
-1j
-00
-#956000
-b11111110110000 !
-b11011110110000 !
-b10011110110000 !
-b11110110000 !
-1g
-0h
-0i
-0j
-10
-#956500
-b10011110110000 !
-1j
-00
-#957000
-b11011110110000 !
-b1011110110000 !
-1i
-0j
-10
-#957500
-b11011110110000 !
-1j
-00
-#958000
-b11111110110000 !
-b10111110110000 !
-b111110110000 !
-1h
-0i
-0j
-10
-#958500
-b10111110110000 !
-1j
-00
-#959000
-b11111110110000 !
-b1111110110000 !
-1i
-0j
-10
-#959500
-b11111110110000 !
-1j
-00
-#960000
-b11111111110000 !
-b11111101110000 !
-b11111001110000 !
-b11110001110000 !
-b11100001110000 !
-b11000001110000 !
-b10000001110000 !
-b1110000 !
-0d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#960500
-b10000001110000 !
-1j
-00
-#960537
-1y
-#961000
-b11000001110000 !
-b1000001110000 !
-1i
-0j
-10
-#961500
-b11000001110000 !
-1j
-00
-#962000
-b11100001110000 !
-b10100001110000 !
-b100001110000 !
-1h
-0i
-0j
-10
-#962500
-b10100001110000 !
-1j
-00
-#963000
-b11100001110000 !
-b1100001110000 !
-1i
-0j
-10
-#963500
-b11100001110000 !
-1j
-00
-#963866
-1)!
-#964000
-b11110001110000 !
-b11010001110000 !
-b10010001110000 !
-b10001110000 !
-1g
-0h
-0i
-0j
-10
-#964022
-08
-#964082
-1R
-#964099
-1~
-#964237
-0O!
-#964314
-1M!
-#964500
-b10010001110000 !
-1j
-00
-#964536
-0!!
-#964643
-1Y!
-#964751
-0N!
-#964940
-0)!
-#964954
-1I
-#965000
-b11010001110000 !
-b1010001110000 !
-1i
-0j
-10
-#965176
-0#!
-#965266
-0T
-#965487
-1Z!
-#965488
-1_
-#965500
-b11010001110000 !
-1j
-00
-#965552
-1R!
-#965608
-1E!
-#965623
-1I!
-#965626
-1F!
-#965680
-0"!
-#965766
-19
-#965792
-0S
-#965799
-0R
-#965862
-1'!
-#965920
-0*!
-#965978
-1+!
-#966000
-b11110001110000 !
-b10110001110000 !
-b110001110000 !
-1h
-0i
-0j
-10
-#966011
-0B
-#966139
-1e!
-#966260
-1<
-#966317
-1(!
-#966338
-1^
-#966340
-1L
-#966346
-1W!
-#966404
-0X!
-#966433
-1,!
-#966462
-1[!
-#966500
-b10110001110000 !
-1j
-00
-#966576
-0f!
-#966619
-0F
-#966801
-1=
-#966917
-1\!
-#966948
-0^
-#966949
-0;!
-#966950
-0L
-0M
-#966955
-0_
-#966965
-1]
-#966966
-1\
-#967000
-b11110001110000 !
-b1110001110000 !
-1i
-0j
-10
-#967011
-1b
-#967035
-0B!
-#967047
-08!
-#967056
-0G
-#967125
-0F!
-0H!
-#967127
-0D!
-0E!
-0G!
-0I!
-#967134
-15!
-#967192
-06!
-#967241
-1W
-#967379
-0X
-#967382
-1]!
-#967472
-0C!
-#967500
-b11110001110000 !
-1j
-00
-#967547
-1;
-#967629
-07!
-#967633
-14!
-#967639
-05!
-#967666
-1t!
-#967698
-1r!
-#967793
-1B!
-#967800
-0@
-#967870
-0W
-#967887
-1c!
-#967933
-1E
-#967945
-0d!
-#967954
-0n!
-#967967
-1q!
-#968000
-b11111001110000 !
-b11101001110000 !
-b11001001110000 !
-b10001001110000 !
-b1001110000 !
-1f
-0g
-0h
-0i
-0j
-10
-#968031
-0Z!
-#968112
-0D
-#968117
-1O
-#968156
-1H!
-#968246
-0]
-#968248
-1C!
-#968379
-1P
-1F!
-1I!
-#968381
-1D!
-1E!
-1G!
-#968404
-1?
-#968431
-0c!
-#968470
-1@
-#968490
-1b!
-#968500
-b10001001110000 !
-1j
-00
-#968559
-0l!
-#968657
-0k!
-#968708
-0p!
-#968868
-0A
-#968891
-1]
-#968927
-0@
-#969000
-b11001001110000 !
-b1001001110000 !
-1i
-0j
-10
-#969017
-1y!
-#969018
-1{!
-#969020
-1z!
-#969021
-1w!
-1x!
-#969022
-1v!
-#969073
-0@!
-#969112
-1l!
-#969131
-1A!
-#969149
-0o!
-#969189
-0B!
-#969298
-0r!
-#969359
-1g!
-#969373
-0]
-#969477
-0\
-#969500
-b11001001110000 !
-1j
-00
-#969626
-0C!
-#969676
-1o!
-#969921
-0l!
-#970000
-b11101001110000 !
-b10101001110000 !
-b101001110000 !
-1h
-0i
-0j
-10
-#970018
-1C
-#970500
-b10101001110000 !
-1j
-00
-#970511
-0o!
-#971000
-b11101001110000 !
-b1101001110000 !
-1i
-0j
-10
-#971500
-b11101001110000 !
-1j
-00
-#971775
-1m
-1&
-#971892
-1p
-1#
-#972000
-b11111001110000 !
-b11011001110000 !
-b10011001110000 !
-b11001110000 !
-1g
-0h
-0i
-0j
-10
-#972059
-1t
-1-
-#972071
-1l
-1'
-#972091
-1u
-1,
-#972230
-0v!
-#972233
-0z!
-#972239
-0y!
-#972251
-0w!
-#972329
-1w
-1*
-#972394
-1s
-1.
-#972432
-1v
-1+
-#972500
-b10011001110000 !
-1j
-00
-#972611
-1r
-1/
-#973000
-b11011001110000 !
-b1011001110000 !
-1i
-0j
-10
-#973500
-b11011001110000 !
-1j
-00
-#974000
-b11111001110000 !
-b10111001110000 !
-b111001110000 !
-1h
-0i
-0j
-10
-#974500
-b10111001110000 !
-1j
-00
-#975000
-b11111001110000 !
-b1111001110000 !
-1i
-0j
-10
-#975209
-0u
-0,
-#975500
-b11111001110000 !
-1j
-00
-#975509
-0s
 0.
-#975530
-0v
-0+
-#975733
-0r
+#88905
+1N
+#90000
+b1100 !
+b100 !
+12
+#90517
+1K
+#90691
+0M
+#92018
+1;
+1/
+#94087
+1L
+#94342
+0N
+#95000
+b1100 !
+02
+#95517
+1M
+#97169
+1:
+10
+#97339
+0;
 0/
-#976000
-b11111101110000 !
-b11110101110000 !
-b11100101110000 !
-b11000101110000 !
-b10000101110000 !
-b101110000 !
-1e
-0f
-0g
-0h
-0i
-0j
-10
-#976500
-b10000101110000 !
-1j
+#98905
+1N
+#100000
+b1110 !
+b1010 !
+b10 !
+12
+#100507
+1I
+#100691
+0M
+0K
+#102018
+1;
+1/
+#104140
+1J
+#104342
+0N
+#104514
+0L
+#105000
+b1010 !
+02
+#105517
+1M
+#107330
+19
+11
+#107339
+0;
+0/
+#107474
+0:
 00
-#977000
-b11000101110000 !
-b1000101110000 !
-1i
-0j
+#108905
+1N
+#110000
+b1110 !
+b110 !
+12
+#110517
+1K
+#110691
+0M
+#112018
+1;
+1/
+#114087
+1L
+#114342
+0N
+#115000
+b1110 !
+02
+#115517
+1M
+#117169
+1:
 10
-#977500
-b11000101110000 !
-1j
+#117339
+0;
+0/
+#118905
+1N
+#120000
+b1111 !
+b1101 !
+b1001 !
+b1 !
+12
+#120517
+1H
+#120681
+0I
+#120691
+0M
+0K
+#122018
+1;
+1/
+#124342
+0N
+#124514
+0L
+#124558
+0J
+#125000
+b1001 !
+02
+#125517
+1M
+#127339
+0;
+0/
+#127474
+0:
 00
-#978000
-b11100101110000 !
-b10100101110000 !
-b100101110000 !
-1h
-0i
-0j
+#127624
+09
+01
+#128905
+1N
+#130000
+b1101 !
+b101 !
+12
+#130517
+1K
+#130691
+0M
+#132018
+1;
+1/
+#134087
+1L
+#134342
+0N
+#135000
+b1101 !
+02
+#135517
+1M
+#137169
+1:
 10
-#978500
-b10100101110000 !
-1j
+#137339
+0;
+0/
+#138905
+1N
+#140000
+b1111 !
+b1011 !
+b11 !
+12
+#140507
+1I
+#140691
+0M
+0K
+#142018
+1;
+1/
+#144140
+1J
+#144342
+0N
+#144514
+0L
+#145000
+b1011 !
+02
+#145517
+1M
+#147330
+19
+11
+#147339
+0;
+0/
+#147474
+0:
 00
-#979000
-b11100101110000 !
-b1100101110000 !
-1i
-0j
+#148905
+1N
+#150000
+b1111 !
+b111 !
+12
+#150517
+1K
+#150691
+0M
+#152018
+1;
+1/
+#154087
+1L
+#154342
+0N
+#155000
+b1111 !
+02
+#155517
+1M
+#157169
+1:
 10
-#979500
-b11100101110000 !
-1j
+#157339
+0;
+0/
+#158905
+1N
+#160000
+1#
+0"
+b1110 !
+b1100 !
+b1000 !
+b0 !
+12
+#160507
+1O
+#160681
+0I
+#160691
+0M
+0K
+0H
+0G
+#162018
+1;
+1/
+#164342
+0N
+#164441
+1P
+#164514
+0L
+#164558
+0J
+#164888
+0P
+#165000
+b1000 !
+02
+#165517
+1M
+#167339
+0;
+0/
+#167474
+0:
 00
+#167624
+09
+01
+#168955
+1P
+#170000
+b1100 !
+b100 !
+12
+#170517
+1K
+#170691
+0M
+#172996
+1<
+1.
+#174137
+1N
+#174401
+0P
+#175000
+b1100 !
+02
+#175517
+1M
+#177250
+1;
+1/
+#178369
+0<
+0.
+#178955
+1P
+#180000
+b1110 !
+b1010 !
+b10 !
+12
+#180507
+1I
+#180691
+0M
+0K
+#182996
+1<
+1.
+#184401
+0P
+#184409
+1L
+#184573
+0N
+#185000
+b1010 !
+02
+#185517
+1M
+#187491
+1:
+10
+#187570
+0;
+0/
+#188369
+0<
+0.
+#188955
+1P
+#190000
+b1110 !
+b110 !
+12
+#190517
+1K
+#190691
+0M
+#192996
+1<
+1.
+#194137
+1N
+#194401
+0P
+#195000
+b1110 !
+02
+#195517
+1M
+#197250
+1;
+1/
+#198369
+0<
+0.
+#198955
+1P
+#200000
+b1111 !
+b1101 !
+b1001 !
+b1 !
+12
+#200517
+1H
+#200681
+0I
+#200691
+0M
+0K
+#202996
+1<
+1.
+#204066
+1J
+#204401
+0P
+#204573
+0N
+#204855
+0L
+#205000
+b1001 !
+02
+#205517
+1M
+#207256
+19
+11
+#207570
+0;
+0/
+#207815
+0:
+00
+#208369
+0<
+0.
+#208955
+1P
+#210000
+b1101 !
+b101 !
+12
+#210517
+1K
+#210691
+0M
+#212996
+1<
+1.
+#214137
+1N
+#214401
+0P
+#215000
+b1101 !
+02
+#215517
+1M
+#217250
+1;
+1/
+#218369
+0<
+0.
+#218955
+1P
+#220000
+b1111 !
+b1011 !
+b11 !
+12
+#220507
+1I
+#220691
+0M
+0K
+#222996
+1<
+1.
+#224401
+0P
+#224409
+1L
+#224573
+0N
+#225000
+b1011 !
+02
+#225517
+1M
+#227491
+1:
+10
+#227570
+0;
+0/
+#228369
+0<
+0.
+#228955
+1P
+#230000
+b1111 !
+b111 !
+12
+#230517
+1K
+#230691
+0M
+#232996
+1<
+1.
+#234137
+1N
+#234401
+0P
+#235000
+b1111 !
+02
+#235517
+1M
+#237250
+1;
+1/
+#238369
+0<
+0.
+#238955
+1P
+#240000
+1"
+b1110 !
+b1100 !
+b1000 !
+b0 !
+12
+#240517
+1G
+#240681
+0I
+#240691
+0M
+0K
+0H
+#242996
+1<
+1.
+#244370
+0L
+#244558
+0J
+#244573
+0N
+#245000
+b1000 !
+02
+#245517
+1M
+#247330
+0:
+00
+#247570
+0;
+0/
+#247624
+09
+01
+#248905
+1N
+#250000
+b1100 !
+b100 !
+12
+#250517
+1K
+#250691
+0M
+#252018
+1;
+1/
+#254087
+1L
+#254342
+0N
+#255000
+b1100 !
+02
+#255517
+1M
+#257169
+1:
+10
+#257339
+0;
+0/
+#258905
+1N
+#260000
+b1110 !
+b1010 !
+b10 !
+12
+#260507
+1I
+#260691
+0M
+0K
+#262018
+1;
+1/
+#264140
+1J
+#264342
+0N
+#264514
+0L
+#265000
+b1010 !
+02
+#265517
+1M
+#267330
+19
+11
+#267339
+0;
+0/
+#267474
+0:
+00
+#268905
+1N
+#270000
+b1110 !
+b110 !
+12
+#270517
+1K
+#270691
+0M
+#272018
+1;
+1/
+#274087
+1L
+#274342
+0N
+#275000
+b1110 !
+02
+#275517
+1M
+#277169
+1:
+10
+#277339
+0;
+0/
+#278905
+1N
+#280000
+b1111 !
+b1101 !
+b1001 !
+b1 !
+12
+#280517
+1H
+#280681
+0I
+#280691
+0M
+0K
+#282018
+1;
+1/
+#284342
+0N
+#284514
+0L
+#284558
+0J
+#285000
+b1001 !
+02
+#285517
+1M
+#287339
+0;
+0/
+#287474
+0:
+00
+#287624
+09
+01
+#288905
+1N
+#290000
+b1101 !
+b101 !
+12
+#290517
+1K
+#290691
+0M
+#292018
+1;
+1/
+#294087
+1L
+#294342
+0N
+#295000
+b1101 !
+02
+#295517
+1M
+#297169
+1:
+10
+#297339
+0;
+0/
+#298905
+1N
+#300000
+b1111 !
+b1011 !
+b11 !
+12
+#300507
+1I
+#300691
+0M
+0K
+#302018
+1;
+1/
+#304140
+1J
+#304342
+0N
+#304514
+0L
+#305000
+b1011 !
+02
+#305517
+1M
+#307330
+19
+11
+#307339
+0;
+0/
+#307474
+0:
+00
+#308905
+1N
+#310000
+b1111 !
+b111 !
+12
+#310517
+1K
+#310691
+0M
+#312018
+1;
+1/
+#314087
+1L
+#314342
+0N
+#315000
+b1111 !
+02
+#315517
+1M
+#317169
+1:
+10
+#317339
+0;
+0/
+#318905
+1N
+#320000
+0#
+0"
+b1110 !
+b1100 !
+b1000 !
+b0 !
+12
+#320681
+0I
+0O
+#320691
+0M
+0K
+0H
+0G
+#322018
+1;
+1/
+#324342
+0N
+#324514
+0L
+#324558
+0J
+#324963
+0P
+#325000
+b1000 !
+02
+#325517
+1M
+#327339
+0;
+0/
+#327474
+0:
+00
+#327624
+09
+01
+#328931
+0<
+0.
+#328955
+1P
+#330000
+b1100 !
+b100 !
+12
+#330517
+1K
+#330691
+0M
+#332996
+1<
+1.
+#334137
+1N
+#334401
+0P
+#335000
+b1100 !
+02
+#335517
+1M
+#337250
+1;
+1/
+#338369
+0<
+0.
+#338955
+1P
+#340000
+b1110 !
+b1010 !
+b10 !
+12
+#340507
+1I
+#340691
+0M
+0K
+#342996
+1<
+1.
+#344401
+0P
+#344409
+1L
+#344573
+0N
+#345000
+b1010 !
+02
+#345517
+1M
+#347491
+1:
+10
+#347570
+0;
+0/
+#348369
+0<
+0.
+#348955
+1P
+#350000
+b1110 !
+b110 !
+12
+#350517
+1K
+#350691
+0M
+#352996
+1<
+1.
+#354137
+1N
+#354401
+0P
+#355000
+b1110 !
+02
+#355517
+1M
+#357250
+1;
+1/
+#358369
+0<
+0.
+#358955
+1P
+#360000
+b1111 !
+b1101 !
+b1001 !
+b1 !
+12
+#360517
+1H
+#360681
+0I
+#360691
+0M
+0K
+#362996
+1<
+1.
+#364066
+1J
+#364401
+0P
+#364573
+0N
+#364855
+0L
+#365000
+b1001 !
+02
+#365517
+1M
+#367256
+19
+11
+#367570
+0;
+0/
+#367815
+0:
+00
+#368369
+0<
+0.
+#368955
+1P
+#370000
+b1101 !
+b101 !
+12
+#370517
+1K
+#370691
+0M
+#372996
+1<
+1.
+#374137
+1N
+#374401
+0P
+#375000
+b1101 !
+02
+#375517
+1M
+#377250
+1;
+1/
+#378369
+0<
+0.
+#378955
+1P
+#380000
+b1111 !
+b1011 !
+b11 !
+12
+#380507
+1I
+#380691
+0M
+0K
+#382996
+1<
+1.
+#384401
+0P
+#384409
+1L
+#384573
+0N
+#385000
+b1011 !
+02
+#385517
+1M
+#387491
+1:
+10
+#387570
+0;
+0/
+#388369
+0<
+0.
+#388955
+1P
+#390000
+b1111 !
+b111 !
+12
+#390517
+1K
+#390691
+0M
+#392996
+1<
+1.
+#394137
+1N
+#394401
+0P
+#395000
+b1111 !
+02
+#395517
+1M
+#397250
+1;
+1/
+#398369
+0<
+0.
+#398955
+1P
+#400000
+1"
+b1110 !
+b1100 !
+b1000 !
+b0 !
+12
+#400517
+1G
+#400681
+0I
+#400691
+0M
+0K
+0H
+#402996
+1<
+1.
+#404370
+0L
+#404401
+0P
+#404558
+0J
+#404573
+0N
+#405000
+b1000 !
+02
+#405517
+1M
+#407330
+0:
+00
+#407570
+0;
+0/
+#407624
+09
+01
+#408369
+0<
+0.
+#408905
+1N
+#410000
+b1100 !
+b100 !
+12
+#410517
+1K
+#410691
+0M
+#412018
+1;
+1/
+#414087
+1L
+#414342
+0N
+#415000
+b1100 !
+02
+#415517
+1M
+#417169
+1:
+10
+#417339
+0;
+0/
+#418905
+1N
+#420000
+b1110 !
+b1010 !
+b10 !
+12
+#420507
+1I
+#420691
+0M
+0K
+#422018
+1;
+1/
+#424140
+1J
+#424342
+0N
+#424514
+0L
+#425000
+b1010 !
+02
+#425517
+1M
+#427330
+19
+11
+#427339
+0;
+0/
+#427474
+0:
+00
+#428905
+1N
+#430000
+b1110 !
+b110 !
+12
+#430517
+1K
+#430691
+0M
+#432018
+1;
+1/
+#434087
+1L
+#434342
+0N
+#435000
+b1110 !
+02
+#435517
+1M
+#437169
+1:
+10
+#437339
+0;
+0/
+#438905
+1N
+#440000
+b1111 !
+b1101 !
+b1001 !
+b1 !
+12
+#440517
+1H
+#440681
+0I
+#440691
+0M
+0K
+#442018
+1;
+1/
+#444342
+0N
+#444514
+0L
+#444558
+0J
+#445000
+b1001 !
+02
+#445517
+1M
+#447339
+0;
+0/
+#447474
+0:
+00
+#447624
+09
+01
+#448905
+1N
+#450000
+b1101 !
+b101 !
+12
+#450517
+1K
+#450691
+0M
+#452018
+1;
+1/
+#454087
+1L
+#454342
+0N
+#455000
+b1101 !
+02
+#455517
+1M
+#457169
+1:
+10
+#457339
+0;
+0/
+#458905
+1N
+#460000
+b1111 !
+b1011 !
+b11 !
+12
+#460507
+1I
+#460691
+0M
+0K
+#462018
+1;
+1/
+#464140
+1J
+#464342
+0N
+#464514
+0L
+#465000
+b1011 !
+02
+#465517
+1M
+#467330
+19
+11
+#467339
+0;
+0/
+#467474
+0:
+00
+#468905
+1N
+#470000
+b1111 !
+b111 !
+12
+#470517
+1K
+#470691
+0M
+#472018
+1;
+1/
+#474087
+1L
+#474342
+0N
+#475000
+b1111 !
+02
+#475517
+1M
+#477169
+1:
+10
+#477339
+0;
+0/
+#478905
+1N
+#480000
+1#
+0"
+b1110 !
+b1100 !
+b1000 !
+b0 !
+12
+#480507
+1O
+#480681
+0I
+#480691
+0M
+0K
+0H
+0G
+#482018
+1;
+1/
+#484342
+0N
+#484441
+1P
+#484514
+0L
+#484558
+0J
+#484888
+0P
+#485000
+b1000 !
+02
+#485517
+1M
+#487339
+0;
+0/
+#487474
+0:
+00
+#487624
+09
+01
+#488955
+1P
+#490000
+b1100 !
+b100 !
+12
+#490517
+1K
+#490691
+0M
+#492996
+1<
+1.
+#494137
+1N
+#494401
+0P
+#495000
+b1100 !
+02
+#495517
+1M
+#497250
+1;
+1/
+#498369
+0<
+0.
+#498955
+1P
+#500000
+b1110 !
+b1010 !
+b10 !
+12
+#500507
+1I
+#500691
+0M
+0K
+#502996
+1<
+1.
+#504401
+0P
+#504409
+1L
+#504573
+0N
+#505000
+b1010 !
+02
+#505517
+1M
+#507491
+1:
+10
+#507570
+0;
+0/
+#508369
+0<
+0.
+#508955
+1P
+#510000
+b1110 !
+b110 !
+12
+#510517
+1K
+#510691
+0M
+#512996
+1<
+1.
+#514137
+1N
+#514401
+0P
+#515000
+b1110 !
+02
+#515517
+1M
+#517250
+1;
+1/
+#518369
+0<
+0.
+#518955
+1P
+#520000
+b1111 !
+b1101 !
+b1001 !
+b1 !
+12
+#520517
+1H
+#520681
+0I
+#520691
+0M
+0K
+#522996
+1<
+1.
+#524066
+1J
+#524401
+0P
+#524573
+0N
+#524855
+0L
+#525000
+b1001 !
+02
+#525517
+1M
+#527256
+19
+11
+#527570
+0;
+0/
+#527815
+0:
+00
+#528369
+0<
+0.
+#528955
+1P
+#530000
+b1101 !
+b101 !
+12
+#530517
+1K
+#530691
+0M
+#532996
+1<
+1.
+#534137
+1N
+#534401
+0P
+#535000
+b1101 !
+02
+#535517
+1M
+#537250
+1;
+1/
+#538369
+0<
+0.
+#538955
+1P
+#540000
+b1111 !
+b1011 !
+b11 !
+12
+#540507
+1I
+#540691
+0M
+0K
+#542996
+1<
+1.
+#544401
+0P
+#544409
+1L
+#544573
+0N
+#545000
+b1011 !
+02
+#545517
+1M
+#547491
+1:
+10
+#547570
+0;
+0/
+#548369
+0<
+0.
+#548955
+1P
+#550000
+b1111 !
+b111 !
+12
+#550517
+1K
+#550691
+0M
+#552996
+1<
+1.
+#554137
+1N
+#554401
+0P
+#555000
+b1111 !
+02
+#555517
+1M
+#557250
+1;
+1/
+#558369
+0<
+0.
+#558955
+1P
+#560000
+1"
+b1110 !
+b1100 !
+b1000 !
+b0 !
+12
+#560517
+1G
+#560681
+0I
+#560691
+0M
+0K
+0H
+#562996
+1<
+1.
+#564370
+0L
+#564558
+0J
+#564573
+0N
+#565000
+b1000 !
+02
+#565517
+1M
+#567330
+0:
+00
+#567570
+0;
+0/
+#567624
+09
+01
+#568905
+1N
+#570000
+b1100 !
+b100 !
+12
+#570517
+1K
+#570691
+0M
+#572018
+1;
+1/
+#574087
+1L
+#574342
+0N
+#575000
+b1100 !
+02
+#575517
+1M
+#577169
+1:
+10
+#577339
+0;
+0/
+#578905
+1N
+#580000
+b1110 !
+b1010 !
+b10 !
+12
+#580507
+1I
+#580691
+0M
+0K
+#582018
+1;
+1/
+#584140
+1J
+#584342
+0N
+#584514
+0L
+#585000
+b1010 !
+02
+#585517
+1M
+#587330
+19
+11
+#587339
+0;
+0/
+#587474
+0:
+00
+#588905
+1N
+#590000
+b1110 !
+b110 !
+12
+#590517
+1K
+#590691
+0M
+#592018
+1;
+1/
+#594087
+1L
+#594342
+0N
+#595000
+b1110 !
+02
+#595517
+1M
+#597169
+1:
+10
+#597339
+0;
+0/
+#598905
+1N
+#600000
+b1111 !
+b1101 !
+b1001 !
+b1 !
+12
+#600517
+1H
+#600681
+0I
+#600691
+0M
+0K
+#602018
+1;
+1/
+#604342
+0N
+#604514
+0L
+#604558
+0J
+#605000
+b1001 !
+02
+#605517
+1M
+#607339
+0;
+0/
+#607474
+0:
+00
+#607624
+09
+01
+#608905
+1N
+#610000
+b1101 !
+b101 !
+12
+#610517
+1K
+#610691
+0M
+#612018
+1;
+1/
+#614087
+1L
+#614342
+0N
+#615000
+b1101 !
+02
+#615517
+1M
+#617169
+1:
+10
+#617339
+0;
+0/
+#618905
+1N
+#620000
+b1111 !
+b1011 !
+b11 !
+12
+#620507
+1I
+#620691
+0M
+0K
+#622018
+1;
+1/
+#624140
+1J
+#624342
+0N
+#624514
+0L
+#625000
+b1011 !
+02
+#625517
+1M
+#627330
+19
+11
+#627339
+0;
+0/
+#627474
+0:
+00
+#628905
+1N
+#630000
+b1111 !
+b111 !
+12
+#630517
+1K
+#630691
+0M
+#632018
+1;
+1/
+#634087
+1L
+#634342
+0N
+#635000
+b1111 !
+02
+#635517
+1M
+#637169
+1:
+10
+#637339
+0;
+0/
+#638905
+1N
+#640000
+0#
+0"
+b1110 !
+b1100 !
+b1000 !
+b0 !
+12
+#640681
+0I
+0O
+#640691
+0M
+0K
+0H
+0G
+#642018
+1;
+1/
+#644342
+0N
+#644514
+0L
+#644558
+0J
+#644963
+0P
+#645000
+b1000 !
+02
+#645517
+1M
+#647339
+0;
+0/
+#647474
+0:
+00
+#647624
+09
+01
+#648931
+0<
+0.
+#648955
+1P
+#650000
+b1100 !
+b100 !
+12
+#650517
+1K
+#650691
+0M
+#652996
+1<
+1.
+#654137
+1N
+#654401
+0P
+#655000
+b1100 !
+02
+#655517
+1M
+#657250
+1;
+1/
+#658369
+0<
+0.
+#658955
+1P
+#660000
+b1110 !
+b1010 !
+b10 !
+12
+#660507
+1I
+#660691
+0M
+0K
+#662996
+1<
+1.
+#664401
+0P
+#664409
+1L
+#664573
+0N
+#665000
+b1010 !
+02
+#665517
+1M
+#667491
+1:
+10
+#667570
+0;
+0/
+#668369
+0<
+0.
+#668955
+1P
+#670000
+b1110 !
+b110 !
+12
+#670517
+1K
+#670691
+0M
+#672996
+1<
+1.
+#674137
+1N
+#674401
+0P
+#675000
+b1110 !
+02
+#675517
+1M
+#677250
+1;
+1/
+#678369
+0<
+0.
+#678955
+1P
+#680000
+b1111 !
+b1101 !
+b1001 !
+b1 !
+12
+#680517
+1H
+#680681
+0I
+#680691
+0M
+0K
+#682996
+1<
+1.
+#684066
+1J
+#684401
+0P
+#684573
+0N
+#684855
+0L
+#685000
+b1001 !
+02
+#685517
+1M
+#687256
+19
+11
+#687570
+0;
+0/
+#687815
+0:
+00
+#688369
+0<
+0.
+#688955
+1P
+#690000
+b1101 !
+b101 !
+12
+#690517
+1K
+#690691
+0M
+#692996
+1<
+1.
+#694137
+1N
+#694401
+0P
+#695000
+b1101 !
+02
+#695517
+1M
+#697250
+1;
+1/
+#698369
+0<
+0.
+#698955
+1P
+#700000
+b1111 !
+b1011 !
+b11 !
+12
+#700507
+1I
+#700691
+0M
+0K
+#702996
+1<
+1.
+#704401
+0P
+#704409
+1L
+#704573
+0N
+#705000
+b1011 !
+02
+#705517
+1M
+#707491
+1:
+10
+#707570
+0;
+0/
+#708369
+0<
+0.
+#708955
+1P
+#710000
+b1111 !
+b111 !
+12
+#710517
+1K
+#710691
+0M
+#712996
+1<
+1.
+#714137
+1N
+#714401
+0P
+#715000
+b1111 !
+02
+#715517
+1M
+#717250
+1;
+1/
+#718369
+0<
+0.
+#718955
+1P
+#720000
+1"
+b1110 !
+b1100 !
+b1000 !
+b0 !
+12
+#720517
+1G
+#720681
+0I
+#720691
+0M
+0K
+0H
+#722996
+1<
+1.
+#724370
+0L
+#724401
+0P
+#724558
+0J
+#724573
+0N
+#725000
+b1000 !
+02
+#725517
+1M
+#727330
+0:
+00
+#727570
+0;
+0/
+#727624
+09
+01
+#728369
+0<
+0.
+#728905
+1N
+#730000
+b1100 !
+b100 !
+12
+#730517
+1K
+#730691
+0M
+#732018
+1;
+1/
+#734087
+1L
+#734342
+0N
+#735000
+b1100 !
+02
+#735517
+1M
+#737169
+1:
+10
+#737339
+0;
+0/
+#738905
+1N
+#740000
+b1110 !
+b1010 !
+b10 !
+12
+#740507
+1I
+#740691
+0M
+0K
+#742018
+1;
+1/
+#744140
+1J
+#744342
+0N
+#744514
+0L
+#745000
+b1010 !
+02
+#745517
+1M
+#747330
+19
+11
+#747339
+0;
+0/
+#747474
+0:
+00
+#748905
+1N
+#750000
+b1110 !
+b110 !
+12
+#750517
+1K
+#750691
+0M
+#752018
+1;
+1/
+#754087
+1L
+#754342
+0N
+#755000
+b1110 !
+02
+#755517
+1M
+#757169
+1:
+10
+#757339
+0;
+0/
+#758905
+1N
+#760000
+b1111 !
+b1101 !
+b1001 !
+b1 !
+12
+#760517
+1H
+#760681
+0I
+#760691
+0M
+0K
+#762018
+1;
+1/
+#764342
+0N
+#764514
+0L
+#764558
+0J
+#765000
+b1001 !
+02
+#765517
+1M
+#767339
+0;
+0/
+#767474
+0:
+00
+#767624
+09
+01
+#768905
+1N
+#770000
+b1101 !
+b101 !
+12
+#770517
+1K
+#770691
+0M
+#772018
+1;
+1/
+#774087
+1L
+#774342
+0N
+#775000
+b1101 !
+02
+#775517
+1M
+#777169
+1:
+10
+#777339
+0;
+0/
+#778905
+1N
+#780000
+b1111 !
+b1011 !
+b11 !
+12
+#780507
+1I
+#780691
+0M
+0K
+#782018
+1;
+1/
+#784140
+1J
+#784342
+0N
+#784514
+0L
+#785000
+b1011 !
+02
+#785517
+1M
+#787330
+19
+11
+#787339
+0;
+0/
+#787474
+0:
+00
+#788905
+1N
+#790000
+b1111 !
+b111 !
+12
+#790517
+1K
+#790691
+0M
+#792018
+1;
+1/
+#794087
+1L
+#794342
+0N
+#795000
+b1111 !
+02
+#795517
+1M
+#797169
+1:
+10
+#797339
+0;
+0/
+#798905
+1N
+#800000
+1#
+0"
+b1110 !
+b1100 !
+b1000 !
+b0 !
+12
+#800507
+1O
+#800681
+0I
+#800691
+0M
+0K
+0H
+0G
+#802018
+1;
+1/
+#804342
+0N
+#804441
+1P
+#804514
+0L
+#804558
+0J
+#804888
+0P
+#805000
+b1000 !
+02
+#805517
+1M
+#807339
+0;
+0/
+#807474
+0:
+00
+#807624
+09
+01
+#808955
+1P
+#810000
+b1100 !
+b100 !
+12
+#810517
+1K
+#810691
+0M
+#812996
+1<
+1.
+#814137
+1N
+#814401
+0P
+#815000
+b1100 !
+02
+#815517
+1M
+#817250
+1;
+1/
+#818369
+0<
+0.
+#818955
+1P
+#820000
+b1110 !
+b1010 !
+b10 !
+12
+#820507
+1I
+#820691
+0M
+0K
+#822996
+1<
+1.
+#824401
+0P
+#824409
+1L
+#824573
+0N
+#825000
+b1010 !
+02
+#825517
+1M
+#827491
+1:
+10
+#827570
+0;
+0/
+#828369
+0<
+0.
+#828955
+1P
+#830000
+b1110 !
+b110 !
+12
+#830517
+1K
+#830691
+0M
+#832996
+1<
+1.
+#834137
+1N
+#834401
+0P
+#835000
+b1110 !
+02
+#835517
+1M
+#837250
+1;
+1/
+#838369
+0<
+0.
+#838955
+1P
+#840000
+b1111 !
+b1101 !
+b1001 !
+b1 !
+12
+#840517
+1H
+#840681
+0I
+#840691
+0M
+0K
+#842996
+1<
+1.
+#844066
+1J
+#844401
+0P
+#844573
+0N
+#844855
+0L
+#845000
+b1001 !
+02
+#845517
+1M
+#847256
+19
+11
+#847570
+0;
+0/
+#847815
+0:
+00
+#848369
+0<
+0.
+#848955
+1P
+#850000
+b1101 !
+b101 !
+12
+#850517
+1K
+#850691
+0M
+#852996
+1<
+1.
+#854137
+1N
+#854401
+0P
+#855000
+b1101 !
+02
+#855517
+1M
+#857250
+1;
+1/
+#858369
+0<
+0.
+#858955
+1P
+#860000
+b1111 !
+b1011 !
+b11 !
+12
+#860507
+1I
+#860691
+0M
+0K
+#862996
+1<
+1.
+#864401
+0P
+#864409
+1L
+#864573
+0N
+#865000
+b1011 !
+02
+#865517
+1M
+#867491
+1:
+10
+#867570
+0;
+0/
+#868369
+0<
+0.
+#868955
+1P
+#870000
+b1111 !
+b111 !
+12
+#870517
+1K
+#870691
+0M
+#872996
+1<
+1.
+#874137
+1N
+#874401
+0P
+#875000
+b1111 !
+02
+#875517
+1M
+#877250
+1;
+1/
+#878369
+0<
+0.
+#878955
+1P
+#880000
+1"
+b1110 !
+b1100 !
+b1000 !
+b0 !
+12
+#880517
+1G
+#880681
+0I
+#880691
+0M
+0K
+0H
+#882996
+1<
+1.
+#884370
+0L
+#884558
+0J
+#884573
+0N
+#885000
+b1000 !
+02
+#885517
+1M
+#887330
+0:
+00
+#887570
+0;
+0/
+#887624
+09
+01
+#888905
+1N
+#890000
+b1100 !
+b100 !
+12
+#890517
+1K
+#890691
+0M
+#892018
+1;
+1/
+#894087
+1L
+#894342
+0N
+#895000
+b1100 !
+02
+#895517
+1M
+#897169
+1:
+10
+#897339
+0;
+0/
+#898905
+1N
+#900000
+b1110 !
+b1010 !
+b10 !
+12
+#900507
+1I
+#900691
+0M
+0K
+#902018
+1;
+1/
+#904140
+1J
+#904342
+0N
+#904514
+0L
+#905000
+b1010 !
+02
+#905517
+1M
+#907330
+19
+11
+#907339
+0;
+0/
+#907474
+0:
+00
+#908905
+1N
+#910000
+b1110 !
+b110 !
+12
+#910517
+1K
+#910691
+0M
+#912018
+1;
+1/
+#914087
+1L
+#914342
+0N
+#915000
+b1110 !
+02
+#915517
+1M
+#917169
+1:
+10
+#917339
+0;
+0/
+#918905
+1N
+#920000
+b1111 !
+b1101 !
+b1001 !
+b1 !
+12
+#920517
+1H
+#920681
+0I
+#920691
+0M
+0K
+#922018
+1;
+1/
+#924342
+0N
+#924514
+0L
+#924558
+0J
+#925000
+b1001 !
+02
+#925517
+1M
+#927339
+0;
+0/
+#927474
+0:
+00
+#927624
+09
+01
+#928905
+1N
+#930000
+b1101 !
+b101 !
+12
+#930517
+1K
+#930691
+0M
+#932018
+1;
+1/
+#934087
+1L
+#934342
+0N
+#935000
+b1101 !
+02
+#935517
+1M
+#937169
+1:
+10
+#937339
+0;
+0/
+#938905
+1N
+#940000
+b1111 !
+b1011 !
+b11 !
+12
+#940507
+1I
+#940691
+0M
+0K
+#942018
+1;
+1/
+#944140
+1J
+#944342
+0N
+#944514
+0L
+#945000
+b1011 !
+02
+#945517
+1M
+#947330
+19
+11
+#947339
+0;
+0/
+#947474
+0:
+00
+#948905
+1N
+#950000
+b1111 !
+b111 !
+12
+#950517
+1K
+#950691
+0M
+#952018
+1;
+1/
+#954087
+1L
+#954342
+0N
+#955000
+b1111 !
+02
+#955517
+1M
+#957169
+1:
+10
+#957339
+0;
+0/
+#958905
+1N
+#960000
+0#
+0"
+b1110 !
+b1100 !
+b1000 !
+b0 !
+12
+#960681
+0I
+0O
+#960691
+0M
+0K
+0H
+0G
+#962018
+1;
+1/
+#964342
+0N
+#964514
+0L
+#964558
+0J
+#964963
+0P
+#965000
+b1000 !
+02
+#965517
+1M
+#967339
+0;
+0/
+#967474
+0:
+00
+#967624
+09
+01
+#968931
+0<
+0.
+#968955
+1P
+#970000
+b1100 !
+b100 !
+12
+#970517
+1K
+#970691
+0M
+#972996
+1<
+1.
+#974137
+1N
+#974401
+0P
+#975000
+b1100 !
+02
+#975517
+1M
+#977250
+1;
+1/
+#978369
+0<
+0.
+#978955
+1P
 #980000
-b11110101110000 !
-b11010101110000 !
-b10010101110000 !
-b10101110000 !
-1g
-0h
-0i
-0j
-10
-#980500
-b10010101110000 !
-1j
-00
-#981000
-b11010101110000 !
-b1010101110000 !
-1i
-0j
-10
-#981500
-b11010101110000 !
-1j
-00
-#982000
-b11110101110000 !
-b10110101110000 !
-b110101110000 !
-1h
-0i
-0j
-10
-#982500
-b10110101110000 !
-1j
-00
-#983000
-b11110101110000 !
-b1110101110000 !
-1i
-0j
-10
-#983500
-b11110101110000 !
-1j
-00
-#984000
-b11111101110000 !
-b11101101110000 !
-b11001101110000 !
-b10001101110000 !
-b1101110000 !
-1f
-0g
-0h
-0i
-0j
-10
-#984500
-b10001101110000 !
-1j
-00
+b1110 !
+b1010 !
+b10 !
+12
+#980507
+1I
+#980691
+0M
+0K
+#982996
+1<
+1.
+#984401
+0P
+#984409
+1L
+#984573
+0N
 #985000
-b11001101110000 !
-b1001101110000 !
-1i
-0j
+b1010 !
+02
+#985517
+1M
+#987491
+1:
 10
-#985500
-b11001101110000 !
-1j
-00
-#986000
-b11101101110000 !
-b10101101110000 !
-b101101110000 !
-1h
-0i
-0j
-10
-#986500
-b10101101110000 !
-1j
-00
-#987000
-b11101101110000 !
-b1101101110000 !
-1i
-0j
-10
-#987500
-b11101101110000 !
-1j
-00
-#988000
-b11111101110000 !
-b11011101110000 !
-b10011101110000 !
-b11101110000 !
-1g
-0h
-0i
-0j
-10
-#988500
-b10011101110000 !
-1j
-00
-#989000
-b11011101110000 !
-b1011101110000 !
-1i
-0j
-10
-#989500
-b11011101110000 !
-1j
-00
+#987570
+0;
+0/
+#988369
+0<
+0.
+#988955
+1P
 #990000
-b11111101110000 !
-b10111101110000 !
-b111101110000 !
-1h
-0i
-0j
-10
-#990500
-b10111101110000 !
-1j
-00
-#991000
-b11111101110000 !
-b1111101110000 !
-1i
-0j
-10
-#991500
-b11111101110000 !
-1j
-00
-#992000
-b11111111110000 !
-b11111011110000 !
-b11110011110000 !
-b11100011110000 !
-b11000011110000 !
-b10000011110000 !
-b11110000 !
-1d
-0e
-0f
-0g
-0h
-0i
-0j
-10
-#992500
-b10000011110000 !
-1j
-00
-#993000
-b11000011110000 !
-b1000011110000 !
-1i
-0j
-10
-#993500
-b11000011110000 !
-1j
-00
-#994000
-b11100011110000 !
-b10100011110000 !
-b100011110000 !
-1h
-0i
-0j
-10
-#994500
-b10100011110000 !
-1j
-00
+b1110 !
+b110 !
+12
+#990517
+1K
+#990691
+0M
+#992996
+1<
+1.
+#994137
+1N
+#994401
+0P
 #995000
-b11100011110000 !
-b1100011110000 !
-1i
-0j
-10
-#995500
-b11100011110000 !
-1j
-00
-#996000
-b11110011110000 !
-b11010011110000 !
-b10010011110000 !
-b10011110000 !
-1g
-0h
-0i
-0j
-10
-#996500
-b10010011110000 !
-1j
-00
-#997000
-b11010011110000 !
-b1010011110000 !
-1i
-0j
-10
-#997500
-b11010011110000 !
-1j
-00
-#998000
-b11110011110000 !
-b10110011110000 !
-b110011110000 !
-1h
-0i
-0j
-10
-#998500
-b10110011110000 !
-1j
-00
-#999000
-b11110011110000 !
-b1110011110000 !
-1i
-0j
-10
-#999500
-b11110011110000 !
-1j
-00
+b1110 !
+02
+#995517
+1M
+#997250
+1;
+1/
+#998369
+0<
+0.
+#998955
+1P
 #1000000

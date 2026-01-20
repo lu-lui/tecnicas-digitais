@@ -23,20 +23,19 @@ begin
 	s(13 downto 5) <= "000000000";
 
 	mux4: mux2_1
-		port map (a(0) => '0', a(1) => a(3), f => desloca, s => s(4));
+  port map (a(1) => '0', a(0) => a(3), f => desloca, s => s(4));
 
-	mux3: mux2_1
-		port map (a(0) => a(3), a(1) => a(2), f => desloca, s => s(3));
-		
-	mux2: mux2_1
-		port map (a(0) => a(2), a(1) => a(1), f => desloca, s => s(2));
-		
-	mux1: mux2_1
-		port map (a(0) => a(1), a(1) => a(0), f => desloca, s => s(1));
-		
-	mux0: mux2_1
-		port map (a(0) => a(0), a(1) => entrada_serial, f => desloca, s => s(0));
-		
+mux3: mux2_1
+  port map (a(1) => a(3), a(0) => a(2), f => desloca, s => s(3));
+
+mux2: mux2_1
+  port map (a(1) => a(2), a(0) => a(1), f => desloca, s => s(2));
+
+mux1: mux2_1
+  port map (a(1) => a(1), a(0) => a(0), f => desloca, s => s(1));
+
+mux0: mux2_1
+  port map (a(1) => a(0), a(0) => entrada_serial, f => desloca, s => s(0));
 end arq_sl_a;
 
 --fazer bit para s=0
